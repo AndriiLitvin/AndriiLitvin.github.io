@@ -1,66 +1,44 @@
-input[id="red"] ~ label[for="red"] {
+input[id="red"] ~ label[for="red"], input[id="green"] ~ label[for="green"], 
+input[id="blue"] ~ label[for="blue"] {
 	color: #666;
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 input[id="red"]:checked ~ label[for="red"] {
 	color: red;
-    text-decoration: underline;
-}
-
-input[id="green"] ~ label[for="green"] {
-	color: #666;
-    text-decoration: underline;
 }
 
 input[id="green"]:checked ~ label[for="green"] {
 	color: green;
-    text-decoration: underline;
-}
-
-input[id="blue"] ~ label[for="blue"] {
-	color: #666;
-    text-decoration: underline;
 }
 
 input[id="blue"]:checked ~ label[for="blue"] {
 	color: blue;
-    text-decoration: underline;
 }
 
 input[type="checkbox"] {
 	display: none;
 }
 
-input[id="red"]:checked ~ .red {
-	display: inline-block;
-}
-
-input[id="green"]:checked ~ .green {
-	display: inline-block;
-}
-
-input[id="blue"]:checked ~ .blue {
+input[id="red"]:checked ~ .red, input[id="green"]:checked ~ .green, 
+input[id="blue"]:checked ~ .blue  {
 	display: inline-block;
 }
 
 .red {
-    background-color: red;
-    padding: 1px 5px;
-    border-radius: 7px;
-    display: none;
+	background-color: red;
 }
 
 .green {
-    background-color: green;
-    padding: 1px 5px;
-    border-radius: 7px;
-   display: none;
+	background-color: green;
 }
 
 .blue {
-    background-color: blue;
-    padding: 1px 5px;
-    border-radius: 7px;
-    display: none;
+	background-color: blue;
+}
+
+span {
+	padding: 1px 5px;
+	border-radius: 7px;
+	display: none;  
 }
