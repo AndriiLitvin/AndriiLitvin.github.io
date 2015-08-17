@@ -1,4 +1,4 @@
-a[href="http://ya.ru"], a[href="https://mail.ya.ru"], a[href="http://maps.yandex.ru"] {
+a[href*="ya"] {
 	color: #f70;
 }
 a[target="_blank"]:after {
@@ -11,6 +11,6 @@ a[target="_blank"]:after {
 	-o-transform: rotate(90deg); /* Для Opera */
 	transform: rotate(90deg);
 }
-a[href="http://google.com"], a[href="http://maps.google.com"], a[href="http://news.google.com"] {
+a[href*="google"] {
 	color: #666;
 }
