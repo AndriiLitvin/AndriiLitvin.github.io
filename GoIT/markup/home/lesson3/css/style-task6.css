@@ -1,6 +1,6 @@
 input[id="red"]:checked ~ label[for="red"], input[id="green"]:checked ~ label[for="green"], 
 input[id="blue"]:checked~ label[for="blue"] {
-	color: #666;
+	opacity: 0.2;
 }
 
 input[id="red"] ~ label[for="red"] {
