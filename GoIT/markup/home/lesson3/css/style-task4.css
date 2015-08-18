@@ -4,11 +4,11 @@ a[href*="ya"] {
 a[target="_blank"]:after {
 	display: inline-block;
 	margin-left: 5px;
-	content: " ⇱ ";
-	-moz-transform: rotate(90deg); /* Для Firefox */
-	-ms-transform: rotate(90deg); /* Для IE */
-	-webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
-	-o-transform: rotate(90deg); /* Для Opera */
+	content: " \21f1";
+	-moz-transform: rotate(90deg); 
+	-ms-transform: rotate(90deg); 
+	-webkit-transform: rotate(90deg); 
+	-o-transform: rotate(90deg); 
 	transform: rotate(90deg);
 }
 a[href*="google"] {

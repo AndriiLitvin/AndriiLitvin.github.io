@@ -1,19 +1,21 @@
-input[id="red"] ~ label[for="red"], input[id="green"] ~ label[for="green"], 
-input[id="blue"] ~ label[for="blue"] {
+input[id="red"]:checked ~ label[for="red"], input[id="green"]:checked ~ label[for="green"], 
+input[id="blue"]:checked~ label[for="blue"] {
 	color: #666;
+}
+
+input[id="red"] ~ label[for="red"] {
+	color: red;
 	text-decoration: underline;
 }
 
-input[id="red"]:checked ~ label[for="red"] {
-	color: red;
-}
-
-input[id="green"]:checked ~ label[for="green"] {
+input[id="green"]~ label[for="green"] {
 	color: green;
+	text-decoration: underline;
 }
 
-input[id="blue"]:checked ~ label[for="blue"] {
+input[id="blue"] ~ label[for="blue"] {
 	color: blue;
+	text-decoration: underline;
 }
 
 input[type="checkbox"] {
@@ -22,7 +24,7 @@ input[type="checkbox"] {
 
 input[id="red"]:checked ~ .red, input[id="green"]:checked ~ .green, 
 input[id="blue"]:checked ~ .blue  {
-	display: inline-block;
+	display: none;
 }
 
 .red {
@@ -40,5 +42,5 @@ input[id="blue"]:checked ~ .blue  {
 span {
 	padding: 1px 5px;
 	border-radius: 7px;
-	display: none;  
+	display: inline-block;  
 }
