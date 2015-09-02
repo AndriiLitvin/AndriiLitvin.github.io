@@ -8,7 +8,7 @@
 	height: 40px;
 }
 .nav {
-	width: 960px;
+	/*width: 960px;*/
 	margin: 0px auto;
 	text-align: center;
     position: relative;
@@ -33,17 +33,17 @@ ul.nav li {
 	background-color: #eee;
 	color: #b4aaa5;
 }
-.nav1 {
+ul.nav1 {
 	position: absolute;
 	top: 40px;
 	left: 0;
 	width: 100%;
 	margin: 0 auto;
-	text-align: left;
+	/*text-align: center;*/
     display: none;
     background-color: #eee;
     font-size: 14px;
-	padding: 5px 0px 15px 70px;
+    padding: 5px 0px 15px;
     box-shadow: 0 3px 4px -2px #B7B5B5;
 } 
 .nav1>li>a {

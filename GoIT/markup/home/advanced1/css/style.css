@@ -147,6 +147,7 @@ body {
 }
 .btn-more:hover {
     text-decoration: none;
+    box-shadow: 0px 0px 0px 0.00px #277697;
 }
 
 .os-group  {
@@ -555,6 +556,7 @@ a.btn-downl {
 a.btn-downl:hover {
     text-decoration: none;
     color: #fff;
+    box-shadow: 0px 0px 0px 0.00px #277697;
 }
 .section-contact {
     background: url(images/Map.png);
@@ -602,6 +604,7 @@ a.btn-downl:hover {
 }
 .send:hover {
     color: #fff;
+    box-shadow: 0px 0px 0px 0.00px #313032;
 }
 :focus {
     outline: none;
