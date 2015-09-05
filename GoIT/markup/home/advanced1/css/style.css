@@ -69,8 +69,8 @@ body {
     color: #4bcaff;
     /*font-weight: bold;*/
     background-color: transparent;
-    background: url(images/Selected-item.png) no-repeat;
-    background-position-x: 50%;
+    background: url(images/Selected-item.png) no-repeat 50% 0;
+    /*background-position-x: 50%;*/
 }
 .wrapper {
     min-height: 500px;

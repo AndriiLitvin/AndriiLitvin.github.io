@@ -4,12 +4,12 @@ body {
 .wrapper {
     box-sizing: border-box;
     position: relative;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 .container {
 	margin-right: auto;
     margin-left: auto;
-    width: 1020px;
+    width: 1025px;
     text-align: center;
 }
 .bg-comment {
