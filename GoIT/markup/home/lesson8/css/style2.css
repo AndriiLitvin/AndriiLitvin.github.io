@@ -27,6 +27,7 @@
 .btn-search {
 	min-height: 25px;
 	width: 9%;
+	cursor: pointer;
 }
 .check-search {
 	display: block;
