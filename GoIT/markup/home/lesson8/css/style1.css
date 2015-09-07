@@ -11,22 +11,23 @@
     content: '';
     position: absolute;
     border: 30px solid transparent;
-    border-left: 17px solid #ffcc66;
+    border-left: 16px solid #ffcc66;
     top: 0;
-    right: -47px;
+    right: -46px;
 }
 .input-search {
 	height: 25px;
-	width: 90%;
+	width: 86%;
 }
 .btn-search {
 	height: 25px;
-	width: 9%;
+	width: 10%;
 }
 .check-search {
 	display: block;
 	cursor: pointer;
 	margin: 5px 0;
+	font-size: 12px;
 }
 #check-search{
 	margin-left: 0;

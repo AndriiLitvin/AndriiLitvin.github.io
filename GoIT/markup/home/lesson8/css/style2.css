@@ -1,6 +1,8 @@
 .search {
-	width: 55%;
-	height: 50px;
+	width: 60%;
+	min-height: 49px;
+	max-height: 50px;
+	max-width: 750px;
 	padding: 5px;
 	margin: 0 auto;
     min-width: 550px;
@@ -12,25 +14,26 @@
 }
 .fa-triangle{
     position: absolute;
-    top: -1px;
-    right: -1px;
+    top: 0px;
+    right: 0px;
     display: block;
     border: 31px solid #fff;
-    border-left: 23px solid transparent;
+    border-left: 21px solid transparent;
 }
 .input-search {
 	height: 25px;
 	width: 80%;
 }
 .btn-search {
-	height: 25px;
+	min-height: 25px;
 	width: 9%;
 }
 .check-search {
 	display: block;
 	cursor: pointer;
-	margin: 5px 0;
+	/*margin: 5px 0;*/
 	width: 33%;
+	font-size: 12px;
 }
 #check-search{
 	margin-left: 0;
