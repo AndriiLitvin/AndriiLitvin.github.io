@@ -15,15 +15,13 @@ body {
     background-color: #f6f9f9;   
 }
 .photo-title-block h1{
-    color: #2d3950;
-    font: 400 41px Lato;
+    font: 400 41px 'Lato', sans-serif;
     color: #2d3950;
     margin: 0;
 }
 .photo-title-block h6 {
     color: #909090;
-    font: 400 15px / 23px Lato;
-    color: #909090;
+    font: 400 15px / 23px 'Lato', sans-serif;
     margin: 0;
 }
 .photo-block {
