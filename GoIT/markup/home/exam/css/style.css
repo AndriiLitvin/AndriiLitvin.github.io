@@ -501,6 +501,21 @@ p.present-text {
     right: 83px;
     z-index: 3;
 }
+.btn-icon-small-left:hover,.btn-icon-small-right:hover, .btn-icon-large:hover {
+    background: transparent;
+}
+.btn-icon-large:hover:after { 
+    height: 62px;
+    width: 62px;
+    top: 0;
+    left: 0;
+}
+.btn-icon-small-left:hover:after, .btn-icon-small-right:hover:after  {
+    height: 36px;
+    width: 36px;
+    top: -1px;
+    left: 0;
+}
 .btn-icon-small-left {
     left: 77px;	
 }
