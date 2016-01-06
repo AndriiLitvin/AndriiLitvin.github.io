@@ -3313,11 +3313,15 @@ body {
   text-decoration: underline;
   position: absolute;
   right: 0;
-  top: 42px; }
+  top: 42px;
+  cursor: pointer; }
 
 .menu-item.callback {
   margin-top: -10px;
   margin-left: 30px; }
+
+.menu-item.callback .menu-link:hover {
+  text-shadow: 0 0 0 #6f9c3b; }
 
 /*END HEADER NAV*/
 /*HEADER CONTENT*/
@@ -3387,7 +3391,8 @@ body {
   border-radius: 4px;
   -webkit-box-shadow: inset 0px -4px 0px 0px #cc7400;
   -moz-box-shadow: inset 0px -4px 0px 0px #cc7400;
-  box-shadow: inset 0px -4px 0px 0px #cc7400; }
+  box-shadow: inset 0px -4px 0px 0px #cc7400;
+  cursor: pointer; }
 
 .register-btn-head:before {
   content: "";
@@ -3757,7 +3762,8 @@ body {
   border-radius: 4px;
   -webkit-box-shadow: inset 0px -4px 0px 0px #cc7400;
   -moz-box-shadow: inset 0px -4px 0px 0px #cc7400;
-  box-shadow: inset 0px -4px 0px 0px #cc7400; }
+  box-shadow: inset 0px -4px 0px 0px #cc7400;
+  cursor: pointer; }
 
 /*END TRAINING*/
 /*TRAINING_INFO*/
@@ -4659,7 +4665,8 @@ input.register-btn {
   box-shadow: inset 0px -4px 0px 0px #cc7400;
   color: #ffffff;
   font: 500 18px HelveticaNeueCyr;
-  margin-top: 17px; }
+  margin-top: 17px;
+  cursor: pointer; }
 
 /*END REGISTRATION*/
 /*FACT*/
@@ -5178,3 +5185,6 @@ input.register-btn {
 /* Landscape phones and down */
 .analysis-video iframe {
   width: 100%; }
+
+.item {
+  min-height: 370px; }
