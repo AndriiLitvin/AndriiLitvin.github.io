@@ -4355,8 +4355,7 @@ body {
 .training_leads {
   padding: 76px 0 193px;
   background: url(images/leads-bg.png) no-repeat;
-  background-size: cover;
-  background-position-x: -300px; }
+  background-size: cover; }
 
 .training_leads-title {
   color: #ffffff;
@@ -5177,3 +5176,5 @@ input.register-btn {
     margin-top: 0; } }
 
 /* Landscape phones and down */
+.analysis-video iframe {
+  width: 100%; }
