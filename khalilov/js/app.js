@@ -14,19 +14,19 @@ jQuery(document).ready(function($){
 
 $(function() {
   $('.what').click(function(){
-    var destination = $("#understanding").offset().top - 50;
-    $("body,html").animate({ scrollTop: destination}, 500 );
-  });
-  $('.who').click(function(){
     var destination = $("#training").offset().top - 50;
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
-  $('.task').click(function(){
-    var destination = $("#business_task").offset().top - 10;
+  $('.progr, .train').click(function(){
+    var destination = $("#program").offset().top - 50;
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
-  $('.progr').click(function(){
-    var destination = $("#program").offset().top - 50;
+  $('.task').click(function(){
+    var destination = $(".after").offset().top - 10;
+    $("body,html").animate({ scrollTop: destination}, 500 );
+  });
+  $('.who').click(function(){
+    var destination = $(".reviews").offset().top - 50;
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
   $('.coach').click(function(){
@@ -34,11 +34,7 @@ $(function() {
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
   $('.bonus').click(function(){
-    var destination = $("#question").offset().top - 5;
-    $("body,html").animate({ scrollTop: destination}, 500 );
-  });
-  $('.reg,.register-btn-head, .register-btn, .registr-btn').click(function(){
-    var destination = $("#registration").offset().top - 5;
+    var destination = $(".additional_materials").offset().top - 5;
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
 });
