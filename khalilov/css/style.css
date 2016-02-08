@@ -3691,6 +3691,12 @@ body {
   margin-right: 12px;
   vertical-align: top; }
 
+.author-img img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
 .author-img:before {
   content: "";
   width: 27px;
