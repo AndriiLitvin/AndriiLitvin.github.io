@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Zoom In/Out</title>
+    <!-- must have -->
+    <link href="css/bannerscollection_zoominout.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="fonts/css-family=Droid+Sans.css" rel='stylesheet' type='text/css'>
+    <link href="fonts/css-family=Lato-400,700,900,700italic,900italic.css" rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <nav id="slide-menu">
+      <ul class="menu">
+        <li class="menu-item home"><a href="index.html">Головна</a></li>
+        <li class="menu-item album"><a href="photobook.html">album1</a></li>
+        <li class="menu-item album"><a href="portfolio/portrait.html">album2</a></li>
+        <li class="menu-item album"><a href="wedding.html">album3</a></li>
+        <li class="menu-item order-img"><a class="btn_order">Хочу Фото</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div class="menu-trigger"></div>
+      <div id="bannerscollection_zoominout_majestic">
+        <div class="myloader"></div>
+        <!-- CONTENT -->
+        <ul class="bannerscollection_zoominout_list">
+          <li data-initialZoom="1" data-finalZoom="0.78" data-text-id="#bannerscollection_zoominout_photoText1" data-horizontalPosition="center" data-verticalPosition="center" data-bottom-thumb="images/thumbs/01_majestic.jpg" ><img src="images/01_majestic.jpg"  alt="" width="2500" height="1570" /></li>
+          <li data-initialZoom="1" data-finalZoom="0.78" data-text-id="#bannerscollection_zoominout_photoText2" data-horizontalPosition="right" data-verticalPosition="center" data-bottom-thumb="images/thumbs/02_majestic.jpg" data-link="http://codecanyon.net/user/LambertGroup" data-target="_blank"><img src="images/02_majestic.jpg"  alt="" width="2500" height="1570" /></li>
+          <li data-initialZoom="0.78" data-finalZoom="1" data-text-id="#bannerscollection_zoominout_photoText3" data-bottom-thumb="images/thumbs/03_majestic.jpg"><img src="images/03_majestic.jpg"  alt="" width="2500" height="1570" /></li>
+          
+          
+          <li data-initialZoom="1" data-finalZoom="0.78" data-horizontalPosition="left" data-verticalPosition="center" data-duration="15" data-bottom-thumb="images/thumbs/04_majestic.jpg"  data-text-id="#bannerscollection_zoominout_photoText4"><img src="images/04_majestic.jpg"  alt="" width="2500" height="1570" /></li>
+          
+          
+          <li data-initialZoom="1" data-finalZoom="0.80" data-horizontalPosition="right" data-verticalPosition="center" data-bottom-thumb="images/thumbs/05_majestic.jpg" data-text-id="#bannerscollection_zoominout_photoText5" ><img src="images/05_majestic.jpg"  alt="" width="2500" height="1570" />
+          
+          <li data-initialZoom="1" data-finalZoom="0.80" data-horizontalPosition="right" data-verticalPosition="center" data-bottom-thumb="images/thumbs/06_majestic.jpg" data-text-id="#bannerscollection_zoominout_photoText6" ><img src="images/06_majestic.jpg"  alt="" width="2500" height="1570" />
+          
+          <li data-initialZoom="1" data-finalZoom="0.80" data-horizontalPosition="right" data-verticalPosition="center" data-bottom-thumb="images/thumbs/07_majestic.jpg" data-text-id="#bannerscollection_zoominout_photoText7" ><img src="images/07_majestic.jpg"  alt="" width="2500" height="1570" />
+          
+          <li data-initialZoom="1" data-finalZoom="0.80" data-horizontalPosition="right" data-verticalPosition="center" data-bottom-thumb="images/thumbs/08_majestic.jpg" data-text-id="#bannerscollection_zoominout_photoText8" ><img src="images/08_majestic.jpg"  alt="" width="2500" height="1570" />
+          </li>
+        </ul>
+      </div>
+    </div>
+      <div id="modal_form"><!-- Сaмo oкнo --> 
+      <span id="modal_close"></span> <!-- Кнoпкa зaкрыть --> 
+      <form action="" class="order_form">
+        <input type="text" class="order-input" name="firstname" placeholder="Ім’я" required>
+        <input type="text" class="order-input" name="lastname" placeholder="Прізвище" required>
+        <input type="email" class="order-input" name="email"  placeholder="Імейл"required>
+        <input type="phone" class="order-input" name="phone" placeholder="Телефон" required>
+        <input type="text" class="order-input" name="city" placeholder="Місто/Село" required>
+        <input type="submit" value="Замовити" id="order_submit">
+      </form>
+  </div>
+  <a class="btn_order order">Хочу Фото</a>
+  <div id="overlay"></div>
+  <script src="js/jquery.min.js"  type="text/javascript"></script>
+  <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+  <script src="js/bannerscollection_zoominout.js" type="text/javascript"></script>
+  <script src="js/app.js" type="text/javascript"></script>
+  <script>
+    jQuery(function() {
+      jQuery('#bannerscollection_zoominout_majestic').bannerscollection_zoominout({
+        skin: 'majestic',
+        responsive:true,
+        width: 1920,
+        height: 1200,
+        width100Proc:true,
+        height100Proc:true,
+        fadeSlides:true,
+        showNavArrows:true,
+        showBottomNav:true,
+        autoHideBottomNav:true,
+        thumbsOnMarginTop:18,
+        thumbsWrapperMarginTop: -135,
+        pauseOnMouseOver:false
+      });   
+      
+    });
+  </script>
+</body>
+</html>
