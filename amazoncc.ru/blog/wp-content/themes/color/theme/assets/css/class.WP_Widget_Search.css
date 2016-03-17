@@ -1,0 +1,28 @@
+/* =Widget Search
+---------------------------- */
+
+.widget_search input[type="text"] { width: 100%; }
+
+.searchform { position: relative; }
+
+.ltr .searchform input[type="text"] { padding: 0 40px 0 15px; }
+.rtl .searchform input[type="text"] { padding: 0 15px 0 40px; }
+
+.mega_theme_block_nav .searchform input[type="text"] { width: 175px; transition: .3s width; }
+.mega_theme_block_nav .searchform input[type="text"]:focus { width: 200px; }
+
+.searchform i { position: absolute; color: #d7dbdb; }
+
+.mega_theme_block_nav .searchform i { top: calc(50% - 7px); color: #a3acb1; }
+
+.ltr .mega_theme_block_nav .searchform i { right: 10px; }
+.rtl .mega_theme_block_nav .searchform i { left: 10px; }
+
+:not(.mega_theme_block_nav) > .searchform i { top: calc(50% - 5px); font-size: 13px; transform: rotate(90deg); }
+.ltr :not(.mega_theme_block_nav) > .searchform i { right: 18px; }
+.rtl :not(.mega_theme_block_nav) > .searchform i { left: 18px; }
+
+.mega_theme_block_nav .searchform i:before { content: "\f002"; }
+:not(.mega_theme_block_nav) > .searchform i:before { content: "\f149"; }
+
+.mega_theme_block_nav .searchform .mega_block_form_field_wrapper { margin: 0; }

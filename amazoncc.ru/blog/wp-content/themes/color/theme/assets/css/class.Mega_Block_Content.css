@@ -1,0 +1,217 @@
+.format-quote blockquote { margin: 15px 0; }
+
+.format-wrapper.quote,
+.format-wrapper.status,
+.format-wrapper a.link { font: italic 18px/27px Georgia; }
+
+.format-wrapper i:before {
+	width: 50px; height: 50px;
+	margin-right: 25px;
+	float: left;
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 100%;
+}
+
+.format-wrapper.status i:before,
+.format-wrapper.link i:before {
+	font-size: 22px;
+	line-height: 50px;
+}
+
+.format-wrapper.quote i:before { content: "\201d"; border-color: #fbcf00; color: #fbcf00; font: bold 48px/70px Georgia; }
+.format-wrapper.status i:before { content: "\f040"; border-color: #6899a3; color: #6899a3; }
+.format-wrapper.link i:before { content: "\f0c1"; border-color: #9664b5; color: #9664b5; }
+
+
+
+
+
+
+
+
+
+.format-link .entry-link .wrap { display: table; }
+
+
+
+/*
+.format-audio .entry-title,
+.format-video .entry-title 
+*/
+
+.format-link .entry-title,
+.format-quote .entry-title,
+.format-status .entry-title { display: none; }
+
+.format-link .entry,
+.format-quote .entry,
+.format-status .entry,
+.format-audio .entry { margin-top: 25px; }
+
+
+
+
+
+
+
+/* JP */
+
+.jp-audio {
+	font: 400 14px/27px Lato;
+	color: #282727;
+}
+
+.jp-audio .jp-interface {
+	width: 100%;
+	position: relative;
+}
+
+.jp-audio .jp-controls { margin: 0; }
+.jp-audio .jp-controls { width: 50px; }
+.jp-audio .jp-controls li { display: block; }
+
+.jp-audio .jp-controls a.jp-play,
+.jp-audio .jp-controls a.jp-pause {
+	display: block;
+	box-sizing: border-box;
+	border: 2px solid #37bbec;
+	border-radius: 100%;
+	color: #37bbec;
+	text-align: center;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.jp-audio .jp-controls a span { display: none; }
+
+.jp-audio .jp-controls a.jp-play i,
+.jp-audio .jp-controls a.jp-pause i {
+	display: inline-block;
+	font-size: 23px;
+	margin-top: 12px;
+}
+
+.jp-audio .jp-controls a.jp-play i { margin-left: 6px; }
+
+.jp-audio .jp-controls a.jp-play i:before { content: "\f04b"; }
+.jp-audio .jp-controls a.jp-pause i:before { content: "\f04c"; }
+
+/* Play & Pause */
+
+.jp-audio .jp-play,
+.jp-audio .jp-pause { width: 50px; height: 50px; }
+
+.jp-audio .jp-pause { display: none; }
+
+.jp-audio .jp-play:hover,
+.jp-audio .jp-pause:hover {
+	border-color: #3BB1DC !important;
+	color: #3BB1DC !important;
+}
+
+/* Progress */
+
+.jp-audio .jp-progress {
+	background-color: #eaeaea;
+	box-shadow: 0 1px 0 0 #dee2e2 inset;
+	border-radius: 5px;
+}
+
+.jp-audio .jp-progress {
+	height: 5px;
+	position: absolute;
+	top: 30px;
+}
+
+.jp-audio .jp-type-single .jp-progress {
+	width: calc(100% - 75px);
+	left: 75px;
+}
+
+.jp-audio .jp-seek-bar {
+	width: 0; height: 100%;
+	cursor: pointer;
+}
+
+.jp-audio .jp-play-bar {
+	width: 0; height: 100%;
+	overflow: visible !important;
+	background-color: #37bbec;
+	border-radius: 5px 0 0 5px;
+}
+
+.jp-audio .jp-play-bar:after {
+	width: 15px; height: 15px;
+	margin-top: -4px;
+	margin-right: -7.5px;
+	float: right;
+	content: '';
+	background-color: #FFF;
+	box-shadow: 1px 1px 2px 0 #CACECE;
+	border-radius: 100%;
+}
+
+.jp-audio .jp-mute i, .jp-audio .jp-unmute i {
+	float: left;
+	color: #37bbec;
+	font-size: 18px;
+}
+
+.icon-sound:before { content: "\f028"; }
+.icon-mute:before { content: "\f027"; }
+
+.jp-audio .jp-volume-bar-container {
+	position: absolute;
+	right: 0;
+}
+
+.jp-audio .jp-volume-bar {
+	width: 100px; height: 8px;
+	position: absolute;
+	right: 22px; top: 4px;
+	background-color: #eaeaea;
+	box-shadow: 0 1px 0 0 #dee2e2 inset;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all .3s cubic-bezier(1,0,0,0) 1s;
+	transition: all .3s cubic-bezier(1,0,0,0) 1s;
+	cursor: pointer;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.jp-audio .jp-volume-bar-container:hover .jp-volume-bar,
+.jp-audio .jp-volume-bar:hover {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.jp-audio .jp-volume-bar-value {
+	height: 100%;
+	background-color: #37bbec;
+}
+
+.jp-audio .jp-time-holder {
+	position: absolute;
+	right: 0; top: 0;
+}
+
+.jp-audio .jp-current-time, .jp-audio .jp-duration {
+	float: left;
+	font: 400 14px/10px Lato;
+	color: #898989;
+}
+
+.jp-audio .jp-duration { display: none; }
+
+.jp-audio .jp-title {
+	position: absolute;
+	left: 75px; top: 0;
+	display: inline;
+	font: 700 14px/10px Lato;
+	color: #282727;
+}

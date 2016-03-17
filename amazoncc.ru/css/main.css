@@ -432,7 +432,7 @@ nav a.act{
 .intro{
     background: url('../images/intro.jpg') no-repeat center 0;
     background-attachment: fixed;
-    height: 665px;
+    height: 615px;
     padding: 107px 0 0;
 }
 .intro h1,
@@ -653,7 +653,7 @@ nav a.act{
 .invest_list p{
     max-width: 196px;
     margin: 0 auto;
-    color: #62676c;
+    color: #ffffff;
     font-weight: 100;
     font-size: 22px;
 }
@@ -1102,4 +1102,12 @@ nav ul li {
 }
 .btn_modal {
     cursor: pointer;
+}
+.position_absolute {
+    position: absolute;
+    left: 0;
+    bottom: -21px;
+}
+.min_width {
+    position: relative;
 }

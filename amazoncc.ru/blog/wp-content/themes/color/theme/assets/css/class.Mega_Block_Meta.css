@@ -1,0 +1,86 @@
+/* =Meta, Meta Tags & Meta Cats Blocks
+-------------------------------------------------------------- */
+
+.ltr .hentry .mega_block_meta span { margin-right: 20px; }
+.rtl .hentry .mega_block_meta span { margin-left: 20px; }
+
+.mega_block_meta > .author a { color: #898989; }
+
+.mega_block_meta span i,
+.mega_block_meta_tags i,
+.mega_block_meta_cats i {
+	font-size: 16px;
+	color: #d7dbdb;
+}
+
+.ltr .mega_block_meta span i:before,
+.ltr .mega_block_meta_tags i:before,
+.ltr .mega_block_meta_cats i:before { margin-right: 7px; }
+
+.rtl .mega_block_meta span i:before,
+.rtl .mega_block_meta_tags i:before,
+.rtl .mega_block_meta_cats i:before { margin-left: 7px; }
+
+.mega_block_meta span.date i:before { content: "\f073"; }
+.mega_block_meta span.author i:before { content: "\f007"; }
+
+.mega_block_meta span.tag i:before,
+.mega_block_meta_tags i:before { content: "\f02c"; }
+
+.mega_block_meta span.category i:before,
+.mega_block_meta_cats i:before { content: "\f07c"; }
+
+
+.mega_block_meta .tag label,
+.mega_block_meta_tags label,
+.mega_block_meta_cats label { line-height: 27px; }
+
+.ltr .mega_block_meta .tag label,
+.ltr .mega_block_meta_tags label,
+.ltr .mega_block_meta_cats label { margin-right: 10px; }
+
+.rtl .mega_block_meta .tag label,
+.rtl .mega_block_meta_tags label,
+.rtl .mega_block_meta_cats label { margin-left: 10px; }
+
+
+.tagcloud a,
+.mega_block_meta .tag a,
+.mega_block_meta_tags a,
+.mega_block_meta .category a,
+.mega_block_meta_cats a {
+	margin-bottom: 10px;
+	padding: 0 14px;
+	display: inline-block;
+	box-sizing: border-box;
+	color: #787878;
+	vertical-align: top;
+	text-align: center;
+	border-radius: 20px;
+	background-color: #f3f6f6;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.ltr .tagcloud a,
+.ltr .mega_block_meta .tag a,
+.ltr .mega_block_meta_tags a,
+.ltr .mega_block_meta .category a,
+.ltr .mega_block_meta_cats a { margin-right: 10px; }
+
+.rtl .tagcloud a,
+.rtl .mega_block_meta .tag a,
+.rtl .mega_block_meta_tags a,
+.rtl .mega_block_meta .category a,
+.rtl .mega_block_meta_cats a { margin-left: 10px; }
+
+.tagcloud a:hover,
+.mega_block_meta .tag a:hover,
+.mega_block_meta_tags a:hover,
+.mega_block_meta .category a:hover,
+.mega_block_meta_cats a:hover { background-color: #eee; }
+
+.tagcloud a { font-size: inherit !important; }
+
+.mega_block_meta ul.post-categories, .mega_block_meta_cats ul.post-categories { display: inline; }
+.mega_block_meta ul.post-categories li, .mega_block_meta_cats ul.post-categories li { display: inline-block; }

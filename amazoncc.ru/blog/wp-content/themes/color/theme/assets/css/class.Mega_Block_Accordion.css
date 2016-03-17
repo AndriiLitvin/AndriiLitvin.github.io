@@ -1,0 +1,31 @@
+/* =Accordion Block
+-------------------------------------------------------------- */
+
+.accordion-element {
+	border-left: 1px solid #ecefef;
+	border-right: 1px solid #ecefef;
+	border-bottom: 1px solid #d7dbdb;
+	background-color: #FFF;
+	box-shadow: 0 1px 2px -1px #CCC;
+}
+
+.accordion-element:first-child { border-radius: 5px 5px 0 0; border-top: 1px solid #ecefef; }
+.accordion-element:last-child { border-radius: 0 0 5px 5px; }
+
+.content .accordion-element:first-child { border-top: 0; }
+
+.mega_block_accordion .head {
+	min-height: 49px;
+	padding: 11px 26px;
+	color: #282727;
+	font: 900 14px/25px Lato, Arial;
+}
+
+.mega_block_accordion .head:after {
+	color: #282727;
+	font-size: 14px;
+}
+
+.mega_block_accordion .accordion-element > .body { box-shadow: 0 1px 0 0 #efefef inset; }
+
+.accordion-element > .body .tab { margin-top: 20px; }

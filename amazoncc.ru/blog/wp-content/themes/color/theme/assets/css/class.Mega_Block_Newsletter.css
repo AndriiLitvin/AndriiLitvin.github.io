@@ -1,0 +1,15 @@
+.mega_block_newsletter form { margin-top: 25px; }
+
+.mega_block_newsletter .mega_block_form_field_wrapper { margin-bottom: 0; }
+
+.ltr .mega_block_newsletter input[type="email"] {
+	padding: 0 40px 0 15px;
+	background: #FFF url(../images/icons/arrow.png) calc(100% - 15px) 12px no-repeat;
+}
+
+.rtl .mega_block_newsletter input[type="email"] {
+	padding: 0 15px 0 40px;
+	background: #FFF url(../images/icons/arrow.png) 15px 12px no-repeat;
+}
+
+.mega_block_newsletter input[type="submit"] { display: none; }

@@ -1,0 +1,10 @@
+/* =Term Desc Block
+-------------------------------------------------------------- */
+
+.mega_block_term_desc {
+	margin-bottom: 26px;
+	font-style: italic;
+	font-size: 15px;
+	text-align: center;
+	color: #d37e00;
+}

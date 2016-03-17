@@ -1,0 +1,1855 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mega\n"
+"POT-Creation-Date: 2015-10-20 04:22+0300\n"
+"PO-Revision-Date: 2015-10-12 18:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:2c,1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:8
+msgid "About"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:8
+msgid "About block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:17
+msgid "Title Type"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:18
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:26
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:23
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:20
+#: ../inc/Blocks/Universal/class.Mega_Block_Copyright.php:21
+#: ../inc/Blocks/Universal/class.Mega_Block_Login.php:19
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:24
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:21
+#: ../inc/Blocks/class.Mega_Block_Logo.php:20
+#: ../inc/Blocks/class.Mega_Block_Logo.php:29
+msgid "Text"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:19
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:24
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:46
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:49
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:29
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:30
+#: ../inc/Blocks/class.Mega_Block_Logo.php:21
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:118
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:150
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:180
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:210
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:240
+msgid "Image"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:22
+#: ../inc/Blocks/Universal/class.Mega_Block_CTA.php:17
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:17
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:19
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:18
+#: ../inc/Blocks/Universal/class.Mega_Block_Copyright.php:19
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:54
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Custom.php:18
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:35
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:130
+#: ../inc/Blocks/Universal/class.Mega_Block_Login.php:17
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:22
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:22
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:17
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:19
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:23
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:30
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:37
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:44
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:112
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:160
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:190
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:220
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:250
+msgid "Title"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:22
+msgid "About Us"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:26
+msgid ""
+"Lorem ipsum dolor sit amet, id elit lorem, id morbi volutpat vitae mauris "
+"donec, porta nulla potenti varius tempor nec. mollis sed vel, massa odio "
+"interdum pretium malesuada dolornunc."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:28
+msgid "Read More"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_About.php:30
+msgid "Read More URL"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:8
+msgid "Ads"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:8
+msgid "Ads block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:17
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:28
+msgid "Alignment"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:19
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:30
+msgid "Left"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:20
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:31
+msgid "Center"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:21
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:32
+msgid "Right"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:25
+msgid "Ad Size"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:25
+msgid "Enter size as (width)x(height), i.e 100x100"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:27
+msgid "120 x 240"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:28
+msgid "120 x 600"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:29
+msgid "160 x 600"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:31
+msgid "125 x 125"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:32
+msgid "180 x 150"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:33
+msgid "200 x 200"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:34
+msgid "250 x 250"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:35
+msgid "300 x 250"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:37
+msgid "234 x 60"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:38
+msgid "320 x 50"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:39
+msgid "468 x 60"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:40
+msgid "728 x 90"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:44
+#: ../inc/Blocks/Universal/class.Mega_Block_CTA.php:20
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:58
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Custom.php:20
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:132
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:162
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:192
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:222
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:252
+msgid "Link"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:48
+msgid "Custom Code"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:48
+msgid ""
+"Use the following snippets of code to output the necessary information:<br/"
+"><br/>Link - <strong>[link]</strong><br/>Image - <strong>[image]</strong><br/"
+">Width - <strong>[width]</strong><br/>Height - <strong>[height]</strong>"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:72
+msgid "Post Ads"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:72
+msgid "Post Ads block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:79
+msgid "Loop Position Type"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:81
+msgid "After (x) Post Number"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:82
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:90
+msgid "Every Post Number"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Ads.php:87
+msgid "After Post Number"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_CTA.php:8
+msgid "Call to action"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_CTA.php:8
+msgid "Call to action block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_CTA.php:17
+msgid "Call to action title goes here"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_CTA.php:18
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Custom.php:22
+#: ../inc/Blocks/class.Mega_Block_Content.php:11
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:164
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:194
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:224
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:254
+msgid "Content"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_CTA.php:19
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:62
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Custom.php:26
+msgid "Button Label"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_CTA.php:19
+msgid "Detail"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:8
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:17
+msgid "Recent Comments"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:8
+msgid "Recent Comments Block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:19
+msgid "Number of comments"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:21
+msgid "Avatar"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:23
+msgid "Avatar Size (px)"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:25
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:43
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:44
+msgid "Layout"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:25
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:43
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:44
+msgid ""
+"Use [title], [excerpt] and [meta] snippets to format the layout order.<br/"
+"><br/>Title - <strong>[title]</strong><br/>Excerpt - <strong>[excerpt]</"
+"strong><br/>Meta - <strong>[meta]</strong>"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:27
+msgid "Top"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:27
+msgid ""
+"Use [author] and [title] snippets to format the title.<br/><br/>Post author "
+"- <strong>[author]</strong><br/>Post title - <strong>[title]</strong>"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:27
+msgid "[author] on [title]"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:29
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:45
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:45
+msgid "Excerpt length"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:31
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:47
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:46
+#: ../inc/Blocks/class.Mega_Block_Meta.php:8
+#: ../inc/Blocks/class.Mega_Block_Meta.php:18
+msgid "Meta"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:31
+msgid ""
+"Use [date], [days] and [author] snippets to format the meta order.<br/><br/"
+">Date - <strong>[date]</strong><br/>Days ago - <strong>[days]</strong><br/"
+">Comment author - <strong>[author]</strong>"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:81
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:120
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:161
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Comments.php:87
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:8
+msgid "Contact"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:8
+msgid "Contact block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:19
+msgid "Contact our team"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:21
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:37
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:26
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:38
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:38
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:51
+msgid "Email"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:23
+msgid ""
+"Get in touch with our 24/7 support team regarding any issues you may have."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:25
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:41
+msgid "Message"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:25
+msgid ""
+"Use the name attributes you have given to elements in your form to output "
+"the results inside your email, names must be surrounded with [], i.e [my-"
+"email-field]"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:25
+msgid "Name: [name]\\nEmail: [email]\\nSubject: [subject]\\nMessage: [message]"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:35
+#: ../inc/Blocks/class.Mega_Block_Comments_Form.php:33
+msgid "Name"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:35
+msgid "enter your name"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:37
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:38
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:51
+msgid "enter your email"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:39
+msgid "Subject"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:39
+msgid "enter your subject"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:41
+msgid "enter your message"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:43
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:40
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:53
+#: ../inc/Blocks/class.Mega_Block_Comments_Form.php:42
+msgid "Submit"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:61
+msgid "Success! The administrator will contact you as soon as possible."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact.php:63
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:79
+msgid "Ajax Error!"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:8
+msgid "Contact Info"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:8
+msgid "Contact Info Block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:18
+msgctxt "Contact Info"
+msgid "Contact"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:20
+msgid ""
+"It is a long established fact that a reader will be distracted by the "
+"readable content of a page when looking at its layout."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:22
+msgid "Info Type"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:24
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:32
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:28
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:33
+msgid "Address"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:25
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:35
+msgid "Phone"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:30
+msgid "Address Label"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:30
+msgid "Address:"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:32
+msgid "1535 Broadway, New York"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:34
+msgid "Phone Label"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:34
+msgid "Phone:"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:35
+msgid "1-888-456-7890"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:37
+msgid "Email Label"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Contact_Info.php:37
+msgid "Email:"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Copyright.php:8
+#: ../inc/Blocks/Universal/class.Mega_Block_Copyright.php:19
+msgid "Copyright"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Copyright.php:8
+msgid "Copyright block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Copyright.php:21
+msgid "[date] is Year, [link] is Homelink"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Copyright.php:21
+msgid ""
+"This site uses valid HTML 5.0 and CSS 3.0. All content Copyright &copy; "
+"[date] [link]. All Rights Reserved."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:8
+msgid "Feature: Auto"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:16
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:35
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:36
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:124
+msgid "Image Sources"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:18
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:37
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:38
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:126
+msgid "Featured"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:19
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:38
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:39
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:127
+msgid "First"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:20
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:39
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:40
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:128
+msgid "Placeholder"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:24
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:84
+msgid "Pages, Posts or Category Posts"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:26
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:86
+msgid "Category Posts"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:27
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:8
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:30
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:87
+msgid "Posts"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:28
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:88
+msgid "Pages"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:32
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:26
+msgid "Number of Results"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:34
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:27
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:28
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:94
+msgid "Select a Category"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:38
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:98
+msgid "Select Pages"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:40
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:100
+msgid "Random Post"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:42
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:102
+msgid "Select Posts"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:44
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:19
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:20
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:104
+msgid "Order By"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:46
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:21
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:22
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:106
+msgid "Date"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:47
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:22
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:23
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:107
+msgid "Random"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:48
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:23
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:24
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:108
+msgid "Comment Count"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:52
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:116
+msgid "Excerpt Character Count"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:56
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:114
+msgid "Title Character Count"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:60
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Custom.php:24
+msgid "Show Button"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Auto.php:62
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Custom.php:26
+msgid "Continue reading"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Custom.php:8
+msgid "Feature: Custom"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Custom.php:16
+#: ../inc/Blocks/class.Mega_Block_Logo.php:25
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:152
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:182
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:212
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:242
+msgid "Image URL"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:36
+msgid "Icon List"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:38
+msgid "Ionicons"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:39
+msgid "Font awesome"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:43
+msgid "Fa Icon"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:45
+msgid "Ion Icon"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:47
+msgid "Icon Color"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:51
+msgid "Image Width (%)"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Feature_Skeleton.php:53
+msgid "Image Max Height (px)"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:8
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:35
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:130
+msgid "Follow Us"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:8
+msgid "Follow Us block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:15
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:36
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:88
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:131
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:16
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:37
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:17
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:38
+msgid "Google Plus"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:18
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:39
+msgid "YouTube"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:19
+msgid "Linkedin"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:20
+msgid "Feedburner"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:21
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:45
+msgid "WordPress"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:22
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:43
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:106
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:137
+msgid "Dribbble"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:23
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:44
+msgid "Flickr"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:24
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:42
+msgid "Digg"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:25
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:46
+msgid "Spotify"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:26
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:47
+msgid "Tumblr"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:27
+msgid "RSS"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:40
+msgid "LinkedIn"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:41
+msgid "FeedBurner"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:48
+msgid "RSS URL"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:79
+msgid "Follow Us Counter"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:79
+msgid "Follow Us Counter block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:132
+msgid "Facebook App ID"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:133
+msgid "Facebook App Secret"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:134
+msgid "Facebook Meta"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:134
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:138
+msgid ""
+"Use the following snippets of code to output the necessary information:<br/"
+"><br/>Number - <strong>[number]</strong><br/>"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:134
+msgid "[number] Fans"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:138
+msgid "Dribbble Meta"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Follow.php:138
+msgid "[number] Followers"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Login.php:8
+#: ../inc/Blocks/Universal/class.Mega_Block_Login.php:17
+msgid "Login"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Login.php:8
+msgid "Login block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Login.php:19
+msgid "<strong>[lost_password]</strong> is the lost password URL."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Login.php:19
+msgid ""
+"If you have an account with us, you can safely login below. <a href="
+"\"[lost_password]\">Forgot your password?</a>"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Login.php:21
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:23
+msgid "Text Alt"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Login.php:21
+msgid "<strong>[logout]</strong> is the logout URL."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Login.php:21
+msgid "You are already logged in. <a href=\"[logout]\">Log out?</a>"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:10
+msgid "Map"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:10
+msgid "Map Block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:22
+msgid "Where we are?"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:24
+msgid "Google API Key"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:26
+#: ../inc/Blocks/class.Mega_Block_Logo.php:18
+msgid "Type"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:29
+msgid "Latitude / Longitude"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:33
+msgid "Palo Alto"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:35
+msgid "Latitude"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:37
+msgid "Longitude"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:39
+msgid "Height"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:40
+msgid "Zoom"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:41
+msgid "Custom Marker"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Map.php:53
+msgid ""
+"Google was unable to find the address you specified, please try a different "
+"address or use the Latitude & Longitude parameters."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:8
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:22
+msgid "Newsletter"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:8
+msgid "Newsletter block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:24
+msgid ""
+"Get in first on the latest news and updates by subscribing to our weekly "
+"newsletter!"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:26
+msgid "MailChimp API Key"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:28
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:45
+msgid "MailChimp List"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:28
+msgid ""
+"Please first fill in the API key above, save, and then refresh the page to "
+"see the available lists."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:71
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Newsletter.php:73
+msgid "Subscribed - look for the confirmation email!"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:8
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:8
+msgid "Recent, popular &amp; random posts block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:17
+msgid "Blog Posts"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:31
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:32
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:120
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:154
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:184
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:214
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:244
+msgid "Image Width (px)"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:33
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:34
+#: ../inc/Blocks/class.Mega_Block_Logo.php:27
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:122
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:156
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:186
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:216
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:246
+msgid "Image Height (px)"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:47
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:46
+msgid ""
+"Use [date], [comments] and [author] snippets to format the meta order.<br/"
+"><br/>Date - <strong>[date]</strong><br/>Comments - <strong>[comments]</"
+"strong><br/>Author - <strong>[author]</strong>"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:49
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:47
+#: ../inc/Blocks/class.Mega_Block_Meta.php:24
+msgid "Date Format"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:49
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:47
+msgid "F jS, Y"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:88
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:97
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts.php:117
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:158
+#, php-format
+msgid "%s Comments"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:8
+msgid "Posts Ajax"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Posts_Ajax.php:75
+msgid "Load more"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:8
+msgid "Register"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:8
+msgid "Register block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:19
+msgid "Registration"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:21
+msgid "If you don't have an account yet, you can register below."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:23
+msgid "Registration is currently closed."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:25
+msgid "Email From Address"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:27
+msgid "Email From Name"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:29
+msgid "Email Subject"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:29
+msgid ""
+"Use the following snippets of code to output the necessary information:<br/"
+"><br/>Site name - <strong>[site_name]</strong><br/>Site URL - "
+"<strong>[site_url]</strong><br/>"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:29
+msgid "Your password for [site_name] at [site_url]"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:31
+msgid "Email Message"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:31
+msgid ""
+"Use the name attributes you have given to elements in your form to output "
+"the results inside your email, names must be surrounded with [], i.e [my-"
+"email-field], in addition you have few custom names that you can use: "
+"[site_name], [site_url] and [user_pass]"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:31
+msgid ""
+"Thank you for registering with [site_name], you can find your login "
+"information below.\\n\\nUsername: [user_name]\\nPassword: [user_pass]"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:49
+msgid "Username"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:49
+msgid "enter your username"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:74
+msgid "Success! Check your email for the password."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:76
+msgid ""
+"Sorry but there was a problem sending your login credentials to your email "
+"address."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:86
+msgid "Username is invalid."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:90
+msgid "Username already exists."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Register.php:94
+msgid "Email address already exists."
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:8
+msgid "Tabs"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:8
+msgid "Tabs Block"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:21
+msgid "Tab 1"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:23
+msgid "Comments"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:25
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:32
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:39
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:46
+msgid "Widget"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:28
+msgid "Tab 2"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:35
+msgid "Tab 3"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:42
+msgid "Tab 4"
+msgstr ""
+
+#: ../inc/Blocks/Universal/class.Mega_Block_Tabs.php:51
+msgid "Tabs Widgets List"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:8
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:8
+msgid "Breadcrumbs block"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:18
+msgid "Label"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:19
+msgid "Show Only Last Crumb"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:50
+msgid "Tags"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:55
+msgid "Categories"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:112
+#: ../inc/class.Mega_Admin.php:50
+msgid "Home"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:115
+#: ../inc/class.Mega_Lists.php:124
+msgid "Blog"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:128
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:131
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:148
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Breadcrumbs.php:151
+msgid "Error 404"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Comments_Form.php:8
+msgid "Comments Form"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Comments_Form.php:8
+msgid "Comments Form block"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Comments_Form.php:24
+msgid "Comments are closed."
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Comments_Form.php:34
+msgid "Email Address"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Comments_Form.php:35
+msgid "Website URL"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Comments_Form.php:39
+msgid "Type your comment..."
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Comments_Form.php:41
+msgid "/ Cancel"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:11
+msgid "Content block"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:26
+msgid "Generate Excerpts"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:26
+msgid "Excluding single posts & pages"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:28
+msgid "Excerpt Length (chars)"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:30
+msgid "Show comment & ping status"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:30
+msgid ""
+"Show a notice on single posts, whether comments and pings are opened or "
+"closed"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:74
+msgid "Edit"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:77
+msgid "Pages:"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:88
+msgid ""
+"This post is password protected. Enter the password to view any content, "
+"comments or pings."
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:91
+#, php-format
+msgid ""
+"Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback"
+"\">trackback</a> from your own site."
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:94
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:97
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Content.php:113
+msgid "Please enter a quote using the metaboxes"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Logo.php:8
+msgid "Logo"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Logo.php:8
+msgid "Logo block"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Logo.php:31
+msgid "Width (px)"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:8
+msgid "Meta block"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:18
+msgid ""
+"Use [author], [date], [time], [category] and [tag] snippets to format the "
+"meta."
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:18
+msgid "Posted [author][category]"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:20
+msgid "Author Label"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:20
+msgid "Example values:<br/><br/><strong>by<br/>Author:</strong>"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:20
+msgid "by"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:22
+msgid "Date Label"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:22
+msgid "Example values:<br/><br/><strong>on<br/>Date:</strong>"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:22
+msgid "on"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:24
+msgid ""
+"Customize how your date looks like, more info on <a href=\"http://codex."
+"wordpress.org/Formatting_Date_and_Time\" target=\"_blank\">Customizing the "
+"Time and Date</a>."
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:26
+msgid "Time Label"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:26
+msgid "Example values:<br/><br/><strong>at<br/>Time:</strong>"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:26
+msgid "at"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:28
+msgid "Category Label"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:28
+msgid "Example values:<br/><br/><strong>in<br/>Category:</strong>"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:28
+msgid "in"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:30
+msgid "Category Separator"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:32
+msgid "Tag Label"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:32
+msgid "Example values:<br/><br/><strong>and tagged with<br/>Tags:</strong>"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:32
+msgid "and tagged with"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:34
+msgid "Tag Separator"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta.php:36
+msgid "Show Icons"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta_Cats.php:8
+msgid "Meta Cats"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta_Cats.php:8
+msgid "Meta Cats Block"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta_Cats.php:18
+msgid "Cat"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta_Cats.php:18
+msgid "Cats:"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta_Cats.php:19
+msgid "Cat Sep"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta_Tags.php:8
+msgid "Meta Tags"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta_Tags.php:8
+msgid "Meta Tags Block"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta_Tags.php:18
+msgid "Tag"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta_Tags.php:18
+msgid "Tags:"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Meta_Tags.php:19
+msgid "Tag Sep"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Paginate.php:8
+msgid "Paginate"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Paginate.php:8
+msgid "Paginate Block"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Paginate.php:18
+msgid "Show All"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Paginate.php:20
+msgid "Edge Size"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Paginate.php:22
+msgid "Middle Size"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Paginate.php:24
+msgid "Previous / Next"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Paginate.php:26
+msgid "Previous"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Paginate.php:28
+msgid "Next"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Parent_Posts_Loop.php:8
+msgid "Posts Loop"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Parent_Posts_Loop.php:8
+msgid "Posts Loop Block"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Parent_Posts_Loop.php:20
+msgid "Pull Posts From Categories"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Parent_Posts_Loop.php:22
+msgid "Offset Posts"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Parent_Posts_Loop.php:22
+msgid ""
+"Enter a number to hide your newest posts, if you'll enter 2 in here, your 2 "
+"newest posts won't be shown."
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Parent_Posts_Loop.php:24
+msgid "No Posts Title"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Parent_Posts_Loop.php:24
+msgid "No Posts Matched"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Parent_Posts_Loop.php:26
+msgid "No Posts Message"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Parent_Posts_Loop.php:26
+msgid ""
+"No posts were found during this query, Try using the search form below.\n"
+"\n"
+"Sorry for the inconvenience."
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:8
+msgid "Jssor Slider"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:8
+msgid "Jssor Slider block"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:69
+msgid "Settings"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:71
+msgid "Show Slider"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:73
+msgid "Slider Location"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:75
+msgid "Auto Pull or Custom"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:77
+msgid "Auto Pull"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:78
+msgid "Custom"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:82
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:146
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:176
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:206
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:236
+msgid "Jssor Animation"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:92
+msgid "Category Posts - Number of Results"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:96
+msgid "Random Page"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:140
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:144
+msgid "Custom 1"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:148
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:178
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:208
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:238
+msgid "Background Image URL"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:158
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:188
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:218
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:248
+msgid "Show Placeholder"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:166
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:196
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:226
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:256
+msgid "Button label"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:170
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:174
+msgid "Custom 2"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:200
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:204
+msgid "Custom 3"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:230
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:234
+msgid "Custom 4"
+msgstr ""
+
+#: ../inc/Blocks/class.Mega_Block_Slider_Jssor.php:265
+msgid "Jssor Animation List"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:31
+msgid "Upgrade This Theme"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:31
+#, php-format
+msgid "%s Options"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:34
+#, php-format
+msgid "Upgrade %s"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:53
+msgid "Customize"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:80 ../inc/class.Mega_Admin.php:191
+msgid "Upgrade"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:108
+#, php-format
+msgid "Framework v%1$s Theme v%2$s"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:125
+msgid "Widget Default"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:126
+msgid ""
+"This section allows you to specify default settings for the widgets that "
+"this theme supports. Upon saving, any new widgets that you'll use will have "
+"the new settings in place. This doesn't affect current widgets that are in "
+"use."
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:133
+msgid "Static Blocks Default"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:134
+msgid ""
+"This section allows you to specify default settings for static blocks that "
+"this theme supports and are shown across the site. Upon theme upgrade, these "
+"blocks turn into widgets and are available for drag and drop."
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:177 ../inc/class.Mega_Admin.php:212
+#: ../inc/class.Mega_Admin.php:241
+msgid "Upgrade this theme."
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:179
+#, php-format
+msgid "Upgrade this theme today for just %s and get access to extra features."
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:181
+msgid "Get access to extra features and settings"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:182
+msgid "Full access to all themes available"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:183
+msgid "Unlimited email and forum support"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:184
+msgid "Template, forms, tables & other element builders"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:188
+msgid "<strong>Act now,</strong> don't miss your chance!"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:189
+msgid "don't wait too long or the offer might end soon..."
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:197
+msgid "Thank you for upgrading."
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:197
+msgid ""
+"Thank you for upgrading, you are now running the full loaded & "
+"<strong>professional</strong> version and you have full access to our "
+"support."
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:202
+msgid "Dear ThemeForest users,"
+msgstr ""
+
+#: ../inc/class.Mega_Admin.php:202
+#, php-format
+msgid ""
+"Thank you for trying this amazing theme powered by MegaThemes, please sign "
+"up at %s to get support."
+msgstr ""
+
+#: ../inc/class.Mega_Admin_Page_Settings.php:64
+msgid "Options Saved"
+msgstr ""
+
+#: ../inc/class.Mega_Admin_Page_Settings.php:85
+msgid "Master Reset Activated"
+msgstr ""
+
+#: ../inc/class.Mega_Block.php:44
+msgid "MegaThemes"
+msgstr ""
+
+#: ../inc/class.Mega_Block.php:122
+msgid "Function Mega_Walker::block should not be accessed directly."
+msgstr ""
+
+#: ../inc/class.Mega_Block_WP_Widget_Bridge.php:11
+#, php-format
+msgid ""
+"[Pro] Use <a href=\"%s\">theme options panel</a> to configure this widget. "
+"Upgrade the theme to have the settings appear here as well."
+msgstr ""
+
+#: ../inc/class.Mega_Forms.php:224
+#, php-format
+msgid "%s cannot be empty! Please enter a valid value."
+msgstr ""
+
+#: ../inc/class.Mega_Forms.php:370 ../inc/class.Mega_Forms.php:390
+#: ../inc/class.Mega_Lists.php:32 ../inc/class.Mega_Lists.php:41
+#: ../inc/class.Mega_Lists.php:50
+msgid "All"
+msgstr ""
+
+#: ../inc/class.Mega_Forms.php:433
+msgid "Email address is invalid."
+msgstr ""
+
+#: ../inc/class.Mega_Forms.php:458
+msgid "Expecting a Numeric value!"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:19
+msgid "Category List"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:20
+msgid "Pages List"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:21
+msgid "Posts List"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:22
+msgid "Font Awosome Icon List"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:23
+msgid "IonIcons Icon List"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:24
+msgid "Template List"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:25
+msgid "Template List No Front / Home"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:114
+msgid "Front Page"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:115
+msgid "Category"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:116
+msgid "Archive"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:117
+msgid "Search"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:118
+msgid "Post"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:119
+msgid "Template (Front Page)"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:120
+msgid "Template (Full Width)"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:121
+msgid "Template (Login)"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:122
+msgid "Template (Contact)"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:123
+msgid "Page"
+msgstr ""
+
+#: ../inc/class.Mega_Lists.php:146 ../inc/class.Mega_Lists.php:657
+msgid "None"
+msgstr ""
+
+#: ../inc/class.Mega_Logs.php:19
+msgid "Logs"
+msgstr ""
+
+#: ../inc/class.Mega_Sidebars.php:79
+#, php-format
+msgid ""
+"Widgets in this area are for the post/page %s and will appear at this "
+"location: %s"
+msgstr ""
+
+#: ../inc/class.Mega_Sidebars.php:102
+msgid "Mega Sidebars"
+msgstr ""
+
+#: ../inc/class.Mega_Sidebars.php:152
+msgid "No sidebar (static)"
+msgstr ""
+
+#: ../inc/class.Mega_Sidebars.php:154
+#, php-format
+msgid "Default: %s"
+msgstr ""
+
+#: ../inc/class.Mega_Sidebars.php:155
+#, php-format
+msgid "New: %s"
+msgstr ""
+
+#: ../inc/class.Mega_Sidebars.php:162
+#, php-format
+msgid "Location: %s"
+msgstr ""

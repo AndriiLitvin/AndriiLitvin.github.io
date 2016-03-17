@@ -1,0 +1,186 @@
+/* Ajax Posts */
+
+.mega_theme_block_posts_ajax_timeline ul {
+	background-size: 6px 1px;
+	background-position: center top;
+	background-repeat: repeat-y;
+	background-image: linear-gradient(0deg, #e8eef7 6px, transparent 6px);
+}
+
+.mega_theme_block_posts_ajax_timeline ul li {
+	width: calc(50% - 60px);
+	margin-top: 40px;
+	margin-bottom: 80px;
+	line-height: 20px;
+	line-height: normal !important;
+	background-color: #FFF;
+	background-size: 100% 1px;
+	background-position: left top;
+	background-repeat: repeat-y;
+	border: 1px solid #f3f3f3;
+	border-radius: 1px;
+	position: relative;
+}
+
+.mega_theme_block_posts_ajax_timeline ul li.left {
+	background-image: linear-gradient(90deg, #e5ebf3 20%, transparent 20%);
+	border-left: 1px solid #E6EAF1;
+	clear: left;
+}
+
+.mega_theme_block_posts_ajax_timeline ul li.right {
+	background-image: linear-gradient(90deg, transparent 80%, #F0F4FA 80%);
+	border-right: 1px solid #E6EAF1;
+	clear: right;
+}
+
+.mega_theme_block_posts_ajax_timeline ul li i {
+	position: absolute;
+	top: 20px;
+}
+
+.mega_theme_block_posts_ajax_timeline ul li i:before {
+	content: '';
+	border: 12px solid transparent;
+	display: block;
+}
+
+.mega_theme_block_posts_ajax_timeline ul li.left i { right: -24px; }
+.mega_theme_block_posts_ajax_timeline ul li.left i:before { border-left-color: #FFF; }
+
+.mega_theme_block_posts_ajax_timeline ul li.right i { top: 60px; left: -24px; }
+.mega_theme_block_posts_ajax_timeline ul li.right i:before { border-right-color: #FFF; }
+
+.mega_theme_block_posts_ajax_timeline ul li i:after {
+	content: '';
+	width: 22px; height: 22px;
+	border: 1px solid #dde6f1;
+	border-radius: 100%;
+	background-color: #e8eef7;
+	display: block;
+	position: absolute;
+	top: 0;
+}
+
+.mega_theme_block_posts_ajax_timeline ul li.left i:after { left: 47px; }
+.mega_theme_block_posts_ajax_timeline ul li.right i:after { right: 47px; }
+
+.mega_theme_block_posts_ajax_timeline img.thumb {
+  display: block;
+  border-radius: 3px;
+  border: 1px solid #ECECEC;
+  padding: 7px;
+  background: #FFF;
+  transition: all .3s cubic-bezier(.02, .01, .47, 1);
+}
+
+.mega_theme_block_posts_ajax_timeline img.thumb:hover {
+	background: #e5eced;
+	border-color: #CBDBDD;
+}
+
+.ltr .mega_theme_block_posts_ajax_timeline img.thumb {
+	float: left;
+	margin: 2px 30px 0 0;
+}
+
+.rtl .mega_theme_block_posts_ajax_timeline img.thumb {
+	float: right;
+	margin: 2px 0 0 30px;
+}
+
+.mega_theme_block_posts_ajax_timeline .data {
+	width: 80%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.mega_theme_block_posts_ajax_timeline ul li.left .data { float: right; }
+.mega_theme_block_posts_ajax_timeline ul li.right .data { float: left; }
+
+.mega_theme_block_posts_ajax_timeline .data-author {
+	width: 20%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
+
+.mega_theme_block_posts_ajax_timeline ul li.left .data-author {
+	float: left;
+}
+
+.mega_theme_block_posts_ajax_timeline ul li.right .data-author {
+	float: right;
+}
+
+.mega_theme_block_posts_ajax_timeline .data-author .avatar {
+	max-width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	box-sizing: border-box;
+	margin: 0 !important;
+}
+
+.mega_theme_block_posts_ajax_timeline .title {
+	display: block;
+	margin-bottom: 20px;
+	word-break: break-all;
+	font-size: 17px;
+	font-weight: 700;
+	color: #636363;
+}
+
+.mega_theme_block_posts_ajax_timeline .excerpt {
+	color: #A3A3A3;
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.mega_theme_block_posts_ajax_timeline a.more {
+	margin-top: 30px;
+	padding: 0 30px;
+	background: #E4EAF0;
+	text-shadow: none;
+	cursor: pointer;
+}
+
+
+
+/* Width < 700 */
+
+	.mega_theme_block_posts_ajax_timeline ul.adapt-tl li { margin-bottom: 20px; }
+
+	.mega_theme_block_posts_ajax_timeline ul.adapt-tl {
+		background-position: right top;
+	}
+
+	.mega_theme_block_posts_ajax_timeline ul.adapt-tl li {
+		float: left !important;
+		clear: both !important;
+		width: calc(100% - 60px);
+	}
+
+	.mega_theme_block_posts_ajax_timeline ul.adapt-tl .data-author {
+		padding: 30px 10px;
+	}
+
+	.mega_theme_block_posts_ajax_timeline ul.adapt-tl .data-author .avatar { padding: 4px; }
+
+
+@media (max-width: 767px)
+{
+	.mega_theme_block_posts_ajax_timeline ul {
+		background-position: right top;
+	}
+
+	.mega_theme_block_posts_ajax_timeline ul li {
+		float: left !important;
+		clear: both !important;
+		width: calc(100% - 60px);
+	}
+
+	.mega_theme_block_posts_ajax_timeline .data-author {
+		padding: 30px 10px;
+	}
+
+	.mega_theme_block_posts_ajax_timeline .data-author .avatar { padding: 4px; }
+}

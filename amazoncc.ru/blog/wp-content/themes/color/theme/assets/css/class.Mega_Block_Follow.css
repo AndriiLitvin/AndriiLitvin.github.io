@@ -1,0 +1,76 @@
+/* =Follow Block
+---------------------------- */
+
+.mega_block_follow ul,
+.mega_block_follow_counter ul { margin-top: 20px; }
+
+.mega_block_follow ul li, .mega_block_follow_counter ul li { padding: 0 !important; }
+
+.mega_block_follow li,
+.mega_block_follow_counter li { margin-bottom: 10px; }
+
+.ltr .mega_block_follow li,
+.ltr .mega_block_follow_counter li { margin-right: 10px; }
+
+.rtl .mega_block_follow li,
+.rtl .mega_block_follow_counter li { margin-left: 10px; }
+
+.mega_block_follow.right li,
+.mega_block_follow_counter.right li {
+	margin: 0 0 12px 6px;
+}
+
+.mega_block_follow li a,
+.mega_block_follow_counter li a {
+	display: block;
+	width: 40px; height: 40px;
+	color: #898989;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #FFF;
+	border: 1px solid #d7dbdb;
+	border-radius: 44px;
+	box-sizing: border-box;
+}
+
+.mega_block_follow li a:hover,
+.mega_block_follow_counter li a:hover {
+	border: none;
+	color: #FFF;
+}
+
+.mega_block_follow li.facebook a:hover,
+.mega_block_follow_counter li.facebook a:hover { background-color: #325c94; }
+
+.mega_block_follow li.twitter a:hover,
+.mega_block_follow_counter li.twitter a:hover { background-color: #00abdc; }
+
+.mega_block_follow li.plus a:hover { background-color: #d9031f; }
+.mega_block_follow li.linkedin a:hover { background-color: #007bb6; }
+
+.mega_block_follow li.dribbble a:hover,
+.mega_block_follow_counter li.dribbble a:hover { background-color: #fa4086; }
+
+.mega_block_follow li.youtube a:hover { background-color: #fb0000; }
+.mega_block_follow li.wordpress a:hover { background-color: #f2f2f2; color: #5c5c5c; }
+.mega_block_follow li.wordpress a:hover .icon:before { background-color: #FFF; border-radius: 100%; }
+.mega_block_follow li.flickr a:hover { background-color: #fa4086; }
+.mega_block_follow li.spotify a:hover { background-color: #f2f2f2; color: #80b719; }
+.mega_block_follow li.tumblr a:hover { background-color: #34465d; }
+.mega_block_follow li.rss a:hover { background-color: #FFA700; }
+
+.mega_block_follow li .name, .mega_block_follow_counter li .name { display: none; }
+
+.mega_block_follow li.facebook a .icon:before, .mega_block_follow_counter li.facebook a .icon:before { content: '\f09a'; }
+.mega_block_follow li.twitter a .icon:before, .mega_block_follow_counter li.twitter a .icon:before { content: '\f099'; }
+.mega_block_follow li.plus a .icon:before, .mega_block_follow_counter li.plus a .icon:before { content: '\f0d5'; }
+.mega_block_follow li.youtube a .icon:before { content: '\f167'; }
+.mega_block_follow li.linkedin a .icon:before { content: '\f0e1'; }
+.mega_block_follow li.wordpress a .icon:before { content: '\f19a'; }
+.mega_block_follow li.dribbble a .icon:before, .mega_block_follow_counter li.dribbble a .icon:before { content: '\f17d'; }
+.mega_block_follow li.flickr a .icon:before { content: '\f16e'; }
+.mega_block_follow li.digg a .icon:before { content: '\f1a6'; }
+.mega_block_follow li.spotify a .icon:before { content: '\f1bc'; }
+.mega_block_follow li.tumblr a .icon:before { content: '\f173'; }
+.mega_block_follow li.rss a .icon:before { content: '\f09e'; }

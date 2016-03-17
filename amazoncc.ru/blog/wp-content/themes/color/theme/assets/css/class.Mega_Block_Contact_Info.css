@@ -1,0 +1,19 @@
+/* =Contact Info Block
+---------------------------- */
+
+.mega_block_contact_info li { padding: 0 !important; }
+
+.mega_block_contact_info .address span,
+.mega_block_contact_info .phone span,
+.mega_block_contact_info .email span {
+	color: #282727;
+	line-height: 30px;
+	font-weight: bold;
+	margin-right: 3px;
+}
+
+.address i, .phone i, .email i { margin-right: 10px; }
+
+.address i:before { content: "\f041"; }
+.phone i:before { content: "\f095"; }
+.email i:before { content: "\f003"; }

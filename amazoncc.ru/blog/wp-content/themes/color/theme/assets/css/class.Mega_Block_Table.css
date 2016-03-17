@@ -1,0 +1,97 @@
+/* =Pricing Table Block
+-------------------------------------------------------------- */
+
+.mega_block_table { margin-top: 30px; margin-bottom: 40px; }
+
+.mega_block_table_column.basic,
+.mega_block_table_column.highlight {
+	background-color: #FFF;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.mega_block_table_column.basic {
+	margin-top: 10px;
+	border-right: 1px solid #ecefef;
+	border-left: 1px solid #ecefef;
+	box-shadow: 0 3px 2px -1px rgba(11, 25, 28, 0.1);
+}
+
+.mega_block_table_column.highlight {
+	padding-top: 10px; padding-bottom: 8px;
+	border: 2px solid #37bbec;
+	box-shadow: 0 0 22px 8px #e3e6e7;
+	position: relative;
+	z-index: 1;
+}
+
+.mega_block_table_column .row {
+	min-height: 23px;
+	color: #4e4e4e;
+	font-size: 14px;
+}
+
+.mega_block_table_column .row.body { padding-top: 6px; padding-bottom: 6px; }
+
+.mega_block_table_column:not(.highlight) .row.body,
+.mega_block_table_column:not(.highlight) .row.head span,
+.mega_block_table_column:not(.highlight) .row.foot span { padding-left: 25px; padding-right: 25px; }
+
+.mega_block_table_column.highlight .row { padding-left: 35px; padding-right: 35px; }
+
+.mega_block_table_column.label .row { padding: 0 20px 0 0 !important; }
+
+.mega_block_table .mega_block_table_column:not(.label) .row.body:nth-child(odd) { background-color: #fafafa; }
+
+.mega_block_table_column span .fa {
+	color: #37bbec;
+	font-size: 12px;
+	line-height: inherit;
+}
+
+.mega_block_table_column .row.head span .fa { font-size: 24px; }
+
+.mega_block_table_column.basic .row.head span { display: block; }
+.mega_block_table_column.basic .row.foot span { display: block; }
+
+/* Head */
+
+.mega_block_table_column .row.head .title_t {
+	font: 900 20px/36px Lato, Arial;
+	color: #282727;
+}
+
+.mega_block_table_column .row.head .desc {
+	margin-top: 4px; margin-bottom: 5px;
+	font: 400 14px/21px Lato, Arial;
+	color: #898989;
+}
+
+.mega_block_table_column .row.head.spread.ico .title_t { width: calc(100% - 30px); }
+
+.mega_block_table_column.basic .row.head,
+.mega_block_table_column.highlight .row.head {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #efefef;
+}
+
+.mega_block_table_column.basic .row.head { padding-top: 17px; }
+.mega_block_table_column.highlight .row.head { padding-top: 15px; }
+
+/* Foot */
+
+.mega_block_table_column .row.foot {
+	font: bold 24px/40px Lato, Arial;
+	color: #282727;
+}
+
+.mega_block_table_column.basic .row.foot,
+.mega_block_table_column.highlight .row.foot {
+	padding-top: 14px; padding-bottom: 14px;
+	border-top: 1px solid #efefef;
+}
+
+.mega_block_table_column .row.foot span a.btn {
+	padding: 0 27px;
+	box-sizing: border-box;
+}
