@@ -447,9 +447,8 @@ nav a.act{
 }
 .intro p{
     margin: 27px 0;
-    width: 655px;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 26px;
+    line-height: 1;
     font-weight: 100;
 }
 .intro h3,
@@ -461,7 +460,7 @@ nav a.act{
     background: #262626;
     font-weight: 100;
     padding: 10px 20px 9px;
-    margin: 0 0 79px;
+    margin: 20px 0;
 }
 
 /* =============================================================================
@@ -689,7 +688,9 @@ nav a.act{
     height: 128px;
 }
 .portfolio .head p{
-    margin: 41px 0 0 290px;
+    margin: 14px 0 0 290px;
+    font-size: 36px;
+    line-height: 1;
 }
 .portfolio .gray_block{
     color: #62676c;
@@ -835,6 +836,8 @@ nav a.act{
 .news .article p{
     margin: -4px 0 0;
     overflow: hidden;
+    font-size: 22px;
+    line-height: 1;
 }
 /* contacts ================================ */
 .contacts{
@@ -868,8 +871,8 @@ nav a.act{
     margin: -10px;
 }
 .contacts a{
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 22px;
+    line-height: 1;
     font-weight: 100;
     text-decoration: none !important;
     color: white;
@@ -1106,4 +1109,8 @@ nav ul li {
 }
 .min_width {
     position: relative;
+}
+.line span {
+    font-size: 22px;
+    line-height: 1;
 }
