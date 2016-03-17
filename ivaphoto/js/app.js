@@ -57,4 +57,29 @@ $(document).ready(function() { // вся мaгия пoсле зaгрузки с�
         }
       );
   });
+
 });
+jQuery(function ($) {
+    $("#phone").inputmask("+38(999)999-99-99");
+    $('#order_form').on('submit', function (e) {
+
+    e.preventDefault();
+
+    var $form = $(this);
+
+    $.ajax({
+        type: 'POST',
+        url: '/order.php',
+        dataType: 'json',
+        data: $form.serialize(),
+        success: function (response) {
+            console.info(response);
+            if (response.status == 'success') {
+                $form.hide();
+                $form.html('<p class="success-info"><b>Спасибо!</b>Ваша заявка принята, ожидайте звонка!!!</p>').show();
+            }
+        }
+    })
+  });
+  $('#content').append('<div style="background: #eee; opacity:0.8; position: absolute; z-index:10; bottom: 0; text-align: center; width: 100%;"><a style="margin-right: 20px; text-decoration: none;     text-shadow: 1px 1px 1px #fff; color: #555; " href="tel:+380978868498">097 886 84 98</a><a style="margin-right: 20px; text-decoration: none;     text-shadow: 1px 1px 1px #fff; color: #555; " href="tel:+380935420102">093 542 01 02</a><a style="margin-right: 20px; text-decoration: none;     text-shadow: 1px 1px 1px #fff; color: #555; " href="mailto:photoms@icloud.com">photoms@icloud.com</a></div>');
+})

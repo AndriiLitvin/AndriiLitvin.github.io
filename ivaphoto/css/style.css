@@ -83,7 +83,7 @@ body {
 nav#slide-menu {
   position: fixed;
   top: 0;
-  left: -100px;
+  left: -295px;
   bottom: 0;
   display: block;
   float: left;
@@ -93,6 +93,7 @@ nav#slide-menu {
   -moz-transition: all 300ms;
   -webkit-transition: all 300ms;
   transition: all 300ms;
+  background: #556270;
 }
 nav#slide-menu > ul {
   display: block;
@@ -194,6 +195,9 @@ body.menu-active #content .menu-trigger {
 .menu-item a {
   text-decoration: none;
   color: #eee;
+  display: block;
+  text-shadow: 0px 0px 0px #fff;
+  font-size: 18px;
 }
 .menu-item:hover {
   border-color: #000;
@@ -287,7 +291,7 @@ body.menu-active #content .menu-trigger {
   position: absolute;
   top: 30px;
   right: 30px;
-  background: #eee;
+  background: #dfe5eb;
   padding: 10px 15px;
   cursor: pointer;
   opacity: 0.8;
@@ -295,10 +299,11 @@ body.menu-active #content .menu-trigger {
   -moz-transition: all 300ms;
   -webkit-transition: all 300ms;
   transition: all 300ms;
+  color: #222;
 }
 .order:hover {
   opacity: 1;
-  background-color: #000;
+  background-color: #556270;
   color: #fff;
 }
 #modal_form #modal_close {
@@ -377,4 +382,19 @@ body.menu-active #content .menu-trigger {
    0 0 1px rgba(0,0,0,.5) inset,
    0 2px 3px rgba(0,0,0,.5) inset,
    0 1px 1px rgba(255,255,255,.1);
+}
+.select {
+  width: 99%;
+  height: 37px;
+  border-radius: 3px;
+  font-size: 18px;
+  border: 3px solid;
+  padding: 0 5px 0;
+  display: inline-block;
+  background: transparent url("images/arr_down.png") no-repeat scroll 98% 50%;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none!important;
+  -moz-appearance: none;
+  position: relative;
 }
