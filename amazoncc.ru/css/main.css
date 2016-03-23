@@ -668,7 +668,7 @@ nav a.act{
 .portfolio{
     background: #ffffff;
     color: #62676c;
-    padding: 0 0 80px;
+    /*padding: 0 0 80px;*/
 }
 .portfolio .h2,
 .portfolio h2{
