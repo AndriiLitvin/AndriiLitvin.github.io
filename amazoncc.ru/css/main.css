@@ -71,7 +71,7 @@ img {border: none}
 /*::selection { background: #fe57a1; color: #fff; text-shadow: none; }*/
 
 a {
-    color: #f08217;
+    color: #FA9F2E;
     text-decoration: none
 }
 /*a:visited { color: #551a8b; }*/
@@ -123,7 +123,7 @@ td { vertical-align: top; }
 /* =============================================================================
    Global elements
    ========================================================================== */
-.yellow{ color: #f08217 }
+.yellow{ color: #FA9F2E }
 
 .inline-block		{ display:inline-block;zoom:1;//display:inline; }
 .none				{ display:none !important; }
@@ -217,7 +217,7 @@ h4,.h4{
     position: relative;
     z-index: 1;
     padding: 0 34px 0 0;
-    background: #f08217;
+    background: #FA9F2E;
     text-decoration: none !important;
     color: white;
     text-transform: uppercase;
@@ -360,7 +360,7 @@ a:hover .icon_envelop                       { background-position: -120px -20px 
     color: #62676c;
 }
 .footer_menu a:hover,
-.footer_menu a.act{ color: #f08217 }
+.footer_menu a.act{ color: #FA9F2E }
 .footer_menu a.act{ cursor: default }
 
 /* =============================================================================
@@ -403,17 +403,17 @@ nav a{
     font-size: 17px;
     line-height: 68px;
     text-transform: uppercase;
-    color: #f08217;
+    color: #FA9F2E;
     text-decoration: none !important;
     padding: 0 20px;
 }
 nav a:hover{
-    border-bottom-color: #f08217;
+    border-bottom-color: #FA9F2E;
 }
 nav a.act{
-    border-color: #f08217;
+    border-color: #FA9F2E;
     cursor: default;
-    background: #f08217;
+    background: #FA9F2E;
     color: #262626;
 }
 
@@ -432,12 +432,13 @@ nav a.act{
 .intro{
     background: url('../images/intro.jpg') no-repeat center 0;
     background-attachment: fixed;
-    height: 615px;
-    padding: 107px 0 0;
+    /* height: 615px; */
+    padding: 107px 0 30px;
+    background-size: cover;
 }
 .intro h1,
 .intro .h1{
-    background: #f08217;
+    background: #FA9F2E;
     color: #1d1d1b;
     display: inline-block;
     *display: inline;
@@ -537,7 +538,7 @@ nav a.act{
     margin: -10px;
 }
 .person .text{
-    border-top: 4px solid #f08217;
+    border-top: 4px solid #FA9F2E;
     width: 255px;
     float: left;
 }
@@ -611,6 +612,7 @@ nav a.act{
     min-height: 218px;
     color: white;
     padding: 55px 0;
+    background-size: cover;
 }
 .invest .text{
     float: left;
@@ -678,14 +680,16 @@ nav a.act{
     color: white;
     font-size: 18px;
     line-height: 22px;
-    height: 128px;
+    /*height: 128px;*/
+    height: 460px;
 }
 .portfolio .head .hr{
-    background: #f08217;
+    background: #FA9F2E;
     height: 4px;
 }
 .portfolio .head .gray_block{
-    height: 128px;
+    /*height: 128px;*/
+    height: 460px;
 }
 .portfolio .head p{
     margin: 14px 0 0 290px;
@@ -878,8 +882,8 @@ nav a.act{
     color: white;
     display: block;
 }
-.contacts a:hover{ color: #f08217 }
-.contacts a:hover .icon_holder{ background: #f08217 }
+.contacts a:hover{ color: #FA9F2E }
+.contacts a:hover .icon_holder{ background: #FA9F2E }
 .mar-top88 {
     margin-top: 88px !important;
 }
@@ -1027,7 +1031,7 @@ nav ul li {
     background: #262626;
 }
 .sub-menu li:hover {
-    border-bottom: 2px solid #f08217;
+    border-bottom: 2px solid #FA9F2E;
     background: #FF9900;
 }
 .sub-menu li a:hover {
@@ -1113,4 +1117,167 @@ nav ul li {
 .line span {
     font-size: 22px;
     line-height: 1;
+}
+.title-block h1 font {
+    text-transform: lowercase;
+}
+.support {
+    color: #626262;
+    padding: 20px 0;
+    background: #fff;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+.support ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.support ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.support ul li span {
+    display: block;
+    font-size: 24px;
+}
+.support ul li span b {
+    display: block;
+    color: #FA9F2E;
+    font-weight: normal;
+}
+.question-box {
+    background: #fff;
+    padding: 55px 0;
+    min-height: 192px
+}
+.col-4 {
+    width: 29.33333333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+span.bg_text {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-size: 170px;
+    line-height: 80px;
+    color: #9b9b9b;
+    opacity: 0.3;
+    font-weight: bold;
+}
+.text-info {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #000;
+    font-size: 25px;
+    line-height: 24px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 18px;
+    display: block;
+    font-weight: 100;
+}
+.invest_list h3 {
+    min-height: 49px;
+}
+.col-6 {
+    width: 46.33333333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.mac-block {
+    background: #fff;
+    padding: 55px 0;
+    min-height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+.mac-block img {
+    width: 100%;
+}
+.mac-info {
+    color: #000;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 100;
+}
+.list-number {
+    counter-reset: heading;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.list-item {
+    position: relative;
+    color: #000;
+    width: 46.33333333%;
+    display: inline-block;
+    position: relative;
+    min-height: 200px;
+    margin-right: 15px;
+    margin-left: 15px;
+    vertical-align: top;
+    text-align: left;
+}
+.list-item:before {
+    position: absolute;
+    counter-increment: heading; 
+    content: ""counter(heading); 
+    font-size: 120px;
+    line-height: 65px; 
+    top: -5px;
+    left: 0;
+    font-weight: bold;
+}
+.list-box {
+    background: #fff;
+    padding: 55px 0;
+    min-height: 100px
+}
+.item-box {
+    padding-left: 60px;
+}
+.list-title {
+    font-size: 33px;
+    line-height: 1;
+    position: relative;
+    vertical-align: baseline;
+    padding-bottom: 16px;
+    min-height: 70px;
+}
+.list-title:before {
+    content: "";
+    border-bottom: 1px solid #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 1px;
+}
+.list-info {
+    font-size: 20px;
+    margin-top: 16px;
+}
+.font-lighter {
+    font-weight: lighter;
+}
+.list-title span {
+    font-size: 14px;
+    display: inline-block;
+    width: 245px
+}
+.question-box-title, .list-box-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
 }
