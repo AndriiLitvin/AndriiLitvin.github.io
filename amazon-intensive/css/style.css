@@ -282,7 +282,7 @@ input.btn-reg {
   color: #e9a716;
   font: 300 51px / 75px PFDinDisplayPro;
   text-transform: uppercase;
-  padding-left: 80px;
+  /*padding-left: 80px;*/
   margin-top: 0;
 }
 .form-title font {
@@ -294,7 +294,7 @@ input.btn-reg {
   color: #ffffff;
   font: 300 18px PFDinDisplayPro;
   text-transform: uppercase;
-  padding-left: 80px;
+  /*padding-left: 80px;*/
   width: 81%;
 }
 
@@ -345,6 +345,9 @@ input.btn-reg {
   margin-top: 46px;
   margin-left: 65px;
   width: 460px;
+  display: inline-block;
+  /*width: 63%;*/
+  text-align: left;
 }
 
 .program-item {
@@ -492,4 +495,11 @@ input.btn-reg {
 
 .footer-logo {
   text-align: center;
+}
+.wf2-embedded {
+  margin-right: auto;
+  margin-left: auto;
+}
+form {
+  border: 0 !important;
 }
