@@ -283,7 +283,7 @@ input.btn-reg {
   font: 300 51px / 75px PFDinDisplayPro;
   text-transform: uppercase;
   /*padding-left: 80px;*/
-  margin-top: 0;
+  margin: 75px 0 0;
 }
 .form-title font {
   font: 300 100px / 84px PFDinDisplayPro;
@@ -292,7 +292,7 @@ input.btn-reg {
 
 .form-info {
   color: #ffffff;
-  font: 300 18px PFDinDisplayPro;
+  font: 300 17px PFDinDisplayPro;
   text-transform: uppercase;
   /*padding-left: 80px;*/
   width: 81%;
@@ -311,18 +311,18 @@ input.btn-reg {
   background: transparent;
 }
 
-.btn-arr {
+.reg-arr {
   position: relative;
   display: inline-block;
 }
-.btn-arr:before {
+.reg-arr:before {
   content: "";
   background: url(images/arr.png) no-repeat;
   height: 28px;
   width: 145px;
   position: absolute;
-  left: -165px;
-  top: 30px;
+  right: -100px;
+  bottom: -35px;
 }
 
 .program {

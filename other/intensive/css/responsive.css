@@ -38,7 +38,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .btn-arr:before {
+    .reg-arr:before {
         display: none;
     }
     .program-list {
@@ -99,7 +99,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .btn-arr:before {
+    .reg-arr:before {
         display: none;
     }
     .program-list {
