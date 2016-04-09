@@ -145,7 +145,7 @@ input.btn-reg {
 }
 
 .what-amazon {
-  padding: 141px 0 179px;
+  padding: 40px 0;
   background: -webkit-linear-gradient(-45deg, #ffffff 0%, #ffffff 100%);
   background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 100%);
   background: -o-linear-gradient(-45deg, #ffffff 0%, #ffffff 100%);
@@ -166,7 +166,7 @@ input.btn-reg {
 .advantage {
   background: url(images/advans.png) no-repeat;
   background-size: cover;
-  padding: 83px 0 31px;
+  padding: 30px 0 0px;
 }
 
 .advantage-title {
@@ -186,7 +186,7 @@ input.btn-reg {
   width: 395px;
   display: inline-block;
   margin-right: 118px;
-  margin-top: 70px;
+  margin-top: 20px;
   vertical-align: top;
   text-align: left;
 }
@@ -224,14 +224,14 @@ input.btn-reg {
 }
 
 .earn {
-  padding: 93px 0 0;
+  padding: 30px 0 0;
   background: #fff;
 }
 
 .earn-title {
   color: #101010;
   font: 300 36px PFDinDisplayPro;
-  margin-bottom: 93px;
+  margin-bottom: 40px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -326,7 +326,7 @@ input.btn-reg {
 }
 
 .program {
-  padding: 139px 0 97px;
+  padding: 40px 0;
 }
 
 .program-title {
@@ -377,7 +377,7 @@ input.btn-reg {
 .intensive-info {
   background: url(images/intro3.png) no-repeat;
   background-size: cover;
-  padding: 148px 0;
+  padding: 40px 0;
 }
 
 .intensive-info-title {
@@ -385,7 +385,7 @@ input.btn-reg {
   color: #ffffff;
   font: 300 36px PFDinDisplayPro;
   text-transform: uppercase;
-  margin-bottom: 183px;
+  margin-bottom: 40px;
 }
 
 .intensive-info-img {
@@ -415,11 +415,11 @@ input.btn-reg {
   color: #101010;
   font: 300 36px PFDinDisplayPro;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .speakers {
-  padding: 83px 0 190px;
+  padding: 40px 0 50px;
 }
 
 .padd-left62 {
@@ -476,11 +476,11 @@ input.btn-reg {
 .footer {
   background: url(images/intro4.png) no-repeat;
   background-size: cover;
-  padding: 259px 0 33px;
+  padding: 40px 0 33px;
 }
 
-.mar-top186 {
-  margin-top: 186px;
+.mar-top60 {
+  margin-top: 60px;
 }
 
 .footer-info {
