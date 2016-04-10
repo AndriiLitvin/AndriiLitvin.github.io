@@ -566,6 +566,9 @@ top: 180px;
   text-transform: uppercase;
   margin-bottom: 78px;
 }
+.slide-block-info font {
+  color: #43bd8e;
+}
 
 .caption-title {
   color: #ffffff;
@@ -713,4 +716,127 @@ top: 180px;
 
 .mar-top128 {
   margin-top: 128px;
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .head-title h1 {
+    font: 400 107px / 54px MullerThin;
+  }
+  .fade-my {
+    top: 231px;
+  }
+  .head-title h2 {
+    font: 63px / 72px HelveticaNeueCyr;
+  }
+  .head-info {
+    width: 100%;
+  }
+  .digital-title {
+    width: 100%;
+  }
+  .order_work-block {
+    width: 100%;
+  }
+  .col-3 {
+    width: 50%;
+    min-height: 400px;
+  }
+  .work-title {
+    width: 100%;
+  }
+  .work-img {
+    display: none;
+  }
+  .title1:before, .title2:before, .title1:after, .title2:after, .slide-title {
+    display: none;
+  }
+  .title1, .title2 {
+    margin-top: 0;
+  }
+  .more_btn {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  .mar-top128 {
+    margin-top: 0;
+  }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .head-title h2 {
+    margin-left: 0;
+    width: 100%;
+    font: 30px / 33px HelveticaNeueCyr;
+    margin-top: 76px;
+  }
+  .head-title h1 {
+    font: 400 39px / 54px MullerThin;
+  }
+  .head-info {
+    padding: 0px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .head-img {
+    margin: 0;
+    width: 100%;
+  }
+  .digital-title {
+    width: 100%;
+  }
+  .digital-user {
+    float: none;
+  }
+  .order_work-title {
+    width: 100%;
+  }
+  .order_work-block {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+    margin-bottom: 20px;
+    min-height:430px;
+  }
+  .work-title {
+    font: 32px / 1 HelveticaNeueCyr;
+    width: 100%;
+  }
+  .work {
+    display: none;
+  }
+  .slide-title {
+    display: none;
+  }
+  .content {
+    width: 320px;
+  }
+  .btn-slide {
+    opacity: 0;
+  }
+  .slide-block-title {
+    font: 47px / 1 HelveticaNeueCyr;
+  }
+  .digital-user, .hexagon {
+    width: 100%;
+    display: inline-block;
+  }
+  .digital {
+    text-align: center;
+  }
+  .mar-top128 {
+    margin-top: 0;
+  }
+  .arr-info, .arr:hover .arr-info {
+    display: none;
+  }
 }
