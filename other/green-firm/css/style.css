@@ -198,7 +198,7 @@
 
 .digital {
   position: relative;
-  padding-top: 180px;
+  padding-top: 65px;
   background-color: #43bd8e;
 }
 /*.digital:after {
@@ -236,7 +236,9 @@
   color: #43bd8e;
   font: 60px / 48px HelveticaNeueCyr;
 }
-
+.order_work {
+  padding: 60px 0 0;
+}
 .order_work-block {
   width: 985px;
   margin-left: auto;
