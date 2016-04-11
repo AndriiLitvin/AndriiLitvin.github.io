@@ -33,7 +33,8 @@
 }
 
 .head-logo img {
-  width: 97px;
+  /*width: 97px;*/
+  width: 197px;
 }
 
 .head-title h1 {
@@ -47,17 +48,15 @@
 .head-title h2 {
   color: #000000;
   font: 77px / 72px HelveticaNeueCyr;
-  /*font: 100px / 72px HelveticaNeueCyr;*/
-  /*margin-left: 57px;*/
-  margin-top: 190px;
+  margin-top: 154px;
   text-transform: uppercase;
-  /*width: 68%;*/
   width: 77%;
   position: relative;
   z-index: 2;
 }
 .head-title h2 font {
   color: #43bd8e;
+  margin-left: -5px;
 }
 
 .head-title {
@@ -68,6 +67,15 @@
   width: 25%;
   position: relative;
   min-height: 520px; 
+}
+.col-3:hover {
+  -webkit-transform: scale(1.1,1.1);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 550ms;
+  -moz-transform: scale(1.1,1.1);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 550ms; 
+  z-index: 5;
 }
 .col-6 {
   float: left;
@@ -104,7 +112,7 @@
   color: #000000;
   font: 300 24px / 1 HelveticaNeueCyr-Light;
   width: 536px;
-  padding-top: 45px;  
+  padding-top: 12px;  
 }
 .head-info font {
   text-transform: uppercase;
@@ -231,6 +239,7 @@
   color: #000000;
   font: 60px / 48px HelveticaNeueCyr;
   width: 611px;
+  margin-bottom: 52px;
 }
 .order_work-title font {
   color: #43bd8e;
@@ -257,6 +266,7 @@
   color: #000000;
   font: 24px / 24px HelveticaNeueCyr-Light;
   text-transform: uppercase;
+  min-height: 100px;
 }
 
 .order_work-info {
@@ -294,11 +304,12 @@
   position: absolute;
   width: 99%;
   bottom: 25px;
-  left: 1px;
+  left: 41px;
   display: inline-block;
-  height: 37px;
+  width: 162px;
   padding: 0;
-  line-height: 3;
+  line-height: 1;
+  padding: 14px 10px;
 }
 .col-3:hover {
   background-color: #43bd8e;
@@ -309,7 +320,7 @@
   color: #000000;
   font: 14px / 1.5 HelveticaNeueCyr-Light;
   position: absolute;
-  bottom: -108px;
+  bottom: -87px;
   left: 190px;
   width: 276px;
 }
@@ -342,7 +353,7 @@
   height: 33px;
   width: 168px;
   display: block;
-  border: 3px solid #43bd8e;
+  border: 3px solid #fff;
   margin-bottom: 13px;
   text-align: center;
   margin-left: auto;
@@ -351,13 +362,13 @@
   transition:all 0.3s ease;
 }
 .more_btn:hover {
-  color: #43bd8e;
+  color: #fff;
   border-color: #000000;
 }
 
 
 .work-info-title {
-  color: #43bd8e;
+  color: #fff;
   font: 700 24px / 24px HelveticaNeueCyr;
   float: left;
   text-align: left;
@@ -378,8 +389,8 @@
 }
 .title2:before {
   content: "";
-  border-left: 2px solid #43bd8e;
-  border-top: 2px solid #43bd8e;
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
   width: 54px;
   height: 5px;
   position: absolute;
@@ -388,8 +399,8 @@
 }
 .title2:after {
   content: "";
-  border-right: 2px solid #43bd8e;
-  border-bottom: 2px solid #43bd8e;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   width: 203px;
   height: 95px;
   position: absolute;
@@ -404,8 +415,8 @@
 }
 .title1:before {
   content: "";
-  border-left: 2px solid #43bd8e;
-  border-top: 2px solid #43bd8e;
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
   width: 128px;
   height: 4px;
   position: absolute;
@@ -414,8 +425,8 @@
 }
 .title1:after {
   content: "";
-  border-right: 2px solid #43bd8e;
-  border-top: 2px solid #43bd8e;
+  border-right: 2px solid #fff;
+  border-top: 2px solid #fff;
   width: 259px;
   height: 79px;
   position: absolute;
@@ -431,6 +442,8 @@
 .work {
   margin-top: 135px;
   text-align: center;
+  background: #43bd8e;
+  padding: 40px 0;
 }
 
 .work-title {
@@ -587,7 +600,7 @@
   color: #000000;
   font: 300 24px / 60px HelveticaNeueCyr-Light;
   text-transform: uppercase;
-  margin-bottom: 78px;
+  margin-bottom: 50px;
 }
 .slide-block-info font {
   color: #43bd8e;
@@ -926,4 +939,42 @@ img {
 .reviews-img {
   width: 225px;
   margin: 0 auto;
+}
+
+.thanks-img {
+  margin-left: 56px;
+}
+
+.thanks-title {
+  margin-top: 125px;
+  color: #000000;
+  font: 300 50px HelveticaNeueCyr-Light;
+}
+.thanks-title font {
+  color: #43bd8e;
+}
+.thanks-title span {
+  display: block;
+  color: #000000;
+  font: 300 23.95px HelveticaNeueCyr-Light;
+}
+
+.thanks-btn {
+  color: #fefefe;
+  font: 300 46.95px HelveticaNeueCyr-Light;
+  background-color: #43bd8e;
+  text-transform: uppercase;
+  padding: 17px 35px;
+  border: 1px solid #43bd8e;
+  cursor: pointer;
+}
+.thanks-btn:hover {
+  color: #43bd8e;
+  font: 300 46.95px HelveticaNeueCyr-Light;
+  background-color: #fefefe;
+  text-decoration: none;
+}
+
+.thanks-box {
+  padding: 60px 0;
 }

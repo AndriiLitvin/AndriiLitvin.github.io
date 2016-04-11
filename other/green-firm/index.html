@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GREEN</title>
+    <title>GREEN FIRM</title>
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
@@ -14,9 +14,19 @@
     <link rel="stylesheet" href="css/responsive.css">
   </head>
   <body class="wrapper">
+   <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76210477-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     <header class="head">
       <div class="container">
-        <div class="head-logo"><img src="images/logo.png" alt="Logo"></div>
+        <div class="head-logo"><img src="images/logo1.png" alt="Logo"></div>
         <hgroup class="head-title" id="header">
         <h1 class="fade-my">Strategic</h1>
         <h1 class="fade-my">creative</h1>
@@ -25,7 +35,7 @@
         </hgroup>
         <div class="row">
           <div class="col-6">
-            <p class="head-info">Ныряем в полезный бизнес с аквалангом и выстраиваем продажи через доверительный  диалог в интернете</p>
+            <p class="head-info">Лаборатория digital маркетинга. Готовые комплексные предложения для экологичного бизнеса</p>
           </div>
           <div class="col-6">
             <img class="head-img" src="images/img-1.png" alt="">
@@ -58,7 +68,7 @@
         <div class="order_work-block">
           <div class="col-3 arr">
             <h3 class="order_work-small">ЭКСПРЕСС аудит</h3>
-            <p class="order_work-info white">Через PR, рекламу, блоги и социальные сети поможем  зацепить Вашу аудиторию и  выстроить с ней  доверительные отношения</p>
+            <p class="order_work-info white">Получите максимум  советов по улучшению онлайн кампании для Вашего бизнеса, которые можно внедрить в течении 2-3 рабочих дней. Расписываем все пошагово.</p>
             <a class="btn-order order_work-btn" data-toggle="modal" data-target="#myModal1">ЗАБРОНИРОВАТЬ АУДИТ</a>
             <div class="arr-info">
               Ресурсы команды GREEN позволяют сделать только 2 аудита. запишитесь в очередь на собеседование
@@ -72,8 +82,9 @@
           </div>
           <div class="col-3 ">
             <h3 class="order_work-small ">КОНТЕНТ-МАРКЕТИНГ</h3>
-            <p class="order_work-info white">Получите максимум  советов по улучшению онлайн кампании для Вашего бизнеса, которые можно внедрить в течении 2-3 рабочих дней. Расписываем все пошагово.</p>
-            <p class="order_work-info white"><font class="white">BONUS: </font> -Разработка линейки продуктов<br> -Разработка вариативных сценариев поведения и коммуникаций внутри воронки продаж.  (email-маркетинг, социальные сети, поисковые системы)</p>
+             <p class="order_work-info white">Через PR, рекламу, блоги и социальные сети поможем  зацепить Вашу аудиторию и  выстроить с ней  доверительные отношения</p>
+           
+            
             <a class="btn-order order_work-btn " data-toggle="modal" data-target="#myModal1">КОНТЕНТ СТРАТЕГИЯ БЕСПЛАТНО</a>
           </div>
           
@@ -127,15 +138,6 @@
               <a class="caption-btn" data-toggle="modal" data-target="#myModal1">подробнее</a>
             </div>
           </div>
-          <!-- <div class="effect eff-9-2">
-            <img src="images/photo3.png" alt="Effect " />
-            <div class="overlay overlay-1"></div>
-            <div class="overlay overlay-2"></div>
-            <div class="caption">
-             <h4 class="caption-title display-block">bitlex</h4>
-              <a class="caption-btn" data-toggle="modal" data-target="#myModal1">подробнее</a>
-            </div>
-          </div> -->
         </div>
         <div id="btn-slide1"  class="btn-slide"><img src="css/images/noun_89817_cc.png" alt=""></div>
       </div>
@@ -153,7 +155,7 @@
             <div class="caption">
               <h4 class="caption-title display-block">Школа воздушных операторов</h4>
               <h5 class="caption-info"></h5>
-              <a class="caption-btn" data-toggle="modal" data-target="#myModal1">подробнее</a>
+              <a class="caption-btn" data-toggle="modal" data-target="#myModal4">следить</a>
             </div>
           </div>
           <div class="effect eff-9-2">
@@ -236,10 +238,10 @@
       <div class="modal-content">
          <div class="head-modal bold">ДЛЯ НАЧАЛА ПОЛУЧИТЕ БЕСПЛАТНЫЙ DIGITAL СОВЕТ ОТ НАС</div>
         <p>Найдем и <b>посоветуем минимум 5 улучшений</b> интернет-продаж, которые можно <b>внедрить в течении 48 часов</b>.   Ответьте на 10 вопросов и  мы вышлем советы в течении 24 часов</p>
-        <form class="form" action="/">
+        <form class="form" action="/registration.php" method="post">
           <input class="input-text" type="text" name="name" placeholder="Имя" required="true">
           <input class="input-text" type="mail" name="email" placeholder="E-mail" required="true">
-          <input class="input-text" type="phone" name="phone" placeholder="Телефон" required="true">
+          <input id="phone" class="input-text" type="phone" name="phone" placeholder="Телефон" required="true">
           <input class="input-btn" type="submit" value="далее">
         </form>
       </div>
@@ -277,16 +279,47 @@
       <div class="modal-content">
         <div class="head-modal">КАК СЛЕДИТЬ ЗА ПРОЕКТОМ</div>
         <p>С открытыми обьятиями встречаем всех, кому интересны наши проекты. Поговорить о них можем при личной беседе,  или мы просто будем сообщать о них в формате советов и наблюдений через e-mail рассылки</p>
-        <form class="form" action="/">
+        <form class="form" action="/registration.php" method="post">
           <input class="input-text" type="text" name="name" placeholder="Имя" required="true">
           <input class="input-text" type="mail" name="email" placeholder="E-mail" required="true">
-          <input class="input-text" type="phone" name="phone" placeholder="Телефон" required="true">
+          <input id="phone1" class="input-text phone" type="phone" name="phone" placeholder="Телефон" required="true">
           <input class="input-btn" type="submit" value="далее">
         </form>
       </div>
     </div>
   </div>
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter36707155 = new Ya.Metrika({
+                    id:36707155,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/36707155" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
   <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/inputmask.js"></script>
+  <script type="text/javascript" src="js/jquery.inputmask.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
   <script src="js/nicescroll.js"></script><!-- jquery nice scroll  -->
   <script src="js/bootstrap.min.js"></script>

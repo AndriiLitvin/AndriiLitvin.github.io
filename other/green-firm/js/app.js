@@ -67,10 +67,10 @@
     };
 
     
-    // $('.head-title h1').addClass("hidden_animation").viewportChecker({
-    //     classToAdd: 'visible animated bounceInDown', // Class to add to the elements when they are visible
-    //     offset: 100    
-    // });
+    $('.thanks-img').addClass("hidden_animation").viewportChecker({
+        classToAdd: 'visible animated bounceInRight', // Class to add to the elements when they are visible
+        offset: 100    
+    });
     $('.head-title h2').addClass("hidden_animation").viewportChecker({
         classToAdd: 'visible animated slide1InRight', // Class to add to the elements when they are visible
         offset: 100    
@@ -123,5 +123,6 @@ $('#btn-slide2').click(function() {
     $( '#slider2 .content' ).append( $( '#slider2 .content div.effect' ).first().clone() );
     $( '#slider2 .content div.effect ' ).first().remove();
 });
-
+  $("#phone").inputmask("+38(999)999-99-99");
+  $("#phone1").inputmask("+38(999)999-99-99");
 })(jQuery);
