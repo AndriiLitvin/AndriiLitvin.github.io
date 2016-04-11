@@ -991,7 +991,8 @@ img {
 }
 .footer {
   background: #43bd8e;
-  padding: 40px 0;
+  padding: 40px 0 10px;
+  border: 0;
 }
 .adress_block h4, .subscription h4, .contact_block h4 {
   color: #fff;
@@ -1017,10 +1018,11 @@ img {
   background: #fff;
   margin-top: 20px;
   margin-right: auto;
-  padding: 10px 42px 5px;
+  padding: 10px 31px 5px;
   color: #43bd8e;
   margin-bottom: 15px;
   border: 1px solid #fff;
+  text-transform: uppercase;
 }
 .subscription_btn:hover {
   background: transparent;
@@ -1038,4 +1040,14 @@ img {
 }
 input:focus {
   outline: none;
+}
+.subscription-item::-webkit-input-placeholder {color:#fff;}
+.subscription-item::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+.subscription-item:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+.subscription-item:-ms-input-placeholder      {color:#fff;}
+.copywrite {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 250px;
 }
