@@ -14,7 +14,7 @@
 }
 ::-webkit-scrollbar-track{
   border-width: 1px;
-  background-color: #e;
+  background-color: #eee;
   border-color: #fff;
 }
 ::-webkit-scrollbar-track:hover{
@@ -112,9 +112,10 @@
   color: #000000;
   font: 300 24px / 1 HelveticaNeueCyr-Light;
   width: 536px;
-  padding-top: 12px;  
+  padding-top: 75px;  
 }
 .head-info font {
+  font-family: HelveticaNeueCyr;
   text-transform: uppercase;
 }
 
@@ -984,4 +985,57 @@ img {
 
 .thanks-box {
   padding: 60px 0;
+}
+.online {
+  padding: 0 0 40px;
+}
+.footer {
+  background: #43bd8e;
+  padding: 40px 0;
+}
+.adress_block h4, .subscription h4, .contact_block h4 {
+  color: #fff;
+  font: 400 24px / 1 HelveticaNeueCyr;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.adress_block span, .contact_block a {
+  color: #fff;
+  font: 400 20px / 1.5 HelveticaNeueCyr;
+  display: block;
+}
+.subscription-item {
+  border: 0;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.subscription_btn {
+  display: block;
+  border: 0;
+  background: #fff;
+  margin-top: 20px;
+  margin-right: auto;
+  padding: 10px 42px 5px;
+  color: #43bd8e;
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+}
+.subscription_btn:hover {
+  background: transparent;
+  color: #fff;
+}
+.social a {
+  display: inline-block;
+  width: 33px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+.social a:hover {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+input:focus {
+  outline: none;
 }
