@@ -88,8 +88,22 @@
          };
          $('.fade-my').fade_img();
     };
+
+    function fadeMy1() {
+        $.fn.fade_img = function (ops) {
+          var $elem = this;
+          var res = $.extend({ delay: 4900, speed: 5000 }, ops);
+          for (var i=0, pause=0, l=$elem.length; i<l; i++, pause+=res.delay) {
+           $elem.eq(i).delay(pause).fadeIn(res.speed).fadeOut();
+          }
+          return $elem;
+         };
+         $('.fade-my1').fade_img();
+    };
     fadeMy();
     setInterval(fadeMy, 15700);
+    fadeMy1();
+    setInterval(fadeMy1, 10700);
 
     $('#btn_modal1').click(function() {
          $('#myModal2').modal('hide');
