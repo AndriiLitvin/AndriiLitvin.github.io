@@ -307,9 +307,13 @@
   left: 41px;
   display: inline-block;
   width: 162px;
+  height: 53px;
   padding: 0;
   line-height: 1;
   padding: 14px 10px;
+}
+.padd-top20 {
+  padding-top: 20px;
 }
 .col-3:hover {
   background-color: #43bd8e;
@@ -612,7 +616,8 @@
   text-transform: uppercase;
   border-bottom: 1px solid #fff;
   display: inline-block;
-  margin-top: 75px;
+  margin-top: 42px;
+  width: 90%;
 }
 .caption-title font {
   color: #ffffff;
@@ -631,6 +636,9 @@
   background: #fff;
   text-transform: uppercase;
   cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  left: 90px;
 }
 .caption-btn font {
   text-transform: lowercase;
@@ -641,8 +649,7 @@
 }
 
 .display-block {
-  border: 0;
-  display: block;
+  display: inline-block;
 }
 
 .slide-block-bottom {
