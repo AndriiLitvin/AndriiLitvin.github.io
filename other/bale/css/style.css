@@ -303,11 +303,11 @@ body {
 .bale-img.fixed {
   position: fixed;
   z-index: 5;
-  left: 82px;
+  left: 100px;
   top: 120px;
 }
 .block-bg2 {
-  background: url(images/bg3.png) no-repeat;
+  background: url(images/1.jpg) no-repeat;
   background-size: cover;
   min-height: 848px;
   padding: 39px;
@@ -331,7 +331,8 @@ body {
 }
 
 .block-bg3 {
-  background: url(images/bg5.png) no-repeat;
+  background: url(images/2.jpg) no-repeat;
+  /*background: url(images/bg5.png) no-repeat;*/
   min-height: 848px;
   background-size: cover;
   padding: 39px;

@@ -73,7 +73,8 @@ function snow() {
 function reset(flake) {
     flake.x = Math.floor(Math.random() * canvas.width);
     flake.y = 0;
-    flake.size = (Math.random() * 3) + 2;
+    flake.size = (Math.random() * 15) + 20;
+    // flake.size = (Math.random() * 3) + 2;
     flake.speed = (Math.random() * 1) + 0.5;
     flake.velY = flake.speed;
     flake.velX = 0;
@@ -84,7 +85,8 @@ function init() {
     for (var i = 0; i < flakeCount; i++) {
         var x = Math.floor(Math.random() * canvas.width),
             y = Math.floor(Math.random() * canvas.height),
-            size = (Math.random() * 10) + 5,
+            size = (Math.random() * 15) + 20,
+            // size = (Math.random() * 10) + 20,
             speed = (Math.random() * 1) + 0.5,
             opacity = (Math.random() * 0.5) + 0.3;
 
