@@ -23,7 +23,7 @@
 }
 
 .wrapper {
-  /*width: 1200px;*/
+  width: 1200px;
   margin: 0 auto;
   font-family: HelveticaNeueCyr;
 }
@@ -688,7 +688,7 @@
 
 .input-text {
   color: #000000;
-  font: 300 16px / 24px HelveticaNeueCyr-Light;
+  font: 300 15px / 24px HelveticaNeueCyr-Light;
   padding: 0px 13px;
   height: 33px;
   width: 224px;
@@ -1050,4 +1050,8 @@ input:focus {
   text-align: center;
   font-size: 12px;
   margin-top: 250px;
+}
+.caption-btn img {
+  width: 55%;
+  height: auto;
 }
