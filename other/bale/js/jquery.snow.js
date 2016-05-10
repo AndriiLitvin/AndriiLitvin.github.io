@@ -10,7 +10,7 @@
 var flakes = [],
     canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d"),
-    flakeCount = 100,
+    flakeCount = 50,
     mX = -100,
     mY = -100
 
@@ -84,7 +84,7 @@ function init() {
     for (var i = 0; i < flakeCount; i++) {
         var x = Math.floor(Math.random() * canvas.width),
             y = Math.floor(Math.random() * canvas.height),
-            size = (Math.random() * 10) + 5,
+            size = (Math.random() * 100) + 5,
             speed = (Math.random() * 1) + 0.5,
             opacity = (Math.random() * 0.5) + 0.3;
 
