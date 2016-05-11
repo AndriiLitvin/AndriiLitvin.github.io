@@ -43,11 +43,19 @@ body {
   }
 }
 .wrapper {
-  max-width: 1356px;
+  max-width: 1900px;
   margin: 0 auto;
   width: 100%;
-  width: 1200px;
+  /*width: 1200px;*/
  position: relative;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+}
+.min-height {
+  min-height: 848px;
 }
 .wrapper:before {
   display: table;
@@ -92,6 +100,7 @@ body {
   background: url(images/arr-down.png) no-repeat;
   height: 172px;
   width: 82px;
+  /*left: 187px;*/
   left: 40px;
   bottom: 40px;
   cursor: pointer;
@@ -305,6 +314,11 @@ body {
   z-index: 5;
   left: 100px;
   top: 120px;
+  top: 50%;
+  left: 50%;
+  width: 880px;
+  height: 422px;
+  margin: -211px 0 0 -440px;
 }
 .block-bg2 {
   background: url(images/1.jpg) no-repeat;
