@@ -7,16 +7,29 @@
 })();
 
 
+
 var flakes = [],
     canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d"),
-    flakeCount = 100,
+    flakeCount = 20,
     mX = -100,
     mY = -100
 
-    canvas.width = window.innerWidth;
+canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
+function random(from, to) {
+  return Math.floor((Math.random() * to) + from); 
+}
+
+var images = $('img.straw');
+var imagesCount = images.length;
+var straw = [];
+
+for (var i = 0; i < flakeCount; i++) {
+    straw.push(random(0,imagesCount));
+    console.log(straw);
+}
 function snow() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -65,7 +78,8 @@ function snow() {
         //ctx.beginPath();
         //ctx.arc(flake.x, flake.y, flake.size, 0, Math.PI * 2);
         //ctx.fill();
-        ctx.drawImage(document.getElementById("img"), flake.x, flake.y, flake.size, flake.size);
+        // ctx.drawImage(document.getElementById("img"), flake.x, flake.y, flake.size, flake.size);
+        ctx.drawImage(images[straw[i]], flake.x, flake.y, flake.size, flake.size);
     }
     requestAnimationFrame(snow);
 };

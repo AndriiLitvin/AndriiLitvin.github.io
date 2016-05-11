@@ -49,11 +49,11 @@ body {
   /*width: 1200px;*/
  position: relative;
 }
-.container {
+/* .container {
   margin: 0 auto;
   width: 1200px;
   position: relative;
-}
+} */
 .min-height {
   min-height: 848px;
 }
@@ -72,6 +72,7 @@ body {
   position: relative;
   min-height: 848px;
   padding: 41px 34px;
+  z-index: 5;
 }
 
 .head-logo {
@@ -127,6 +128,7 @@ body {
   min-height: 850px;
   padding: 46px 39px;
   position: relative;
+  z-index: 5;
 } 
 .block1-title {
   color: #333333;
@@ -303,10 +305,8 @@ body {
   z-index: 2;
   background: transparent;
 }
-#img {
+.straw {
   display: none;
-  z-index: 3;
-  position: relative;
 }
 
 .bale-img.fixed {
@@ -326,6 +326,7 @@ body {
   min-height: 848px;
   padding: 39px;
   position: relative;
+  z-index: 5
 }
 
 .bg-yellow {
@@ -351,6 +352,7 @@ body {
   background-size: cover;
   padding: 39px;
   position: relative;
+  z-index: 5
 }
 
 .arr-down_small.grey {
@@ -462,6 +464,7 @@ body {
   min-height: 849px;
   padding: 44px;
   position: relative;
+  z-index: 5;
 }
 
 .block5-title {
