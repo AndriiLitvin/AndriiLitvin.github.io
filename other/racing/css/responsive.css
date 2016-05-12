@@ -271,4 +271,20 @@
   .participants {
     padding-bottom: 0;
   }
+  .programs-title {
+    margin-bottom: 5px;
+  }
+  .mar-top143 {
+    margin-top: 20px;
+  }
+  .box-small-name {
+    margin-top: 0;
+  }
+  .logo5:before {
+    left: 5%;
+    top: 238px;
+  }
+  .mtxs33 {
+    margin-top: 33px;
+  }
 }
