@@ -474,10 +474,10 @@ body {
   border: 2px solid #e6e6e6;
   border-radius: 100px;
 }
-.input-text::-webkit-input-placeholder {color: #ffffff;font: 400 14px / 30px PFDinTextPro, sans-serif;}
-.input-text::-moz-placeholder          {color: #ffffff;font: 400 14px / 30px PFDinTextPro, sans-serif;}/* Firefox 19+ */
-.input-text:-moz-placeholder           {color: #ffffff;font: 400 14px / 30px PFDinTextPro, sans-serif;}/* Firefox 18- */
-.input-text:-ms-input-placeholder      {color: #ffffff;font: 400 14px / 30px PFDinTextPro, sans-serif;}
+.input-text::-webkit-input-placeholder {color: #ffffff;font: 400 14px / 1 PFDinTextPro, sans-serif;}
+.input-text::-moz-placeholder          {color: #ffffff;font: 400 14px / 1 PFDinTextPro, sans-serif;}/* Firefox 19+ */
+.input-text:-moz-placeholder           {color: #ffffff;font: 400 14px / 1 PFDinTextPro, sans-serif;}/* Firefox 18- */
+.input-text:-ms-input-placeholder      {color: #ffffff;font: 400 14px / 1 PFDinTextPro, sans-serif;}
 *:focus, *:active {
   outline: none;
 }
