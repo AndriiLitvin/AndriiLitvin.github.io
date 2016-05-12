@@ -106,8 +106,8 @@ var waypoint1 = new Waypoint({
   offset: '100%'
 })
 
-  // $("#phone").inputmask("+38(999)999-99-99");
-  // $("#phone1").inputmask("+38(999)999-99-99");
+   // $("#tel").inputmask("+38(999)999-99-99");
+   // $("#tel1").inputmask("+38(999)999-99-99");
 
 
   $('.order-link').click(function(){

@@ -1,0 +1,31 @@
+@media only screen 
+  and (min-device-width: 1500px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .arr-down {
+      left: 109px;
+    }
+    
+}
+@media only screen 
+  and (min-device-width: 1700px) 
+  and (max-device-width: 1900px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .arr-down {
+      left: 200px;
+    }
+    
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  	
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  
+}

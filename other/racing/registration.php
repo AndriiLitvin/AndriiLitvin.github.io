@@ -7,7 +7,7 @@ $message .= "Email: {$_POST['email']} \n";
 $message .= "Телефон: {$_POST['phone']} \n";
 // $message .= "Skype: {$_POST['skype']} \n";
 
-$to = "";
+$to = "sasha@readytorace.ru";
 $headers = "Content-type: text/plain;charset=utf-8"; 
 $subject = "=?UTF-8?B?".base64_encode("Заявка на регистрацию")."?=";
 

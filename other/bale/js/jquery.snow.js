@@ -11,7 +11,7 @@
 var flakes = [],
     canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d"),
-    flakeCount = 20,
+    flakeCount = 40,
     mX = -100,
     mY = -100
 
@@ -28,7 +28,6 @@ var straw = [];
 
 for (var i = 0; i < flakeCount; i++) {
     straw.push(random(0,imagesCount));
-    console.log(straw);
 }
 function snow() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
