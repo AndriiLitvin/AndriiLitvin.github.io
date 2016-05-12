@@ -79,6 +79,9 @@
     .one-user {
       margin: 0;
     }
+    #video-head {
+      width: 100%;
+    }
 }
 
 @media only screen 
@@ -195,5 +198,8 @@
 	}
   .one-user {
       margin: 0;
+    }
+    #video-head {
+      width: 100%;
     }
 }
