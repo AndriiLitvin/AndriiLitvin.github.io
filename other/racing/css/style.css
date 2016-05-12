@@ -464,12 +464,12 @@ body {
 
 .input-text {
   display: block;
-  height: 44px;
+  /*height: 44px;*/
   width: 250px;
   margin-bottom: 5px;
   color: #ffffff;
   font: 400 14px / 1 PFDinTextPro, sans-serif;
-  padding: 0 28px;
+  padding: 10px 28px;
   background: transparent;
   border: 2px solid #e6e6e6;
   border-radius: 100px;
