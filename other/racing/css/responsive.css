@@ -93,7 +93,7 @@
       margin: 0;
     }
 
-    .head video {
+    .head video, #video-head {
       width: 100% !important;
       display: none;
     }
@@ -227,7 +227,7 @@
   .one-user {
       margin: 0;
     }
-     video {
+     video, #video-head {
       width: 100% !important;
       display: none;
     }

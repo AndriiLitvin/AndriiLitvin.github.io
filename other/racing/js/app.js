@@ -108,13 +108,12 @@ $('#reg').on('submit', function (e) {
     }
   })
 });
-$('#video').get(0).muted = true;
 
-    /*function autoPlay (){
+    function autoPlay (){
         var src = $('#video-head').attr('src');
         var src1 = /^[^?]+/.exec(src)[0] + '?rel=0&autoplay=1;controls=0&amp;showinfo=0';
         $('#video-head').attr('src', src1);
     };
-    setInterval(autoPlay, 27000);*/
+    setInterval(autoPlay, 27000);
 
 })(jQuery);
