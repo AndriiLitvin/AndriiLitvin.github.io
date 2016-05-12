@@ -80,7 +80,7 @@
       margin: 0;
     }
     #video-head {
-      width: 100%;
+      width: 100% !important;
     }
 }
 
@@ -200,6 +200,6 @@
       margin: 0;
     }
     #video-head {
-      width: 100%;
+      width: 100% !important;
     }
 }
