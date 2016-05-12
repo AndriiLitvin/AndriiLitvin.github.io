@@ -25,10 +25,15 @@ body {
   border-color: #fff;
 }
 .head {
-  background: url(images/head-bg.png) no-repeat center;
+  /*background: url(images/head-bg.png) no-repeat center;*/
+  background: url(images/head-bg1.png) no-repeat center;
   background-size: cover;
-  padding: 130px 0 400px;
   text-align: center;
+  position: relative;
+}
+.head-box {
+  padding: 130px 0 400px;
+
 }
 
 .head-title {
@@ -87,6 +92,7 @@ body {
 .left110 {
   position: relative;
   left: 110px;
+  z-index: 1;
 }
 
 .command-logo {
@@ -100,7 +106,7 @@ body {
   position: absolute;
   bottom: 27px;
   left: 38%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .participants-img {
@@ -149,7 +155,7 @@ body {
 }
 .box-small-name p {
   color: #000000;
-  font: 400 24px / 72px PFDinDisplayPro;
+  font: 400 24px / 1 PFDinDisplayPro;
 }
 .box-small-name h4 {
   color: #9fcc3b;
@@ -492,4 +498,102 @@ body {
 }
 .visible{
      opacity:1;
+}
+#mainvideo {
+      display: block;
+    margin: 0 auto;
+    width: 109%;
+    height: auto;
+}
+.bg-img1:before, .box-small-img:before {
+  content: "";
+  background: url("../images/8.png") no-repeat;
+  width: 322px;
+  height: 335px;
+  position: absolute;
+  top: -27px;
+  left: -21px;
+  z-index: -1;
+}
+.bg-img1 {
+  position: relative;
+display: inline-block;
+}
+.box-small-img {
+  width: 280px;
+  position: relative;
+}
+.box-small-img img {
+  width: 100%;
+}
+.box-small-img:before {
+  content: "";
+  background: url("../images/8.png") no-repeat;
+  width: 322px;
+  height: 335px;
+  position: absolute;
+  top: -26px;
+  left: -21px;
+  z-index: -1;
+}
+.logo {
+  position: relative;
+}
+.logo:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 36px;
+  z-index: 3;
+}
+.logo1:before {
+  background: url("../images/logo-addinol.jpg") no-repeat;
+  background-size: 100%;
+  width: 200px;
+  height: 38px;
+}
+.logo2:before {
+  background: url("../images/LOGO_AUTOPROFI_EN.png") no-repeat;
+  background-size: 100%;
+  width: 200px;
+  height: 70px;
+}
+.logo3:before {
+  display: none;
+  background-size: 100%;
+  width: 200px;
+  height: 70px;
+  top: 177px;
+}
+.logo4:before {
+  display: none;
+  background-size: 100%;
+  width: 200px;
+  height: 70px;
+  top: 177px;
+}
+.logo5:before {
+  background: url("../images/ajs.png") no-repeat;
+  background-size: 100%;
+  width: 258px;
+  height: 90px;
+  top: 213px;
+}
+.logo6:before {
+  background: url("../images/hclEca6lqUU.png") no-repeat;
+  background-size: 100%;
+  width: 258px;
+  height: 145px;
+  top: 176px;
+  left: 9px;
+}
+.width280 {
+  width: 280px;
+}
+.width280 img {
+  width: 100%;
+}
+.one-user{
+  margin-top: -7px;
+  margin-left: 287px;
 }

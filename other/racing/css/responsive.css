@@ -76,6 +76,9 @@
   	.when-map .gallery img, .programs-img img {
   		width: 100%;
   	}
+    .one-user {
+      margin: 0;
+    }
 }
 
 @media only screen 
@@ -190,4 +193,7 @@
 	.show-item {
 		margin-right: 0;
 	}
+  .one-user {
+      margin: 0;
+    }
 }
