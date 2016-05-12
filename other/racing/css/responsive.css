@@ -291,4 +291,10 @@
   .head-title font {
     height: 32px;
   }
+  .registr-title:before {
+    bottom: -1px;
+  }
+  .registr-title {
+    margin-bottom: 23px;
+  }
 }
