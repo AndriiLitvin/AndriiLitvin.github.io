@@ -20,12 +20,148 @@
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
-  	
+  	#canvas {
+    display: none;
+  }
+  .container {
+    width: 100%;
+  }
+  .bale-img img   {
+    width: 100%;
+  }
+  .bale-img.fixed, .bale-img {
+    width: 440px;
+    height: 220px;
+    margin: -110px 0 0 -220px;
+  }
+  .arr-down {
+    display: none;
+  }
+  .btn-absolute {
+    left: 50%;
+  }
+  .block2-title {
+    width: 100%;
+  }
+  .box-item {
+    float: none;
+    display: block;
+    margin: 0 auto 30px;
+  }
+  .item-border {
+    border: 1px solid #e9e61c;
+  }
+  .block5-title {
+    position: static;
+  }
+  .footer-btn, .footer-name {
+    margin-top: 20px;
+  }
+  .block2-box {
+    display: block;
+    margin: 0 auto 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .block2-box:nth-child(3) {
+    margin-right: auto;
+  }
 }
 
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-  
+  #canvas {
+    display: none;
+  }
+  .hidden_animation {
+    opacity: 1;
+  }
+  .container {
+    width: 100%;
+  }
+  .head-content {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  .head-logo img, .head-logo, .box-img img {
+    width: 100%
+  }
+  .arr-down {
+    display: none;
+  }
+  .pull-right {
+    float: none;
+  }
+  .block1-title {
+    width: 100%;
+    text-align: center !important;
+  }
+  .btn-absolute {
+    position: static;
+  }
+
+  .block2-title, .block4-title {
+      font: 300 28.96px AvantGardeGothicC, Sans-Serif;
+      width: 100%;
+  }
+  .block2-box {
+    width: 100%;
+  }
+  .take {
+    width: 100%;
+    line-height: 1;
+    height: 59px;
+  }
+  .bale-img img, .bale-img.fixed, .bale-img {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .box-item {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  .item-border {
+    border: 1px solid #e9e61c;
+
+  }
+  .box-item:nth-child(1) .take {
+    line-height: 2;
+  }
+  .block5-title {
+    position: static;
+  }
+  .block5-btn {
+    position: static;
+  }
+  .footer {
+    height: auto;
+  }
+  .footer-tel-box, .footer-form {
+    float: none;
+    width: 100%;
+  }
+  .input-text {
+    width: 100%;
+  }
+  .footer-btn {
+    /*height: 52px;*/
+    /*width: 133px;*/
+       margin: 19px auto 0;
+    display: block;
+    padding: 0;
+    font-size: 27px;
+    line-height: 2;
+    float: none;
+  }
+  .footer-name {
+    text-align: center;
+    margin-top: 30px;
+    float: none;
+  }
 }

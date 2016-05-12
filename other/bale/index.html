@@ -123,17 +123,20 @@
      </div>
     </section>
     <footer class="footer">
+     <div class="container">
       <div class="footer-tel-box">
-        <a href="" class="footer-tel"></a>
-        <a href="" class="footer-tel"></a>
-        <a href="" class="footer-tel"></a>
+        <a href="tel: 096 266 16 63" class="footer-tel">096 266 16 63</a>
+        <a href="tel: 093 863 29 24" class="footer-tel">093 863 29 24</a>
+        <a href="tel: 066 397 44 88" class="footer-tel">066 397 44 88</a>
       </div>
       <div class="footer-form">
-        <form class="reg-form" action="">
-          <label for="tel"><span>Телефон:</span> <input id="tel1" class="input-text" type="text"></label>
-            <div class="order-btn reg-btn"><span><input class="input-btn" type="submit" value="ДАЛІ"></span><div class="pentagon"></div><div class="pentagon1"></div></div>
+        <form  method="post" action="registration_tel.php">
+          <label class="pull-right" for="tel"><span>Телефон:</span> <input id="tel1" name="phone" class="input-text-footer input-text" type="text"></label>
+            <div class="order-btn take footer-btn"><span><input class="input-btn" type="submit" value="заказать звонок"></span><div class="pentagon"></div><div class="pentagon1"></div></div>
         </form>
+        <div class="footer-name">ИНН 2853615350 ФОП Демченко О.М.</div>
       </div>
+     </div>
     </footer>
     
     <script src="js/jquery-1.12.3.min.js"></script>
@@ -147,10 +150,10 @@
     <div id="modal_form"><!-- Сaмo oкнo --> 
           <span id="modal_close"></span> <!-- Кнoпкa зaкрыть --> 
           <h3 class="modal_form-title">ЗАЛИШТЕ СВОЇ КОНТАКТИ, МИ СПОВІСТИМО ВАМ  ТОЧНУ ДАТУ ДОСТАВКИ</h3>
-          <form class="reg-form" action="thanks.html">
-            <label for="name"><span>Ім`я:</span> <input id="name" class="input-text" type="text"></label>
-            <label for="tel"><span>Телефон:</span> <input id="tel" class="input-text" type="text"></label>
-            <label for="mail"><span>E-mail:</span> <input id="mail" class="input-text" type="text"></label>
+          <form class="reg-form" method="post" action="registration.php">
+            <label for="name"><span>Ім`я:</span> <input id="name" name="name" class="input-text" type="text"></label>
+            <label for="tel"><span>Телефон:</span> <input id="tel" name="phone" class="input-text" type="text"></label>
+            <label for="mail"><span>E-mail:</span> <input id="mail" name="email" class="input-text" type="text"></label>
             <div class="order-btn reg-btn"><span><input class="input-btn" type="submit" value="ДАЛІ"></span><div class="pentagon"></div><div class="pentagon1"></div></div>
           </form>
     </div>

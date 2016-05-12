@@ -665,7 +665,52 @@ body {
 }
 
 .footer {
-  height: 312px;
+  min-height: 222px;
   padding: 41px;
   background: #e9e61c;
+  z-index: 5;
+  position: relative;
+}
+
+.input-text-footer {
+  border: 1px solid #222222;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 11px;
+}
+
+.footer-tel-box {
+  float: left;
+  width: 50%;
+}
+
+.footer-form {
+  float: left;
+  width: 50%;
+}
+.footer-form form {
+  min-height: 125px;
+}
+
+.footer-tel {
+  color: #4d4d4d;
+  font: 300 20px AvantGardeGothicC;
+  display: block;
+  text-decoration: none;
+  margin: 20px auto;
+  
+}
+
+.footer-btn {
+  display: inline-block;
+  vertical-align: top;
+  margin: 23px auto;
+  float: right;
+}
+
+.footer-name {
+  color: #4d4d4d;
+  font: 300 15.74px AvantGardeGothicC;
+  text-align: right;
+  float: right;
 }
