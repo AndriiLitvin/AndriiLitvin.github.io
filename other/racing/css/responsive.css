@@ -1,7 +1,4 @@
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
   	.participants-block {
   		margin-top: 0;
   	}
@@ -79,15 +76,15 @@
     .one-user {
       margin: 0;
     }
-    #video-head {
-      width: 100% !important;
+     video {
+      /*width: 100% !important;*/
+    }
+    body {
+      overflow-x: hidden; 
     }
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 480px){
    .head-logo  img {
 		width: 100%;
    }
@@ -131,7 +128,7 @@
 		width: 100%;
 	}
 	.participants-box-small {
-		margin-bottom: 30px;
+		margin-bottom: 70px;
 		text-align: center;
 	}
 	.mar-right138 {
@@ -199,7 +196,10 @@
   .one-user {
       margin: 0;
     }
-    #video-head {
+     video head {
       width: 100% !important;
+    }
+        body {
+      overflow-x: hidden; 
     }
 }
