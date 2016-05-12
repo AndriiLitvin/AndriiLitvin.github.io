@@ -142,8 +142,8 @@
    	width: 100%;
    }
    .command-logo:before {
-    bottom: 46%;
-    left: 9%;
+    bottom: 38%;
+    left: -6%;
 	}
 	.participants-box-name h4 {
 		width: 100%;
@@ -159,7 +159,7 @@
 		width: 100%;
 	}
 	.participants-box-small {
-		margin-bottom: 70px;
+		margin-bottom: 30px;
 		text-align: center;
 	}
 	.mar-right138 {
@@ -239,5 +239,36 @@
   }
   .box-small-name {
     margin-top: 33px;
+  }
+  .head-box {
+    padding: 110px 0 256px;
+  }
+  .participants-box-name {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .top-57 {
+    top: 0;
+  }
+  .programs {
+    padding: 185px 0 150px;
+  }
+  .show {
+    padding: 0;
+  }
+  .show-item p {
+    padding-top: 0;
+  }
+  .when {
+    padding: 138px 0;
+  }
+  .show-item:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .sponsor-title {
+    margin-bottom: 10px;
+  }
+  .participants {
+    padding-bottom: 0;
   }
 }
