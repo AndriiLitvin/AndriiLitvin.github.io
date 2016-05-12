@@ -624,3 +624,9 @@ display: inline-block;
   margin-bottom: 71px;
   text-align: center;
 }
+.absolute {
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+  text-align: center;
+}
