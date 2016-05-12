@@ -110,6 +110,9 @@
     background: url(images/head-bg.png) no-repeat;
     min-height: 910px;
   }
+  .head-title {
+    margin-top: -30px;
+  }
 }
 
 @media only screen and (max-width: 480px){
@@ -233,5 +236,8 @@
     }
     .head {
   background: url(images/head-bg.png) no-repeat;
+  }
+  .box-small-name {
+    margin-top: 33px;
   }
 }

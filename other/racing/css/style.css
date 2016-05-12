@@ -101,16 +101,18 @@ body {
 
 .command-logo {
   position: relative;
+  margin-bottom: 30px;
 }
 .command-logo:before {
   content: "";
-  background: url(images/fail_crew.png) no-repeat;
-  height: 70px;
-  width: 246px;
+  background: url(../images/logo/002.png) no-repeat;
+  height: 165px;
+  width: 331px;
   position: absolute;
-  bottom: 27px;
-  left: 38%;
+  bottom: -51px;
+  left: 34%;
   z-index: 2;
+  background-size: 100%;
 }
 
 .participants-img {
@@ -601,4 +603,24 @@ display: inline-block;
 .one-user{
   margin-top: -7px;
   margin-left: 287px;
+}
+.sponsor-img {
+  display: inline-block;
+  width: 250px;
+  margin-right: 22px;
+  margin-top: 20px;
+}
+.sponsor-img img {
+  width: 100%;
+}
+.sponsor {
+  text-align: center;
+  padding: 30px 0;
+}
+.sponsor-title {
+  color: #9fcc3b;
+  font: 900 72px / 72px PFDinDisplayPro;
+  text-transform: uppercase;
+  margin-bottom: 71px;
+  text-align: center;
 }
