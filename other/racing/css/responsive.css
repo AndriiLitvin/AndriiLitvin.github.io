@@ -1,3 +1,19 @@
+@media only screen and (min-width: 1650px){
+  .before {
+    background-position-y: 94%;
+  }
+  .when {
+    padding: 357px 0;
+    background-position-y: 37%;
+  }
+  .programs {
+    padding: 308px 0;
+  }
+  body {
+    overflow-x: hidden; 
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px)  {
   	.participants-block {
   		margin-top: 0;
@@ -76,12 +92,24 @@
     .one-user {
       margin: 0;
     }
-     video {
+
+    .head video {
       width: 100% !important;
+      display: none;
     }
     body {
       overflow-x: hidden; 
     }
+    .head-logo  img {
+    width: 50%;
+   }
+    .box-small-img, .participants-img {
+      margin-bottom: 30px;
+    }
+    .head {
+    background: url(images/head-bg.png) no-repeat;
+    min-height: 910px;
+  }
 }
 
 @media only screen and (max-width: 480px){
@@ -196,10 +224,14 @@
   .one-user {
       margin: 0;
     }
-     video head {
+     video {
       width: 100% !important;
+      display: none;
     }
         body {
       overflow-x: hidden; 
     }
+    .head {
+  background: url(images/head-bg.png) no-repeat;
+  }
 }
