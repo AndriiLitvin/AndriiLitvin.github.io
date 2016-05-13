@@ -124,7 +124,7 @@ body {
      opacity:1;
 }
 .block1 {
-  background: url(images/block1.png) no-repeat center;
+  background: url(images/block1-min.png) no-repeat center;
   background-size: cover;
   min-height: 850px;
   padding: 46px 39px;
