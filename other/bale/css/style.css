@@ -135,12 +135,13 @@ body {
   color: #333333;
   font: 300 35.56px 'AvantGardeGothicC', Sans-Serif;
   margin-top: 255px;
-  width: 445px;
+  /*width: 445px;*/
+  width: 550px;
   float: left;
 }
 .block1-title font {
   font-weight: bold;
-  display: block;
+  /*display: block;*/
 }
 
 .pull-right {
@@ -501,7 +502,7 @@ body {
   bottom: 44px;
 }
 #modal_form {
-  height: 449px;
+  height: 400px;
   width: 638px;
   padding: 40px 28px;
   border-radius: 5px;
@@ -619,7 +620,7 @@ body {
   font-size: 30.48px;
   color: #ffffff;
   font-weight: 300;
-  transform: scale(1.027,1.031);
+  /*transform: scale(1.027,1.031);*/
   margin: 0;
 }
 
@@ -665,7 +666,7 @@ body {
 }
 
 .footer {
-  min-height: 222px;
+  min-height: 270px;
   padding: 41px;
   background: #e9e61c;
   z-index: 5;
@@ -694,7 +695,7 @@ body {
 
 .footer-tel {
   color: #4d4d4d;
-  font: 300 20px AvantGardeGothicC;
+  font: 300 20px AvantGardeGothicC, Sans-Serif;
   display: block;
   text-decoration: none;
   margin: 20px auto;
@@ -710,7 +711,7 @@ body {
 
 .footer-name {
   color: #4d4d4d;
-  font: 300 15.74px AvantGardeGothicC;
+  font: 300 15.74px AvantGardeGothicC, Sans-Serif;
   text-align: right;
   float: right;
 }

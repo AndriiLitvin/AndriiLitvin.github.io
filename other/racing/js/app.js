@@ -91,7 +91,7 @@
     });
 
 
-$('#reg').on('submit', function (e) {
+/*$('#reg').on('submit', function (e) {
   e.preventDefault();
   var $form = $(this);
   $.ajax({
@@ -107,7 +107,7 @@ $('#reg').on('submit', function (e) {
       }
     }
   })
-});
+});*/
 
     function autoPlay (){
         var src = $('#video-head').attr('src');

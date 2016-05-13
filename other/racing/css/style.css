@@ -31,6 +31,15 @@ body {
   text-align: center;
   position: relative;
 }
+.head.thanks {
+  background: url(images/head-bg.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+.head.thanks .head-title {
+ width: 100%;
+}
 .head-box {
   padding: 130px 0 400px;
 
@@ -566,11 +575,11 @@ display: inline-block;
   height: 70px;
 }
 .logo3:before {
-  display: none;
+  background: url("../images/logo/will_logo_ready.png") no-repeat;
   background-size: 100%;
   width: 200px;
   height: 70px;
-  top: 177px;
+  top: 200px;
 }
 .logo4:before {
   display: none;

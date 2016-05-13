@@ -38,7 +38,7 @@
     <section class="block1">
       <div class=" min-height">
         <h2 class="block1-title pull-right text-right mt-0 right"><font>ТЮК СІНА</font> ДОПОМАГАВ ВІДПОЧИТИ <font>100 РОКІВ НАЗАД</font></h2>
-        <h2 class="block1-title left"><font>ПОВІТРЯНИЙ ТЮК</font> ДОПОМАГАЄ ВІДПОЧИТИ <font>В 2016 РОЦІ</font></h2>
+        <h2 class="block1-title left"><font>ПОВІТРЯНИЙ ТЮК</font> ДОПОМАГАЄ ВІДПОЧИТИ <font><br>В 2016 РОЦІ</font></h2>
         <div class="order-btn btn-absolute order-link"><span>ВЗЯТИ ТЮК</span><div class="pentagon"></div><div class="pentagon1"></div></div>
       </div>
     </section>
@@ -67,6 +67,7 @@
        <div class="block-bg2">
          <div class=" min-height">
            <div class="head-content bg-text left">РЕЛАКС В НЕВАГОМОСТІ ПІСЛЯ<br> АКТИВНИХ ЗАНЯТЬ СПОРТОМ<br> АБО АКТИВНОГО<br> ВІДПОЧИНКУ</div>
+           <div class="bale-img"><img src="images/img3.png" alt=""></div>
            <div class="arr-down_small yellow"></div>
          </div>
        </div>
@@ -131,13 +132,42 @@
       </div>
       <div class="footer-form">
         <form  method="post" action="registration_tel.php">
-          <label class="pull-right" for="tel"><span>Телефон:</span> <input id="tel1" name="phone" class="input-text-footer input-text" type="text"></label>
-            <div class="order-btn take footer-btn"><span><input class="input-btn" type="submit" value="заказать звонок"></span><div class="pentagon"></div><div class="pentagon1"></div></div>
+          <label class="pull-right" for="tel"><span>Телефон:</span> <input id="tel1" name="phone" class="input-text-footer input-text" type="text" required></label>
+            <div class="order-btn take footer-btn"><span><input class="input-btn" type="submit" value="ЗАМОВИТИ ДЗВІНОК"></span><div class="pentagon"></div><div class="pentagon1"></div></div>
         </form>
         <div class="footer-name">ИНН 2853615350 ФОП Демченко О.М.</div>
       </div>
      </div>
     </footer>
+        <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter37334105 = new Ya.Metrika({
+                        id:37334105,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/37334105" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/jquery.snow.js"></script>
@@ -151,9 +181,9 @@
           <span id="modal_close"></span> <!-- Кнoпкa зaкрыть --> 
           <h3 class="modal_form-title">ЗАЛИШТЕ СВОЇ КОНТАКТИ, МИ СПОВІСТИМО ВАМ  ТОЧНУ ДАТУ ДОСТАВКИ</h3>
           <form class="reg-form" method="post" action="registration.php">
-            <label for="name"><span>Ім`я:</span> <input id="name" name="name" class="input-text" type="text"></label>
-            <label for="tel"><span>Телефон:</span> <input id="tel" name="phone" class="input-text" type="text"></label>
-            <label for="mail"><span>E-mail:</span> <input id="mail" name="email" class="input-text" type="text"></label>
+            <label for="name"><span>Ім`я:</span> <input id="name" name="name" class="input-text" type="text" required></label>
+            <label for="tel"><span>Телефон:</span> <input id="tel" name="phone" class="input-text" type="text" required></label>
+            <!-- <label for="mail"><span>E-mail:</span> <input id="mail" name="email" class="input-text" type="text"required></label> -->
             <div class="order-btn reg-btn"><span><input class="input-btn" type="submit" value="ДАЛІ"></span><div class="pentagon"></div><div class="pentagon1"></div></div>
           </form>
     </div>
