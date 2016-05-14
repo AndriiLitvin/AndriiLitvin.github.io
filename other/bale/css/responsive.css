@@ -47,15 +47,7 @@
   .item-border {
     border: 1px solid #e9e61c;
   }
-  .block5-title, .block5-title font {
-    position: static;
-    font-size: 17px;
-    color: #000;
-    font-weight: bold;
-  }
-  .block5-title img {
-    margin-top: 0;
-  }
+
   .footer-btn, .footer-name {
     margin-top: 20px;
   }
@@ -94,7 +86,9 @@
     min-height: 600px;
     background-position: center;
   }
-
+  .block5-title {
+    position: static;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -163,9 +157,7 @@
   .box-item:nth-child(1) .take {
     line-height: 2;
   }
-  .block5-title {
-    position: static;
-  }
+  
   .block5-btn {
     position: static;
   }
@@ -263,5 +255,14 @@
   .left-xs20 {
     position: absolute;
     left: 20%;
+  }
+  .block5-title, .block5-title font {
+    position: static;
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+  }
+  .block5-title img {
+    margin-top: 0;
   }
 }
