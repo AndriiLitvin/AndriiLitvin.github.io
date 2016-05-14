@@ -47,8 +47,14 @@
   .item-border {
     border: 1px solid #e9e61c;
   }
-  .block5-title {
+  .block5-title, .block5-title font {
     position: static;
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+  }
+  .block5-title img {
+    margin-top: 0;
   }
   .footer-btn, .footer-name {
     margin-top: 20px;
@@ -138,9 +144,13 @@
   .bale-img img, .bale-img.fixed, .bale-img {
     width: 100%;
     position: relative;
-    top: 83px;
-    left: 37%;
+    top: 26px;
+    left: 2px;
+    margin: 0;
   }
+   .bale-img.fixed, .bale-img {
+      height: 153px;
+   }
   .box-item {
     float: none;
     width: 100%;
@@ -206,12 +216,12 @@
     margin-top: 45px;
   }
   .block-bg1 {
-    min-height: 672px;
+    min-height: 510px;
     background-position: center;
 
   }
   .block-bg2, .block-bg3, .block5 {
-    min-height: 600px;
+    min-height: 520px;
     background-position: center;
   }
   .head-content {
@@ -219,7 +229,39 @@
     border: 4px solid #eee;
     border-radius: 15px;
     background: #f1e510;
+    font-size: 14px;
+    margin-top: 0;
   }
   .bg-text {
+  }
+  .top-9{
+    position: relative;
+    top: -9px;
+  }
+  .take {
+    width: 242px;
+  }
+  .head {
+    min-height: 652px;
+    background-position: center;
+    background-position-x: -428px;
+  }
+  .l-height2-xs {
+    line-height: 2;
+  }
+  .head-logo {
+    height: auto;
+  }
+  .block1 {
+    min-height: 652px;
+    background-position: -29px center;
+  }
+  .block1-title {
+    margin-top: 45px;
+    font-size: 20px;
+  }
+  .left-xs20 {
+    position: absolute;
+    left: 20%;
   }
 }
