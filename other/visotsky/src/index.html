@@ -21,7 +21,6 @@
     <title>Visotsky</title>
     <link type="text/css" rel="stylesheet" href="css/app.css" />
     <link rel="shortcut icon" href="images/favicon.png">
-    <!-- <script type="text/javascript" src="lib/jquery-1.4.js"></script> -->
     
   </head>
   <body>
@@ -30,7 +29,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="head-logo"><img src="images/logo.png" alt=""></div>
-            <div class="head-btn"><a href="" class="regist-btn">Забронировать место</a></div>
+            <div class="head-btn"><a  class="regist-btn">Забронировать место</a></div>
           </div>
         </div>
       </div>
@@ -45,16 +44,28 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <div class="head-icon"><img src="images/analytics.png" alt=""></div>
+          <div class="col-md-4 icon-hover">
+            <div class="head-icon">
+<!--              <img src="images/analytics.png" alt="">-->
+              <div class="analytics-img_1 hover"></div>
+              <div class="analytics-img_2"></div>
+            </div>
             <p class="head-col-info">Новый подход в управлении, о котором боятся говорить в книгах и на бизнес-тренингах</p>
           </div>
-          <div class="col-md-4">
-            <div class="head-icon"><img src="images/presentation.png" alt=""></div>
+          <div class="col-md-4 icon-hover">
+            <div class="head-icon">
+              <!-- <img src="images/presentation.png" alt=""> -->
+              <div class="presentation_1"></div>
+              <div class="presentation_2 hover"></div>
+            </div>
             <p class="head-col-info">Смесь личного опыта спикера и опыта более ХХХХ его учеников</p>
           </div>
-          <div class="col-md-4">
-            <div class="head-icon"><img src="images/growth.png" alt=""></div>
+          <div class="col-md-4 icon-hover">
+            <div class="head-icon">
+              <!-- <img src="images/growth.png" alt=""> -->
+              <div class="growth_1"></div>
+              <div class="growth_2 hover"></div>
+            </div>
             <p class="head-col-info">Работающие стратегии, протестированные более чем на ХХХ бизнесах</p>
           </div>
         </div>
@@ -71,9 +82,9 @@
           </div>
         </div>
       </div>
-      <div class="places">
-        <div class="cursor">Осталось 99 мест</div>
         <div class="cursor-text">Комната онлайн-трансляции рассчитана на 300 человек</div>
+      <div class="places">
+        <div class="cursor">Осталось <span id="lines">0</span> мест</div>
       </div>
     </section>
     <section class="work_business">
@@ -104,20 +115,34 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3">
-            <div class="answer-img"><img src="images/img1.png" alt=""></div>
+          <div class="col-md-3 icon-hover">
+            <div class="answer-img">
+              <!-- <img src="images/img1.png" alt=""> -->
+              <div class="img1_1"></div>
+              <div class="img1_2 hover"></div>
+            </div>
             <p class="answer-info">Что я смогу дать людям, чтобы они хотели идти за мной?</p>
           </div>
-          <div class="col-md-3">
-            <div class="answer-img"><img src="images/img2.png" alt=""></div>
+          <div class="col-md-3 icon-hover">
+            <div class="answer-img">
+<!--              <img src="images/img2.png" alt="">-->
+              <div class="img2_1"></div>
+              <div class="img2_2 hover"></div>
+            </div>
             <p class="answer-info">Хватит ли у меня власти, чтобы создать сильную команду и компанию?</p>
           </div>
-          <div class="col-md-3">
-            <div class="answer-img"><img src="images/img3.png" alt=""></div>
+          <div class="col-md-3 icon-hover">
+            <div class="answer-img">
+<!--              <img src="images/img3.png" alt="">-->
+              <div class="img3_1"></div>
+              <div class="img3_2 hover"></div>
+            </div>
             <p class="answer-info">Как мотивировать людей стоять за меня горой и работать на результат?</p>
           </div>
-          <div class="col-md-3">
-            <div class="answer-img"><img src="images/img4.png" alt=""></div>
+          <div class="col-md-3 icon-hover_4">
+            <div class="answer-img">
+              <img class="hover_4" src="images/img4.png" alt="">
+            </div>
             <p class="answer-info">Смогу ли я стать настоящим лидером своей компании и<br> вывести её в ТОП?</p>
           </div>
         </div>
@@ -135,7 +160,7 @@
             <p class="leader-info">Они больше не слушают глупые “отмазки” сотрудников и могут спокойно уехать отдыхать,<br> не боясь что без них наступит <font>Армагеддон</font>.</p>
             <p class="leader-info"><font>А всё потому, что они поняли простую истину:</font></p>
             <h2 class="leader-title"><font>Успешность бизнеса</font> напрямую зависит от <font>уровня лидерства</font> его владельца!</h2>
-            <a href="" class="registr-btn">Стать управленцем-лидером и создать легендарную компанию</a>
+            <a  class="registr-btn">Стать управленцем-лидером и создать легендарную компанию</a>
           </div>
         </div>
       </div>
@@ -146,21 +171,21 @@
           <div class="col-md-12">
             <h2 class="skills-title">Чему конкретно <font>Вы научитесь</font>, посетив этот онлайн-семинар</h2>
             <ul class="skills-left">
-              <li><font>Как ставить цели перед сотрудниками, чтобы они работали увлеченно и давали результат</font></li>
-              <li>Как развить в себе качества лидера компании</li>
-              <li><font>Научитесь применять техники эффективной мотивации персонала на достижение целей компании</font></li>
-              <li>Поймете как можно усилить свой авторитет, как владельца компании</li>
-              <li><font>6 ключевых функций лидера команды</font></li>
-              <li>Методы самообучения, которые помогут развить ключевые для руководителя качества              </li>
+              <li class="skills-item active"><font>Как ставить цели перед сотрудниками, чтобы они работали увлеченно и давали результат</font></li>
+              <li class="skills-item ">Как развить в себе качества лидера компании</li>
+              <li class="skills-item "><font>Научитесь применять техники эффективной мотивации персонала на достижение целей компании</font></li>
+              <li class="skills-item ">Поймете как можно усилить свой авторитет, как владельца компании</li>
+              <li class="skills-item "><font>6 ключевых функций лидера команды</font></li>
+              <li class="skills-item ">Методы самообучения, которые помогут развить ключевые для руководителя качества              </li>
             </ul>
-            <div class="skills-img"><img src="images/brain-155655_1280.png" alt=""></div>
+            <div class="skills-img"><img  src="images/brain-155655_1280.png" alt=""></div>
             <ul class="skills-right">
-              <li><font>Как быть настоящим лидером и вести свою компанию к победам</font></li>
-              <li>Как пробуждать в людях творческую энергию, чтобы они раскрывали свой потенциал на 100%</li>
-              <li><font>Как на стадии найма вычислять самых мотивированных сотрудников среди сотен других</font></li>
-              <li>Узнаете как на деле, управлять уровнем мотивации человека</li>
-              <li><font>Узнаете, что наносит наибольший вред вашему авторитету в компании</font></li>
-              <li>Сможете выявлять уровень мотивации каждого сотрудника              </li>
+              <li class="skills-item "><font>Как быть настоящим лидером и вести свою компанию к победам</font></li>
+              <li class="skills-item ">Как пробуждать в людях творческую энергию, чтобы они раскрывали свой потенциал на 100%</li>
+              <li class="skills-item "><font>Как на стадии найма вычислять самых мотивированных сотрудников среди сотен других</font></li>
+              <li class="skills-item ">Узнаете как на деле, управлять уровнем мотивации человека</li>
+              <li class="skills-item"><font>Узнаете, что наносит наибольший вред вашему авторитету в компании</font></li>
+              <li class="skills-item">Сможете выявлять уровень мотивации каждого сотрудника              </li>
             </ul>
           </div>
         </div>
@@ -304,7 +329,7 @@
                      </ul>
                    </div>
                  </div>
-                 <div class="text-center"><a href="" class="registr-btn">Хочу еще лучшие результаты!</a></div>
+                 <div class="text-center"><a  class="registr-btn">Хочу еще лучшие результаты!</a></div>
                 </div>
                 <div class="item">
                  <div class="reviews_slider-box">
@@ -341,7 +366,7 @@
                      </ul>
                    </div>
                  </div>
-                 <div class="text-center"><a href="" class="registr-btn">Хочу еще лучшие результаты!</a></div>
+                 <div class="text-center"><a  class="registr-btn">Хочу еще лучшие результаты!</a></div>
                 </div>
                 
               </div>
@@ -367,33 +392,49 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3">
-            <div class="advantages-img"><img src="images/img9.png" alt=""></div>
+          <div class="col-md-3 icon-hover">
+            <div class="advantages-img">
+              <!-- <img src="images/img9.png" alt=""> -->
+              <div class="img9_1"></div>
+              <div class="img9_2 hover"></div>
+            </div>
             <p class="advantages-info">Концентрат опыта управленца ХХ компаний с более ХХХ отрудниками</p>
           </div>
-          <div class="col-md-3">
-            <div class="advantages-img"><img src="images/img7.png" alt=""></div>
+          <div class="col-md-3 icon-hover">
+            <div class="advantages-img">
+              <!-- <img src="images/img7.png" alt=""> -->
+              <div class="img7_1"></div>
+              <div class="img7_2 hover"></div>
+            </div>
             <p class="advantages-info">Реальные примеры из бизнесов более ХХХХ клиентов з ХХ стран мира</p>
           </div>
-          <div class="col-md-3">
-            <div class="advantages-img"><img src="images/img8.png" alt=""></div>
+          <div class="col-md-3 icon-hover">
+            <div class="advantages-img">
+              <!-- <img src="images/img8.png" alt=""> -->
+              <div class="img8_1"></div>
+              <div class="img8_2 hover"></div>
+            </div>
             <p class="advantages-info">Без “воды”<br> и книжной теории</p>
           </div>
-          <div class="col-md-3">
-            <div class="advantages-img"><img src="images/img10.png" alt=""></div>
+          <div class="col-md-3 icon-hover">
+            <div class="advantages-img">
+              <!-- <img src="images/img10.png" alt=""> -->
+              <div class="img10_1"></div>
+              <div class="img10_2 hover"></div>
+            </div>
             <p class="advantages-info">Удобная <br>онлайн-трансляция <br>с любого гаджета и места</p>
           </div>
         </div>
       </div>
     </section>
-    <section id="xray-block">
+    <section id="xray-block" class="text-center">
       <img src="images/xray-img1.png" width="100%" height="740" alt=""/>
-      <img src="images/xray-img2.1.png" width="100%" height="740" alt=""/>
+      <img src="images/xray-img2.1.png" width="1356" height="740" alt=""/>
       <div class="xray-box">
         <div class="container">
           <h2 class="xray-title"><span>Рыба</span> <font>Бизнес гниёт с головы</font>, <br>то есть, с владельца бизнеса. </h2>
           <h2 class="xray-title">Не позволяйте, чтобы это <br>случилось с Вами.</h2>
-          <a href="" class="registr-btn">Стать сильным лидером и управленцем</a>
+          <a  class="registr-btn">Стать сильным лидером и управленцем</a>
           <div class="xray-logo"><img src="images/logo-%D0%BA%D0%BE%D0%BF%D1%96%D1%8F.png" alt=""></div>
         </div>
       </div>

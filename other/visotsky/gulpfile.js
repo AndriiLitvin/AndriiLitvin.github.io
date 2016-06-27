@@ -13,10 +13,10 @@ gulp.task('sass', function() {
     return sass('src/sass/main.scss', { sourcemap: true, style: 'compact' })
         .on('error', sass.logError)
         .pipe(sourcemaps.init({loadMaps: true}))
-        .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
+        // .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
         .pipe(rename('app.css'))
-        .pipe(cleanCSS())
-        .pipe(sourcemaps.write())
+        // .pipe(cleanCSS())
+        // .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/css'));
 });
 
@@ -25,11 +25,11 @@ gulp.task('js', function() {
             // 'src/js/jquery.js',
             'src/js/jquery1.9.1.js',
             'src/js/bootstrap.min.js',
-            'src/js/inputmask.js',
-            'src/js/jquery.inputmask.js',
+            // 'src/js/inputmask.js',
+            // 'src/js/jquery.inputmask.js',
             'src/js/jquery.scrollTo.js',
-            'src/js/jquery.waypoints.min.js',
-            'src/js/jqueryrotate.2.1.js',
+            // 'src/js/jquery.waypoints.min.js',
+            // 'src/js/jqueryrotate.2.1.js',
             'src/js/jquery-ui.js',
             'src/js/xray.min.js',
             'src/js/jquery.animateNumber.min.js',

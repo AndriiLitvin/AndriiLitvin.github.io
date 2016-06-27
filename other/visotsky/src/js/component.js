@@ -48,44 +48,104 @@ $(function(){
             windowHeight = e.currentTarget.innerHeight;
         });
     };
-
-       
      
 
-
-	$("#phone").inputmask("+38(999)999-99-99"); //маска
-	  $('#registration-form').on('submit', function (e) {
-	    $('#registration-btn').addClass('inactive');
-	    $('#registration-btn').prop('disabled', true);
-	  });
 	  
 
-    $('.trends').click(function(){
-	    var destination = $(".advantages").offset().top - 50;
+    $('.registr-btn').click(function(){
+	    var destination = $(".head-form").offset().top - 50;
 	    $("body,html").animate({ scrollTop: destination}, 500 );
 	});
 
 
 
-
-    if ($(window).width() > 1024) {
-
-         var waypoint_trends = new Waypoint({
-            element: $('.advantages'),
-            handler: function(dir) {
-                if (dir == 'up') {
-                    $('.trends').removeClass('active');
-                } else {
-                    $('.trends').toggleClass('active');
-                    $('.review').removeClass('active');
-                }
-              },
-              offset: '30%'
-            });
-
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-         $("#xray-block").xray({x_width:25,x_height:35});
+        var max_number_local, max_number, placesWidth, placesWidth_local;
+       
+        max_number = getRandomInt(1, 300);
+        placesWidth = (300 - max_number)/ 300 *100;
 
+        /*if (max_number_local != null && max_number_local < max_number) {
+            max_number = localStorage.getItem("max_number_local");
+            placesWidth = localStorage.getItem("placesWidth_local");
+        }
+
+        max_number_local = localStorage.setItem("max_number_local", max_number);
+        placesWidth_local = localStorage.setItem("placesWidth_local", placesWidth);*/
+  
+
+      var padding_zeros = '';
+      for(var i = 0, l = max_number.toString().length; i < l; i++) {
+        padding_zeros += '0';
+      }
+
+      var padded_now, numberStep = function(now, tween) {
+        var target = $(tween.elem),
+            rounded_now = Math.round(now);
+
+        var rounded_now_string = rounded_now.toString()
+        padded_now = padding_zeros + rounded_now_string;
+        padded_now = padded_now.substring(rounded_now_string.length);
+
+        target.prop('number', rounded_now).text(padded_now);
+      };
+
+        $('#lines').animateNumber({
+          number: max_number,
+          numberStep: numberStep
+        }, 5000);
+
+        $('.places').css({
+            width : placesWidth + '%',
+            transition : '5s',
+        });
+
+
+        $('.icon-hover_4').hover(function() {
+            screen_interval_1 = setInterval(function(){
+                $('.hover_4').not(this).animate({left: -20}, 400);
+                setTimeout(function(){
+                    $('.hover_4').not(this).animate({left: 20}, 400);
+                }, 450);
+                
+            }, 800);
+        },
+        function() {
+            clearInterval(screen_interval_1);
+            $('.hover_4').not(this).animate({left: 0}, 500);
+        });
+
+
+    $("#xray-block").xray({x_width:25,x_height:35});
+
+    if ($(window).width() > 1024) {}
+
+        var liSkills = $('.skills-item');
+        var indexActive = 0;
+
+        var $brain = $('.skills-img img');
+
+
+        function animateSkills() {
+          var itemActive = $(liSkills[indexActive]);
+          itemActive.animate({opacity: 0}, 1500);
+          $brain.addClass('brain-off');
+
+          var nextItem = liSkills[++indexActive];
+          if (!nextItem) {
+            indexActive = 0;
+            nextItem = liSkills[indexActive];
+          }
+           setTimeout(function() {
+                $(nextItem).animate({
+                    opacity: 1
+                }, 1500);
+                $brain.removeClass('brain-off');
+           }, 1500)
+        }
+        setInterval(animateSkills, 6000);
 });
 
 
