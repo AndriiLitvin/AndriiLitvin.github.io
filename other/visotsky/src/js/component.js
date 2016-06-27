@@ -49,40 +49,16 @@ $(function(){
         });
     };
 
-
-
-    $(window).scroll(function() {
-      return $('.head').toggleClass("header_fixed", $(window).scrollTop() > 0);
-    });
-	$(document).ready(function() { // вся мaгия пoсле зaгрузки стрaницы
-		$('#modal_close, #overlay').click( function(){ // лoвим клик пo крестику или пoдлoжке
-			$('#modal_form')
-				.animate({opacity: 0, top: '45%'}, 200,  // плaвнo меняем прoзрaчнoсть нa 0 и oднoвременнo двигaем oкнo вверх
-					function(){ // пoсле aнимaции
-						$(this).css('display', 'none'); // делaем ему display: none;
-					}
-				);
-		});
-	});    
+       
      
 
 
 	$("#phone").inputmask("+38(999)999-99-99"); //маска
-	  $("#phone_1").inputmask("+38(999)999-99-99"); //маска
 	  $('#registration-form').on('submit', function (e) {
 	    $('#registration-btn').addClass('inactive');
 	    $('#registration-btn').prop('disabled', true);
 	  });
-	  $('#registration-form_1').on('submit', function (e) {
-	    $('#registration-btn_1').addClass('inactive');
-	    $('#registration-btn_1').prop('disabled', true);
-	  });
-
-        $('.menu-mob').click(function () {
-	        $('.menu').toggle();
-	        $('.head').toggleClass('white-bg');
-	        $('.head-logo img').toggleClass('invert');
-	    });
+	  
 
     $('.trends').click(function(){
 	    var destination = $(".advantages").offset().top - 50;
@@ -106,15 +82,9 @@ $(function(){
               },
               offset: '30%'
             });
-        
 
-        $('.head-logo').addClass("hidden_animation").viewportChecker({
-            classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
-            offset: 0    
-        });
-
-         $("#xray-block").xray({x_width:25,x_height:35});
     }
+         $("#xray-block").xray({x_width:25,x_height:35});
 
 });
 

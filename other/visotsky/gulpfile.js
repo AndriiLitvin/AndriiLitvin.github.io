@@ -32,6 +32,7 @@ gulp.task('js', function() {
             'src/js/jqueryrotate.2.1.js',
             'src/js/jquery-ui.js',
             'src/js/xray.min.js',
+            'src/js/jquery.animateNumber.min.js',
             'src/js/component.js'
         ])
         .pipe(concat('app.js'))
