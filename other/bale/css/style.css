@@ -580,7 +580,7 @@ body {
 .input-btn {
   border: 0;
   background: transparent;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .reg-btn {
@@ -714,4 +714,7 @@ body {
   font: 300 15.74px AvantGardeGothicC, Sans-Serif;
   text-align: right;
   float: right;
+}
+input, button {
+  outline: none;
 }

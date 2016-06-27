@@ -636,6 +636,54 @@ display: inline-block;
 .absolute {
   position: absolute;
   bottom: 0;
-  right: 20%;
+  right: 0;
   text-align: center;
+}
+.command-3 img {
+  position: absolute;
+  top: 0;
+}
+.command-3 .bg-img1:nth-child(1) img {
+  left: 0;
+  z-index: 1;
+}
+.command-3 .bg-img1:nth-child(2) img {
+  left: -100px;
+  z-index: 2;
+}
+.command-3 .bg-img1:nth-child(3) img {
+  left: -200px;
+  z-index: 1;
+}
+.min-height390 {
+  min-height: 390px;
+  margin-top: 50px;
+}
+.logo8{
+  position: relative;
+}
+.logo8:before {
+  content: "";
+  background: url('../images/logo/ascu.png') no-repeat;
+  width: 560px;
+  height: 123px;
+  background-size: 100%;
+  top: 225px;
+  left: 55px;
+}
+.logo9:before {
+  background: url('../images/logo/MYa+logo.png') no-repeat;
+  width: 140px;
+  height: 136px;
+  background-size: 100%;
+  top: 190px;
+  left: 63px;
+}
+.logo10:before {
+  background: url('../images/logo/HPB_LOGO_black.png') no-repeat;
+  width: 300px;
+  height: 80px;
+  background-size: 100%;
+  top: 235px;
+  left: 5px;
 }

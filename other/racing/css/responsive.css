@@ -117,6 +117,22 @@
     bottom: 0;
     right: -6%;
   }
+   .command-3 img {
+    position: static;
+  }
+  .command-3 .bg-img1{
+    display: block;
+    margin: 0 auto;
+  }
+  .logo8:before {
+    display: none;
+  }
+  .pull-right {
+    float: none !important;
+  }
+  .participants-img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 480px){
@@ -303,5 +319,22 @@
   }
   .absolute {
     bottom: -86px;
+  }
+  .command-3 img {
+    position: static;
+  }
+  .logo8:before {
+    display: none;
+  }
+  .logo9:before {
+    background: url('../images/logo/MYa+logo.png') no-repeat;
+    width: 140px;
+    height: 136px;
+    background-size: 100%;
+    top: 148px;
+    left: 76px;
+  }
+  .logo10:before {
+    top: 211px;
   }
 }
