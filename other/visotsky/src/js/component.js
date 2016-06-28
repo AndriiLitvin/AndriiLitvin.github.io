@@ -52,56 +52,63 @@ $(function(){
 
 	  
 
-    $('.registr-btn').click(function(){
-	    var destination = $(".head-form").offset().top - 50;
-	    $("body,html").animate({ scrollTop: destination}, 500 );
-	});
+        $('.registr-btn').click(function(){
+    	    var destination = $(".head-form").offset().top - 50;
+    	    $("body,html").animate({ scrollTop: destination}, 500 );
+    	});
 
 
 
-    function getRandomInt(min, max) {
-      return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-        var max_number_local, max_number, placesWidth, placesWidth_local;
-       
-        max_number = getRandomInt(1, 300);
-        placesWidth = (300 - max_number)/ 300 *100;
-
-        /*if (max_number_local != null && max_number_local < max_number) {
-            max_number = localStorage.getItem("max_number_local");
-            placesWidth = localStorage.getItem("placesWidth_local");
+        function getRandomInt(min, max) {
+          return Math.floor(Math.random() * (max - min + 1)) + min;
         }
 
-        max_number_local = localStorage.setItem("max_number_local", max_number);
-        placesWidth_local = localStorage.setItem("placesWidth_local", placesWidth);*/
-  
+        var max_number_local = 0, 
+            left_tickets = 0, 
+            cursor_position = 0, 
+            cursor_position_local = 0, 
+            period = 0, 
+            count = 0,
+            max_tickets = 300,
+            prev_left_tickets = max_tickets;
+       
+        left_tickets = localStorage.left_tickets || getRandomInt(125, 150);
+        localStorage.left_tickets = left_tickets;
 
-      var padding_zeros = '';
-      for(var i = 0, l = max_number.toString().length; i < l; i++) {
-        padding_zeros += '0';
-      }
+        function registr() {
+            period = getRandomInt(5000, 50000);
+            prev_left_tickets = left_tickets;
+                left_tickets = left_tickets - getRandomInt(1, 5);
+            if (left_tickets < 10) {
+                left_tickets = 10;
+            }
+            localStorage.left_tickets = left_tickets;
 
-      var padded_now, numberStep = function(now, tween) {
-        var target = $(tween.elem),
-            rounded_now = Math.round(now);
+            cursor_position = (max_tickets - left_tickets)/ max_tickets *100;
+            count++;
 
-        var rounded_now_string = rounded_now.toString()
-        padded_now = padding_zeros + rounded_now_string;
-        padded_now = padded_now.substring(rounded_now_string.length);
+            if (count == 1) {
+                prev_left_tickets = max_tickets;
+            }
 
-        target.prop('number', rounded_now).text(padded_now);
-      };
 
-        $('#lines').animateNumber({
-          number: max_number,
-          numberStep: numberStep
-        }, 5000);
+            $('#lines')
+              .prop('number', prev_left_tickets)
+              .animateNumber({
+                  number: left_tickets,
+                },
+                5000,
+                'linear'
+              );
 
-        $('.places').css({
-            width : placesWidth + '%',
-            transition : '5s',
-        });
+            $('.cursor').css({
+                left : cursor_position + '%',
+                transition : '5s',
+            });
+        }
 
+        registr();
+        setInterval(registr, period );
 
         $('.icon-hover_4').hover(function() {
             screen_interval_1 = setInterval(function(){

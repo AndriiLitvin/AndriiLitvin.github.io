@@ -35,6 +35,7 @@
 			position: static;
 			margin-left: 0;
 			width: 100%;
+			line-height: 1;
 		}
 		.work_business {
 			text-align: center;
@@ -101,6 +102,8 @@
 			margin-bottom: 20px;
 		}
 		#xray-block  {
+			background: url('../images/xray-img1.png') center no-repeat;
+			background-size: cover;
 			img {
 				height: 1000px;
 			}
@@ -113,6 +116,12 @@
 					height: auto;
 				}
 			}
+		}
+		.xs-none {
+			display: none;
+		}
+		.places {
+			height: 63px;
 		}
 	}
 }
