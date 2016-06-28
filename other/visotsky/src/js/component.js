@@ -63,7 +63,7 @@ $(function(){
           return Math.floor(Math.random() * (max - min + 1)) + min;
         }
 
-        var max_number_local = 0, 
+/*        var max_number_local = 0, 
             left_tickets = 0, 
             cursor_position = 0, 
             cursor_position_local = 0, 
@@ -108,7 +108,60 @@ $(function(){
         }
 
         registr();
-        setInterval(registr, period );
+        setInterval(registr, period );*/
+
+                var max_number_local = 0, 
+            left_tickets = 0, 
+            cursor_position = 0, 
+            cursor_position_local = 0, 
+            period = 0, 
+            count = 0,
+            lines_random = 0,
+            max_tickets = 300,
+            prev_left_tickets = max_tickets;
+       
+        left_tickets = localStorage.left_tickets || getRandomInt(125, 150);
+        localStorage.left_tickets = left_tickets;
+
+        function registr() {
+            lines_random = getRandomInt(5000, 50000);
+            period = getRandomInt(5000, 50000);
+            prev_left_tickets = left_tickets;
+                left_tickets = left_tickets - getRandomInt(1, 5);
+            if (left_tickets < 10) {
+                left_tickets = 10;
+            }
+            localStorage.left_tickets = left_tickets;
+
+            cursor_position = (max_tickets - left_tickets)/ max_tickets *100;
+            count++;
+
+            if (count == 1) {
+                prev_left_tickets = max_tickets;
+                lines_random = 5000;
+            }
+
+
+            $('#lines')
+              .prop('number', prev_left_tickets)
+              .animateNumber({
+                  number: left_tickets,
+                },
+                lines_random,
+                'linear',
+                function () {
+                     registr();
+                }
+              );
+
+            $('.cursor').css({
+                left : cursor_position + '%',
+                transition : lines_random/1000 +'s',
+            });
+        }
+
+        registr();
+        // setInterval(registr, period );
 
         $('.icon-hover_4').hover(function() {
             screen_interval_1 = setInterval(function(){
