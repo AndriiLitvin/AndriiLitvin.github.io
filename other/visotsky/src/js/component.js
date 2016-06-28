@@ -120,17 +120,16 @@ $(function(){
 
     $("#xray-block").xray({x_width:25,x_height:35});
 
-    if ($(window).width() > 1024) {}
-
+    if ($(window).width() > 1024) {
         var liSkills = $('.skills-item');
         var indexActive = 0;
 
-        var $brain = $('.skills-img img');
+        var $brain = $('.skills-img');
 
 
         function animateSkills() {
           var itemActive = $(liSkills[indexActive]);
-          itemActive.animate({opacity: 0}, 1500);
+          // itemActive.animate({opacity: 0}, 1500);
           $brain.addClass('brain-off');
 
           var nextItem = liSkills[++indexActive];
@@ -146,6 +145,9 @@ $(function(){
            }, 1500)
         }
         setInterval(animateSkills, 6000);
+        
+    }
+
 });
 
 

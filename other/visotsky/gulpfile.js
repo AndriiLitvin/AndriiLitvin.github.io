@@ -13,10 +13,10 @@ gulp.task('sass', function() {
     return sass('src/sass/main.scss', { sourcemap: true, style: 'compact' })
         .on('error', sass.logError)
         .pipe(sourcemaps.init({loadMaps: true}))
-        // .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
+        .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
         .pipe(rename('app.css'))
-        // .pipe(cleanCSS())
-        // .pipe(sourcemaps.write())
+        .pipe(cleanCSS())
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/css'));
 });
 

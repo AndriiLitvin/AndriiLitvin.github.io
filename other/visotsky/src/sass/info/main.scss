@@ -3,10 +3,7 @@
     @import 'variables';
 }
 
-body {
-  @import 'MediaQueries/main';
-  overflow-x: hidden;
-}
+
 .white-bg {
   background: #fff;
 }
@@ -387,8 +384,9 @@ body {
      box-shadow: 0px 0px 0px 0.00px rgba(18, 79, 255, 0.3);
     text-decoration: none;
     color: #ffffff;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    background: #0014ff;
   }
 }
 
@@ -571,6 +569,17 @@ body {
   position: absolute;
   left: 25%;
   top: 25%;
+  width: 587px;
+  height: 515px;
+  background: url('images/brain-155655_1280.png') no-repeat;
+  background-size: 100%;
+ -webkit-transition-duration: 1s;
+  transition-duration: 1s;  
+  &.brain-off {
+    background: url('images/brain.png') no-repeat;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  }
   img {
     width: 100%;
    -webkit-transition-duration: 1s;
@@ -713,7 +722,6 @@ body {
   .carousel-inner {
     width: 100%;
     overflow: hidden;
-    padding: 10px 0;
   }
 }
 
@@ -735,6 +743,7 @@ body {
   padding: 24px 20px;
   border-radius: 100px;
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .reviews_slider-mane {
@@ -1014,9 +1023,15 @@ body {
   opacity: 0;
 
 }
-.brain-off {
-  -webkit-filter: invert(1);
-   filter: invert(1);
-   -webkit-transition-duration: 1s;
-  transition-duration: 1s;  
+.registr-btn {
+  margin-bottom: 10px;
+}
+#xray-block {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+body {
+  @import 'MediaQueries/main';
+  overflow-x: hidden;
 }
