@@ -22,6 +22,13 @@ gulp.task('sass', function() {
 
 gulp.task('js', function() {
     gulp.src([
+            'src/js/component.js'
+        ])
+        .pipe(concat('app.js'))
+        .pipe(gulp.dest('dist/js'));
+});
+gulp.task('js_v', function() {
+    gulp.src([
             // 'src/js/jquery.js',
             'src/js/jquery1.9.1.js',
             'src/js/bootstrap.min.js',
@@ -34,9 +41,8 @@ gulp.task('js', function() {
             'src/js/xray.min.js',
             // 'src/js/looking_glass.js',
             'src/js/jquery.animateNumber.min.js',
-            'src/js/component.js'
         ])
-        .pipe(concat('app.js'))
+        .pipe(concat('vendor.js'))
         .pipe(gulp.dest('dist/js'));
 });
 
@@ -74,9 +80,10 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('default', function() {
-    gulp.start('pages', 'js', 'sass', 'images', 'images_css', 'webserver');
+    gulp.start('pages', 'js','js_v', 'sass', 'images', 'images_css', 'webserver');
     gulp.watch('src/*.html', ['pages']);
     gulp.watch('src/js/*.js', ['js']);
+    gulp.watch('src/js/*.js', ['js_v']);
     gulp.watch('src/sass/**/*.scss', ['sass']);
     gulp.watch('src/sass/info/images/*', ['images_css']);
     gulp.watch('src/images/**/*.*', ['images']);

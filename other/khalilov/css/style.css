@@ -5411,3 +5411,188 @@ input.register-btn {
     margin-right: 20px; } }
 
 /* Landscape phones and down */
+
+.format-title {
+  color: #5e7c9c;
+  font-family: HelveticaNeueCyr;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 56%;
+  margin: 0 auto 54px;
+}
+
+.format {
+  padding: 70px 0 100px;
+  text-align: center;
+}
+
+.format-box p {
+  color: black;
+  font-family: HelveticaNeueCyr;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 31px;
+}
+
+
+.diagonal {
+  position: relative;
+}
+.diagonal:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -40px;
+  border-right: 3px solid #5e7c9c;
+  width: 3px;
+  height: 610px;
+  transform: rotate(20deg);
+}
+
+.participate {
+  padding: 126px 0 106px;
+  background: url('../images/map-bg.png')no-repeat center;
+  text-align: center;
+  background-size: cover;
+}
+
+.participate-title {
+  color: #5e7c9c;
+  font-family: HelveticaNeueCyr;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 48px;
+  text-transform: uppercase;
+  width: 79%;
+  margin: 0 auto 49px;
+}
+
+.participate-info {
+  width: 40%;
+  margin: 0 auto;
+  color: black;
+  font-family: HelveticaNeueCyr;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.tools {
+  background-color: #5e7c9c;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.tools-title {
+  color: white;
+  font-family: HelveticaNeueCyr;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin: 0 auto 65px;
+}
+
+.tools-img {
+  margin-bottom: 40px;
+  min-height: 150px;
+  line-height: 10;
+}
+
+.tools-box-title {
+  color: white;
+  font-family: HelveticaNeueCyr;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin: 0 auto 18px;
+}
+
+.tools-box-info {
+  color: white;
+  font-family: HelveticaNeueCyr;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+@media (max-width: 1024px) {
+  .tools-img img {
+/*    width: 100%;*/
+  }
+  .diagonal:before {
+    display: none;
+  }
+  .format-box img {
+    width: 100%;
+  }
+  .participate-title, .participate-info, .format-title, 
+  .training-title, .training_info-title, .visual-title, 
+  .question-title, .business_task-title, .analysis-title,
+  .registration-title{
+    width: 100%;
+    font-size: 26px;
+    line-height: 1;
+  }
+  .register-btn-head:before, .mark_users-box:before {
+    display: none;
+  }
+  .review-info:after {
+    right: -45px;
+  }
+  .review-info:before {
+    left: -51px;
+  }
+  .training-box-small-mob img {
+    width: 100%;
+  }
+  .training .registr-btn {
+    display: inline-block;
+  }
+  .training_info {
+    text-align: center;
+  }
+  .training_info-content, .analysis-box {
+    width: 100%;
+  }
+  .border:before, .border:after {
+    display: none;
+  }
+  .mark_users {
+    text-align: center;
+  }
+  .visual_before {
+    height: 340px;
+  }
+  .mark_users-box-img {
+    text-align: center;
+  }
+  .after-also {
+    width: 100%;
+  }
+  .company-img img {
+    width: 100%;
+  }
+  .coach-name {
+    line-height: 1;
+  }
+  .nav.nav-tabs.rotatable {
+    padding-left: 10px;
+  }
+  .reviews-tab-info {
+    font: italic 300 15px / 1 HelveticaNeueCyr;
+  }
+  .reviews-tab, .mark_users-box {
+    width: 100%;
+  }
+  .container-white {
+    display: none;
+  }
+  .percent_box-bontent {
+    margin-left: 0;
+  }
+}
