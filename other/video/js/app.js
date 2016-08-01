@@ -38,7 +38,7 @@ $(function() {
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
   // $('.price, .price_reg').click(function(){
-  $('.price').click(function(){
+  $('.price_reg').click(function(){
     var destination = $("#registration").offset().top - 5;
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
