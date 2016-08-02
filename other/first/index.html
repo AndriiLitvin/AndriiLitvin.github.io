@@ -24,6 +24,7 @@
   </head>
   <body>
     <header class="head">
+      <img src="images/moon.gif" alt="" class="bg-img">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -32,7 +33,7 @@
             <div class="clearfix"></div>
             <h1 class="head-title">Сделай свой <font>первый шаг</font> к <br>успешной карьере в IT уже сегодня</h1>
             <p class="head-info">Получи <font>пакет бесплатных материалов</font> о том, как уже сегодня сделать первые шаги к освоению новой профессии</p>
-            <a class="order-btn">Получи доступ ко всем материалам (бесплатно)</a>
+            <a class="order-btn" data-toggle="modal" data-target="#myModal">Получи доступ ко всем материалам (бесплатно)</a>
           </div>
         </div>
       </div>
@@ -63,63 +64,69 @@
         </div>
       </div>
     </section>
-    <section class="block2">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="row">
-              <div class="col-md-2">
-                <h2 class="block-title">1</h2>
-              </div>
-              <div class="col-md-8">
-                <h3 class="block-title">видео о реалиях<br> IT сферы</h3>
-                <p class="block-info">Реальные цифры за 2016 год<br> о зарплатах, востребованных<br> направлениях, дефиците<br> специалистов</p>
-                <div class="glyphicon glyphicon-menu-down"></div>
+    <div class="mac-box">
+      <div class="mac">
+        <div class="browser"></div>
+        <div class="mac-block1"></div>
+        <div class="mac-block2"></div>
+        <div class="mac-block3"></div>
+      </div>
+      <section class="block2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-2 col-xs-4">
+                  <h2 class="block-title">1</h2>
+                </div>
+                <div class="col-md-8 col-xs-8">
+                  <h3 class="block-title">видео о реалиях<br> IT сферы</h3>
+                  <p class="block-info">Реальные цифры за 2016 год<br> о зарплатах, востребованных<br> направлениях, дефиците<br> специалистов</p>
+                  <div class="glyphicon glyphicon-menu-down"></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="mac"></div>
-    </section>
-    <section class="block3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="row">
-              <div class="col-md-2">
-                <h2 class="block-title">3</h2>
-              </div>
-              <div class="col-md-8">
-                <h3 class="block-title">видео о ключевых <br>направлениях в IT</h3>
-                <p class="block-info">Какие навыки требуются в каждом из них, как быстро освоить специальность и получить первую работу</p>
-                <div class="glyphicon glyphicon-menu-down"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="mac"></div>
-    </section>
-    <section class="block4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="row">
-              <div class="col-md-2">
-                <h2 class="block-title">3</h2>
-              </div>
-              <div class="col-md-8">
-                <h3 class="block-title">простых задания <br>по каждому из них</h3>
-                <p class="block-info">Чтобы на практике понять, в чем заключается суть каждого направления и попробовать свои силы в нем.</p>
-                <a class="order-btn">Забрать все материалы сейчас</a>
+      </section>
+      <section class="block3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-2 col-xs-4">
+                  <h2 class="block-title">3</h2>
+                </div>
+                <div class="col-md-8 col-xs-8">
+                  <h3 class="block-title">видео о ключевых <br>направлениях в IT</h3>
+                  <p class="block-info">Какие навыки требуются в каждом из них, как быстро освоить специальность и получить первую работу</p>
+                  <div class="glyphicon glyphicon-menu-down"></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="mac"></div>
-    </section>
+        
+      </section>
+      <section class="block4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-2 col-xs-4">
+                  <h2 class="block-title">3</h2>
+                </div>
+                <div class="col-md-8 col-xs-8">
+                  <h3 class="block-title">простых задания <br>по каждому из них</h3>
+                  <p class="block-info">Чтобы на практике понять, в чем заключается суть каждого направления и попробовать свои силы в нем.</p>
+                  <a class="order-btn" data-toggle="modal" data-target="#myModal">Забрать все материалы сейчас</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <section class="block5">
       <div class="container">
         <div class="row">
@@ -127,15 +134,15 @@
             <h2 class="block-title">Почему сфера IT так интересна</h2>
             <ul class="block-list">
               <li class="block-item">
-                <h5 class="item-title">+20%</h5>
+                <h5 class="item-title">+<span id="percent1">0</span>%</h5>
                 <p class="item-info"><font>Рост рынка</font> в Украине за 2015 год. Даже в кризис. Как следствие, постоянная нехватка специалистов</p>
               </li>
               <li class="block-item">
-                <h5 class="item-title">+60%</h5>
+                <h5 class="item-title">+<span id="percent2">0</span>%</h5>
                 <p class="item-info">Количество открытых <font>IT-вакансий</font> в Украине за 2015 год. Рынок остро нуждается в перспективных специалистах</p>
               </li>
               <li class="block-item">
-                <h5 class="item-title">300-500$</h5>
+                <h5 class="item-title"><span id="dol1">0</span>-<span id="dol2">0</span>$</h5>
                 <p class="item-info">Минимальная стартовая <font>зарплата</font> у начинающих специалистов. Уже через 2-3 года практики она может вырасти в 10 раз</p>
               </li>
             </ul>
@@ -241,7 +248,7 @@
           <div class="col-md-12">
             <h2 class="block8-title">Сделай свой <font>первый шаг</font> к<br> успешной карьере в IT уже сегодня</h2>
             <p class="block8-info">Получи <font>пакет бесплатных материалов</font> о том, как уже сегодня сделать первые шаги к освоению новой профессии</p>
-            <a class="order-btn">Получи доступ ко всем материалам (бесплатно)</a>
+            <a class="order-btn" data-toggle="modal" data-target="#myModal">Получи доступ ко всем материалам (бесплатно)</a>
           </div>
         </div>
       </div>
@@ -260,7 +267,26 @@
         </div>
       </div>
     </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <input type="text" name="" class="input-text" placeholder="Имя" required="true">
+              <input type="tel" name="" class="input-text" placeholder="Телефон" required="true">
+              <input type="email" name="" class="input-text" placeholder="E-mail" required="true">
+              <button class="input-btn" type="submit">Получить доступ</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="js/vendor.js"></script>
     <script src="js/app.js"></script>
+
   </body>
 </html>

@@ -139,4 +139,107 @@ $('.order-add').click(function () {
         $('.menu').hide();
     });
   }
+  var waypoint_mac = new Waypoint({
+    element: $('.mac-box'),
+    handler: function(dir) {
+        if (dir == 'up') {
+             $('.mac').removeClass('fixed')
+            
+        } else {
+             $('.mac').addClass('fixed')
+        }
+      },
+      offset: '0%'
+  });
+  var waypoint_mac_off = new Waypoint({
+    element: $('.block5'),
+    handler: function(dir) {
+      if (dir == 'up') {
+             $('.mac').addClass('fixed')
+             $('.mac').css({
+              'top' : '62px',
+            });
+            
+        } else {
+             $('.mac').removeClass('fixed')
+             $('.mac').css({
+              'top' : '75%',
+            });
+        }
+    },
+    offset: '90%'
+  });
+  var waypoint_block2 = new Waypoint({
+    element: $('.block2'),
+    handler: function(dir) {
+      if (dir == 'up') {
+             
+            
+        } else {
+           $('.mac-block1').not(this).animate({opacity: 1}, 1000);
+        }
+    },
+    offset: '0%'
+  });
+  var waypoint_block3 = new Waypoint({
+    element: $('.block3'),
+    handler: function(dir) {
+      if (dir == 'up') {
+            $('.mac-block2').not(this).animate({opacity: 0}, 1000); 
+        } else {
+           $('.mac-block2').not(this).animate({opacity: 1}, 1000);
+        }
+    },
+    offset: '0%'
+  });
+  var waypoint_block4 = new Waypoint({
+    element: $('.block4'),
+    handler: function(dir) {
+      if (dir == 'up') {
+            $('.mac-block3').not(this).animate({opacity: 0}, 1000);
+        } else {
+           $('.mac-block3').not(this).animate({opacity: 1}, 1000);
+        }
+    },
+    offset: '10%'
+  });
+
+  var waypoint_block4 = new Waypoint({
+    element: $('.block4'),
+    handler: function(dir) {
+      $('#percent1').animateNumber(
+        {
+          number: 20,
+          easing: 'easeInQuad'
+        },
+        2000
+      );
+      $('#percent2').animateNumber(
+        {
+          number: 60,
+          easing: 'easeInQuad'
+        },
+        3000
+      );
+      $('#dol1').animateNumber(
+        {
+          number: 300,
+          easing: 'easeInQuad'
+        },
+        4000
+      );
+      $('#dol2').animateNumber(
+        {
+          number: 500,
+          easing: 'easeInQuad'
+        },
+        5000
+      );
+
+    },
+    offset: '-100%'
+  });
+
+
+
 });
