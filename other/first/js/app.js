@@ -4,57 +4,9 @@ $(function(){
     });
 
   if ($(window).width() > 1200) {
-      $('.head .phone-icon').click(function () {
-        $('.head  .phone-item').slideToggle(400);
-      });
-      $('.footer .phone-icon').click(function () {
-        $('.footer .phone-item').slideToggle(400);
-      });
+      
   }
 
-  $('.more-btn').click(function() {
-      $(this).parents('.reviews-info').find('.reviews-more').slideToggle(400);
-      if (this.textContent == 'Cкрыть')
-          this.textContent = 'Читать далее...';
-      else
-          this.textContent = 'Cкрыть';
-  });
-
-  $('.tech-link').click(function() {
-      $('#tech-link').addClass('active');
-      $('#soft-link').removeClass('active');
-      $('#engl-link').removeClass('active');
-      $('#career-link').removeClass('active');
-  });
-  $('.soft-link').click(function() {
-      $('#tech-link').removeClass('active');
-      $('#soft-link').addClass('active');
-      $('#engl-link').removeClass('active');
-      $('#career-link').removeClass('active');
-  });
-  $('.engl-link').click(function() {
-      $('#tech-link').removeClass('active');
-      $('#soft-link').removeClass('active');
-      $('#engl-link').addClass('active');
-      $('#career-link').removeClass('active');
-  });
-  $('.career-link').click(function() {
-      $('#tech-link').removeClass('active');
-      $('#soft-link').removeClass('active');
-      $('#engl-link').removeClass('active');
-      $('#career-link').addClass('active');
-  });
-$('.order-add').click(function () {
-      $('#orderType').val('order-add');
-      $('.live_workshops_yes').addClass('active');
-      $('.live_workshops_no').removeClass('active');
-
-  });
-  $('.order-no').click(function () {
-      $('#orderType').val('order-no');
-      $('.live_workshops_no').addClass('active');
-      $('.live_workshops_yes').removeClass('active');
-  });
 
   $("#phone").inputmask("+38(999)999-99-99");
 
@@ -85,28 +37,7 @@ $('.order-add').click(function () {
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
 
-  $('.career-link-menu').click(function(){
-    var destination = $(".career").offset().top - 50;
-    $("body,html").animate({ scrollTop: destination}, 500 );
-  });
-
-  $('.way_java-link').click(function(){
-    var destination = $(".way_java").offset().top - 50;
-    $("body,html").animate({ scrollTop: destination}, 500 );
-  });
-
-  $('.week-link').click(function(){
-    var destination = $(".week").offset().top - 0;
-    $("body,html").animate({ scrollTop: destination}, 500 );
-  });
-  $('.price-link').click(function(){
-    var destination = $(".price").offset().top - 50;
-    $("body,html").animate({ scrollTop: destination}, 500 );
-  });
-  $('.registration-link, .reg-scroll').click(function(){
-    var destination = $(".registration").offset().top - 50;
-    $("body,html").animate({ scrollTop: destination}, 500 );
-  });
+  
 
   $(document).ready(function () {
     $('#registration-form').on('submit', function (e) {
@@ -115,30 +46,11 @@ $('.order-add').click(function () {
     });
   });
 
-  $('.reg-scroll').click(function(){
-    var count_val = $(this).parents('.start').find('.start-info span').text();
-      if (count_val==0) {
-        count_val = 1;
-      }
-      count_val = parseFloat(count_val)-1;
-      var val = localStorage.setItem("val", count_val);
-        val = localStorage.getItem("val");
-    if (val == 16) {
-        $('.start-info span').text(val);
-    }
-  });
-   val = localStorage.getItem("val");
-     if (val != null) {
-        $('.start-info span').text('10');
-    }
-
-
-   
-  if ($(window).width() < 1200) {
-      $('.menu-item').click(function () {
-        $('.menu').hide();
-    });
+  var waypointMacOffset = '90%';
+  if ($(window).width() > 1368) {
+      waypointMacOffset = '100%';
   }
+  console.log(waypointMacOffset);
   var waypoint_mac = new Waypoint({
     element: $('.mac-box'),
     handler: function(dir) {
@@ -167,7 +79,7 @@ $('.order-add').click(function () {
             });
         }
     },
-    offset: '90%'
+    offset: waypointMacOffset
   });
   var waypoint_block2 = new Waypoint({
     element: $('.block2'),
@@ -176,70 +88,150 @@ $('.order-add').click(function () {
              
             
         } else {
-           $('.mac-block1').not(this).animate({opacity: 1}, 1000);
+           $('.mac-block1').not(this).animate({opacity: 1}, 500);
+           setTimeout(function() {
+             $('.mac-block1-1').not(this).animate({opacity: 1}, 1000);
+           }, 1000);
         }
     },
-    offset: '0%'
+    offset: '80%'
   });
   var waypoint_block3 = new Waypoint({
     element: $('.block3'),
     handler: function(dir) {
       if (dir == 'up') {
-            $('.mac-block2').not(this).animate({opacity: 0}, 1000); 
+            $('.mac-block2').not(this).animate({opacity: 0}, 800); 
+            setTimeout(function() {
+              $('.mac-block2-1').not(this).animate({opacity: 0}, 800);
+            }, 1000);
+            setTimeout(function() {
+              $('.mac-block2-2').not(this).animate({opacity: 0}, 800);
+            }, 1500);
+            setTimeout(function() {
+              $('.mac-block2-3').not(this).animate({opacity: 0}, 800);
+            }, 2000);
+            setTimeout(function() {
+              $('.mac-block2-4').not(this).animate({opacity: 0}, 800);
+            }, 2500);
+
+            setTimeout(function() {
+             $('.mac-block1-1').not(this).animate({opacity: 1}, 1000);
+            }, 1000);
+            $('.mac-block1').not(this).animate({opacity: 1}, 500);
         } else {
-           $('.mac-block2').not(this).animate({opacity: 1}, 1000);
+          $('.mac-block1-1').not(this).animate({opacity: 0}, 1000);
+          $('.mac-block1').not(this).animate({opacity: 0}, 500);
+
+          $('.mac-block2').not(this).animate({opacity: 1}, 800);
+          setTimeout(function() {
+            $('.mac-block2-1').not(this).animate({opacity: 1}, 800);
+          }, 1000);
+          setTimeout(function() {
+            $('.mac-block2-2').not(this).animate({opacity: 1}, 800);
+          }, 1500);
+          setTimeout(function() {
+            $('.mac-block2-3').not(this).animate({opacity: 1}, 800);
+          }, 2000);
+          setTimeout(function() {
+            $('.mac-block2-4').not(this).animate({opacity: 1}, 800);
+          }, 2500);
         }
     },
-    offset: '0%'
+    offset: '50%'
   });
   var waypoint_block4 = new Waypoint({
     element: $('.block4'),
     handler: function(dir) {
       if (dir == 'up') {
-            $('.mac-block3').not(this).animate({opacity: 0}, 1000);
+            $('.mac-block3').not(this).animate({opacity: 0}, 800);
+            $('.mac-block2').not(this).animate({opacity: 1}, 800);
+            setTimeout(function() {
+              $('.mac-block2-1').not(this).animate({opacity: 1}, 800);
+            }, 1000);
+            setTimeout(function() {
+              $('.mac-block2-2').not(this).animate({opacity: 1}, 800);
+            }, 1500);
+            setTimeout(function() {
+              $('.mac-block2-3').not(this).animate({opacity: 1}, 800);
+            }, 2000);
+            setTimeout(function() {
+              $('.mac-block2-4').not(this).animate({opacity: 1}, 800);
+            }, 2500);
         } else {
-           $('.mac-block3').not(this).animate({opacity: 1}, 1000);
+           $('.mac-block3').not(this).animate({opacity: 1}, 800);
+           $('.mac-block3-1').not(this).animate({opacity: 1}, 800);
+           setTimeout(function(){
+             $('.mac-block3-2').not(this).animate({opacity: 1}, 800);
+           }, 1000);
+
+
+           $('.mac-block2').not(this).animate({opacity: 0}, 800); 
+            setTimeout(function() {
+              $('.mac-block2-1').not(this).animate({opacity: 0}, 800);
+            }, 1000);
+            setTimeout(function() {
+              $('.mac-block2-2').not(this).animate({opacity: 0}, 800);
+            }, 1500);
+            setTimeout(function() {
+              $('.mac-block2-3').not(this).animate({opacity: 0}, 800);
+            }, 2000);
+            setTimeout(function() {
+              $('.mac-block2-4').not(this).animate({opacity: 0}, 800);
+            }, 2500);
         }
     },
-    offset: '10%'
+    offset: '50%'
   });
 
   var waypoint_block4 = new Waypoint({
     element: $('.block4'),
     handler: function(dir) {
-      $('#percent1').animateNumber(
-        {
-          number: 20,
-          easing: 'easeInQuad'
-        },
-        2000
-      );
-      $('#percent2').animateNumber(
-        {
-          number: 60,
-          easing: 'easeInQuad'
-        },
-        3000
-      );
-      $('#dol1').animateNumber(
-        {
-          number: 300,
-          easing: 'easeInQuad'
-        },
-        4000
-      );
-      $('#dol2').animateNumber(
-        {
-          number: 500,
-          easing: 'easeInQuad'
-        },
-        5000
-      );
+      if (dir == 'up') {
+             
+            
+        } else {
+          var percent_number_step = $.animateNumber.numberStepFactories.append('%')
+          var dol1_number_step = $.animateNumber.numberStepFactories.append('')
+          var dol2_number_step = $.animateNumber.numberStepFactories.append('$')
+          $('#percent1').animateNumber(
+            {
+              number: 20,
+              easing: 'easeInQuad',
+              numberStep: percent_number_step
+            },
+            2000
+          );
+          
+          $('#percent2').animateNumber(
+            {
+              number: 60,
+              easing: 'easeInQuad',
+              numberStep: percent_number_step
+            },
+            3000
+          );
+          $('#dol1').animateNumber(
+            {
+              number: 300,
+              easing: 'easeInQuad',
+              numberStep: dol1_number_step
+            },
+            4000
+          );
+          $('#dol2').animateNumber(
+            {
+              number: 500,
+              easing: 'easeInQuad',
+              numberStep: dol2_number_step
+            },
+            5000
+          );
+          
+        }
 
     },
-    offset: '-100%'
+    offset: '30%'
   });
-
 
 
 });
