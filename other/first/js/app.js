@@ -144,6 +144,11 @@ $(function(){
     handler: function(dir) {
       if (dir == 'up') {
             $('.mac-block3').not(this).animate({opacity: 0}, 800);
+            $('.mac-block3-1').not(this).animate({opacity: 0}, 800);
+             setTimeout(function(){
+               $('.mac-block3-2').not(this).animate({opacity: 0}, 800);
+             }, 1000);
+
             $('.mac-block2').not(this).animate({opacity: 1}, 800);
             setTimeout(function() {
               $('.mac-block2-1').not(this).animate({opacity: 1}, 800);
