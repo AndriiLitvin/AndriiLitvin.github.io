@@ -47,8 +47,32 @@ $(function(){
   });
 
   var waypointMacOffset = '90%';
+  if ($(window).width() > 1260) {
+      waypointMacOffset = '58%';
+  }
+  if ($(window).width() > 1260 && $(window).height() == 800 ) {
+      waypointMacOffset = '74%';
+  }
+  if ($(window).width() >= 1344 && $(window).height() == 840 ) {
+      waypointMacOffset = '71%';
+  }
+  if ($(window).width() > 1360) {
+      waypointMacOffset = '80%';
+  }
   if ($(window).width() > 1368) {
-      waypointMacOffset = '100%';
+      waypointMacOffset = '65%';
+  }
+  if ($(window).width() >= 1600) {
+      waypointMacOffset = '69%';
+  }
+  if ($(window).width() >= 1680 && $(window).height() == 1050) {
+      waypointMacOffset = '56%';
+  }
+  if ($(window).width() > 1900) {
+      waypointMacOffset = '55%';
+  }
+  if ($(window).width() >= 1920 && $(window).height() == 1200) {
+      waypointMacOffset = '49%';
   }
   console.log(waypointMacOffset);
   var waypoint_mac = new Waypoint({
