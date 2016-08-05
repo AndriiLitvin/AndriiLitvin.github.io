@@ -76,7 +76,7 @@ body {
 
 .participants {
   margin-top: -23px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   background: #fff;
 }
 
@@ -99,7 +99,6 @@ body {
 }
 
 .participants-block {
-  margin-top: -75px;
 }
 
 .left110 {
@@ -153,16 +152,24 @@ body {
 
 .participants-box-small {
   display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  vertical-align: top;
 }
-
-.left248 {
+.mar-top-85 {
+  margin-top: -85px;
+}
+.padd-left160 {
   position: relative;
-  left: 248px;
-  /*width: 78%;*/
+  padding-left: 160px;
 }
 
 .box-small-img {
   display: inline-block;
+  text-align: center;
+}
+.box-small-img img {
+  border-radius: 50%;
 }
 
 .box-small-name {
@@ -175,7 +182,7 @@ body {
 .box-small-name h4 {
   color: #3c9eff;
   font: 900 24px / 30px PFDinDisplayPro;
-  width: 121px;
+  width: 175px;
   text-transform: uppercase;
 }
 
@@ -193,9 +200,20 @@ body {
 }
 
 .programs {
-  background: url(images/prog-bg.png) no-repeat;
+  background: url(images/fon.jpg) no-repeat;
   background-size: cover;
-  padding: 265px 0;
+  padding: 65px 0;
+  position: relative;
+}
+.overl {
+  background: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
 }
 
 .programs-title {
@@ -210,6 +228,9 @@ body {
   text-align: center;
   z-index: 1;
   position: relative;
+}
+.programs-img img {
+  width: 100%;
 }
 
 .programs-title-small {
@@ -252,8 +273,8 @@ body {
   vertical-align: top;
 }
 
-.mar-top143 {
-  margin-top: 143px;
+.mar-top50 {
+  margin-top: 50px;
 }
 
 .line-big:before {
@@ -296,57 +317,27 @@ body {
   text-align: right;
 }
 
-.show-list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.show-item {
-  width: 491px;
-  display: inline-block;
-  margin-right: 45px;
-  margin-bottom: 30px;
-}
-.show-item img {
-  vertical-align: top;
-}
-.show-item p {
+ p.show-item {
   display: inline-block;
   color: #000000;
   font: 400 24px / 24px PFDinDisplayPro;
-  width: 303px;
   padding-top: 31px
 }
-.show-item p span {
+ p.show-item span {
   display: block;
   font: 900 24px / 24px PFDinDisplayPro;
 }
-.show-item:nth-child(1) {
-  display: block;
-  margin-top: -105px;
-  width: 520px;
+.show-item-img {
+  margin-top: -70px;
 }
-.show-item:nth-child(1) p{
-  width: 338px;
-}
-
-.show-item:nth-child(2) {
-  margin-left: 108px;
-}
-.show-item:nth-child(4) {
-  margin-left: 71px;
-}
-.show-item:nth-child(5) {
-  margin-left: -90px;
-}
-.show-item:nth-child(odd) {
-  margin-right: 0;
+.show-item-img img {
+  width: 100%;
 }
 .when {
-  background: url(images/when-bg.png) no-repeat;
+  background: url(images/fon.jpg) no-repeat;
   background-size: cover;
-  padding: 270px 0;
+  padding: 70px 0;
+  position: relative;
 }
 
 .when-title {
@@ -411,6 +402,7 @@ body {
   background: url(images/before-bg.png) no-repeat;
   background-size: cover;
   min-height: 1246px;
+  padding-top: 70px;
 }
 
 .before-info {
@@ -533,7 +525,7 @@ body {
     width: 109%;
     height: auto;
 }
-.bg-img1:before, .box-small-img:before {
+/* .bg-img1:before, .box-small-img:before {
   content: "";
   background: url("../images/8.png") no-repeat;
   width: 322px;
@@ -542,7 +534,7 @@ body {
   top: -27px;
   left: -21px;
   z-index: -1;
-}
+} */
 .bg-img1 {
   position: relative;
 display: inline-block;
@@ -554,7 +546,7 @@ display: inline-block;
 .box-small-img img {
   width: 100%;
 }
-.box-small-img:before {
+/* .box-small-img:before {
   content: "";
   background: url("../images/8.png") no-repeat;
   width: 322px;
@@ -563,7 +555,7 @@ display: inline-block;
   top: -26px;
   left: -21px;
   z-index: -1;
-}
+} */
 .logo {
   position: relative;
 }
@@ -575,45 +567,49 @@ display: inline-block;
   z-index: 3;
 }
 .logo1:before {
-  background: url("../images/logo-addinol.jpg") no-repeat;
+  background: url("../images/logo demkin.png") no-repeat;
   background-size: 100%;
-  width: 200px;
-  height: 38px;
+  width: 300px;
+  height: 64px;
+  bottom: 10px;
+  left: 0;
 }
 .logo2:before {
-  background: url("../images/LOGO_AUTOPROFI_EN.png") no-repeat;
+  background: url("../images/mitjet-couleur-ok-liseret-blanc_RUSSIA.png") no-repeat;
   background-size: 100%;
   width: 200px;
-  height: 70px;
+  height: 104px;
+  bottom: -81px;
 }
 .logo3:before {
-  background: url("../images/logo/will_logo_ready.png") no-repeat;
+  background: url("../images/kamaz.png") no-repeat;
   background-size: 100%;
   width: 200px;
-  height: 70px;
-  top: 200px;
+  height: 120px;
+  top: 185px;
 }
 .logo4:before {
-  display: none;
-  background-size: 100%;
+  background: url('../images/red_bull_logo.png') no-repeat;
+  background-size: 100%; 
   width: 200px;
-  height: 70px;
-  top: 177px;
+  height: 158px;
+  top: 150px;
 }
 .logo5:before {
-  background: url("../images/ajs.png") no-repeat;
+  background: url("../images/logolegends.png") no-repeat;
   background-size: 100%;
   width: 258px;
-  height: 90px;
-  top: 213px;
+  height: 156px;
+  top: 174px;
+  left: 0;
 }
 .logo6:before {
-  background: url("../images/hclEca6lqUU.png") no-repeat;
-  background-size: 100%;
-  width: 258px;
-  height: 145px;
-  top: 176px;
-  left: 9px;
+  background: url('../images/LADA_Logo-3.png') no-repeat;
+  background-size: 100%; 
+  width: 200px;
+  height: 158px;
+  top: 182px;
+  left: 48px;
 }
 .width280 {
   width: 280px;
@@ -637,6 +633,9 @@ display: inline-block;
 .sponsor {
   text-align: center;
   padding: 30px 0;
+}
+.sponsor a {
+  display: inline-block;
 }
 .sponsor-title {
   color: #3c9eff;

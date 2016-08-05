@@ -133,6 +133,12 @@
   .participants-img {
     width: 100%;
   }
+  .mar-top-85 {
+    margin-top: 0;
+  }
+  .padd-left160 {
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 480px){
@@ -204,21 +210,6 @@
 	.show-info, .when-title:before {
 		width: 100%;
 	}
-	.show-item:nth-child(1) {
-		width: 100%;
-		margin-top: 0;
-	}
-	.show-item p {
-		display: block;
-		width: 100% !important;
-	}
-	.show-list {
-		text-align: center;
-	}
-	.show-item {
-		margin-left: 0 !important;
-		width: 100% !important;
-	}
 	.gallery img {
 		width: 100%;
 	}
@@ -273,14 +264,11 @@
   .programs {
     padding: 185px 0 150px;
   }
-  .show {
-    padding: 0;
+  .show, .when {
+    padding: 30px 0;
   }
   .show-item p {
     padding-top: 0;
-  }
-  .when {
-    padding: 138px 0;
   }
   .show-item:nth-child(4) {
     margin-bottom: 0;
@@ -302,8 +290,10 @@
     margin-top: 0;
   }
   .logo5:before {
-    left: 5%;
-    top: 238px;
+    top: 173px;
+  }
+  .logo6:before {
+    top: 150px;
   }
   .mtxs33 {
     margin-top: 33px;
@@ -336,5 +326,30 @@
   }
   .logo10:before {
     top: 211px;
+  }
+  .mar-top-85 {
+    margin-top: 0;
+  }
+  .padd-left160 {
+    padding: 0;
+  }
+  .programs-item span {
+    width: 46%;
+    line-height: 1;
+  }
+  .show {
+    text-align: center;
+  }
+  .show-item-img {
+    margin-top: 0;
+  }
+  .logo3:before {
+    top: 173px;
+  }
+  .logo4:before {
+    top: 130px;
+  }
+  .logo2:before {
+    bottom: 165px;
   }
 }

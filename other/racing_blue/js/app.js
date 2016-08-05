@@ -51,7 +51,8 @@
 
     $("a.gallery").fancybox();
     
-    $('.head-logo').addClass("hidden_animation").viewportChecker({
+    if ($(window).width() > 1200) {
+      $('.head-logo').addClass("hidden_animation").viewportChecker({
         classToAdd: 'visible animated bounceInDown', // Class to add to the elements when they are visible
         offset: 0    
     });
@@ -89,8 +90,10 @@
         classToAdd: 'visible animated bounceInUp', // Class to add to the elements when they are visible
         offset: 0    
     });
+    }
 
 
+    
 /*$('#reg').on('submit', function (e) {
   e.preventDefault();
   var $form = $(this);
