@@ -185,7 +185,7 @@
 		width: 100%;
 	}
 	.participants-box-small {
-		margin-bottom: 30px;
+		margin-bottom: 110px;
 		text-align: center;
 	}
 	.mar-right138 {
@@ -278,7 +278,7 @@
     font: 900 52px / 1 PFDinDisplayPro;
   }
   .participants {
-    padding-bottom: 0;
+    padding-bottom: 100px;
   }
   .programs-title {
     margin-bottom: 5px;
@@ -290,10 +290,10 @@
     margin-top: 0;
   }
   .logo5:before {
-    top: 173px;
+    /*top: 173px;*/
   }
   .logo6:before {
-    top: 150px;
+    /*top: 150px;*/
   }
   .mtxs33 {
     margin-top: 33px;
@@ -343,13 +343,21 @@
   .show-item-img {
     margin-top: 0;
   }
-  .logo3:before {
-    top: 173px;
-  }
-  .logo4:before {
-    top: 130px;
+  .logo1:before {
+      left: -12px;
   }
   .logo2:before {
-    bottom: 165px;
+    left: 30px;
+  }
+  .logo5:before {
+    left: 0;
+  }
+  .absolute {
+    bottom: -86px;
+    margin: 0;
+    right: 16px;
+  }
+  .col-md-4 img {
+    width: 100%;
   }
 }

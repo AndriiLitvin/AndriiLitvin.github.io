@@ -171,9 +171,6 @@ body {
   display: inline-block;
   text-align: center;
 }
-.box-small-img img {
-  border-radius: 50%;
-}
 
 .box-small-name {
   display: inline-block;
@@ -566,22 +563,22 @@ display: inline-block;
   content: "";
   position: absolute;
   bottom: 0;
-  left: 36px;
+  left: 0;
   z-index: 3;
 }
 .logo1:before {
   background: url("../images/logo demkin.png") no-repeat;
   background-size: 100%;
-  width: 300px;
+  width: 265px;
   height: 64px;
-  bottom: 10px;
-  left: 0;
+  bottom: -37px;
+  left: -34px;
 }
 .logo2:before {
   background: url("../images/mitjet-couleur-ok-liseret-blanc_RUSSIA.png") no-repeat;
   background-size: 100%;
-  width: 200px;
-  height: 104px;
+  width: 176px;
+  height: 88px;
   bottom: -81px;
 }
 .logo3:before {
@@ -589,30 +586,32 @@ display: inline-block;
   background-size: 100%;
   width: 200px;
   height: 120px;
-  top: 185px;
+  top: 34px;
+  left: -18px;
 }
 .logo4:before {
   background: url('../images/red_bull_logo.png') no-repeat;
   background-size: 100%; 
   width: 200px;
   height: 158px;
-  top: 150px;
+  top: 0;
+  left: -16px;
 }
 .logo5:before {
   background: url("../images/logolegends.png") no-repeat;
   background-size: 100%;
   width: 258px;
   height: 156px;
-  top: 174px;
-  left: 0;
+  top: 52px;
+  left: -79px;
 }
 .logo6:before {
   background: url('../images/LADA_Logo-3.png') no-repeat;
   background-size: 100%; 
   width: 200px;
   height: 158px;
-  top: 182px;
-  left: 48px;
+  top: 60px;
+  left: -13px;
 }
 .width280 {
   width: 280px;
@@ -649,7 +648,7 @@ display: inline-block;
 }
 .absolute {
   position: absolute;
-  bottom: 0;
+  bottom: -80px;
   right: 0;
   text-align: center;
 }
