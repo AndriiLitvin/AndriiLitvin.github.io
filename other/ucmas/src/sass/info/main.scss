@@ -14,9 +14,7 @@ body {
   cursor:wait !important;
 }
 
-body {
-  @import 'MediaQueries/main';
-}
+
 .menu {
   position: fixed;
   padding: 25px 0;
@@ -118,9 +116,9 @@ body {
   cursor: pointer;
   box-shadow: 0px 6px 10px 0.00px rgba(0, 0, 0, 0.2);
   display: inline-block;
-  padding: 37px 35px;
+  padding: 30px 35px;
   color: #fffefe;
-  font: 700 18px / 0 DINRoundPro;
+  font: 700 18px / 1 DINRoundPro;
   background-color: #eb4b35;
   background-image: linear-gradient(to top, #f93737 0%, #f24a4a 100%);
   border-radius: 45px;
@@ -131,6 +129,7 @@ body {
   transform: rotateY(30deg);
   position: absolute;
   bottom: 0;
+  text-align: center;
   -moz-transition: all 0.5s ease-out;
      -o-transition: all 0.5s ease-out;
      -webkit-transition: all 0.5s ease-out;
@@ -1153,4 +1152,57 @@ body {
   img {
     width: 100%;
   }
+}
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    .carousel-control {
+        z-index: 2;
+    }
+}
+.mob-btn {
+  display: none;
+  position: relative;
+  top: 1px;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 8px;
+  &:before {
+    content: "\e056";
+  }
+
+}
+.white-bg {
+  background: #fff;
+}
+body {
+  @import 'MediaQueries/main';
 }

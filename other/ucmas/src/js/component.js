@@ -6,6 +6,16 @@ $(function(){
   if ($(window).width() > 1200) {
       
   }
+    $('.mob-btn').click(function () {
+      $('.menu-list').toggle();
+      $('.menu').toggleClass('white-bg');
+    });
+    if ($(window).width() < 1200) {
+        $('.menu-item').click(function () {
+          $('.menu-list').hide();
+          $('.menu').removeClass('white-bg');
+      });
+    }
 
   $('.why_java-link').click(function(){
     var destination = $(".why_java").offset().top - 0;
