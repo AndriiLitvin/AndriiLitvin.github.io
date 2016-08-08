@@ -327,9 +327,7 @@ body {
   display: block;
   font: 900 24px / 24px PFDinDisplayPro;
 }
-.show-item-img {
-  margin-top: -70px;
-}
+
 .show-item-img img {
   width: 100%;
 }
@@ -699,4 +697,7 @@ display: inline-block;
   background-size: 100%;
   top: 235px;
   left: 5px;
+}
+.show img {
+  width: 100%;
 }
