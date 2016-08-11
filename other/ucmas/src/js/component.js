@@ -26,8 +26,8 @@ $(function(){
     var destination = $(".methods").offset().top - 10;
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
-  $('.why_java-link').click(function(){
-    var destination = $(".why_java").offset().top - 0;
+  $('.insert-link').click(function(){
+    var destination = $("#registration").offset().top - 0;
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
   $(document).ready(function () {
