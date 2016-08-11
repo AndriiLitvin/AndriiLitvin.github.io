@@ -8,6 +8,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var server = require('gulp-server-livereload');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
+var uglify = require('gulp-uglify');
 
 gulp.task('sass', function() {
     return sass('src/sass/main.scss', { sourcemap: true, style: 'compact' })
@@ -15,7 +16,7 @@ gulp.task('sass', function() {
         .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
         .pipe(rename('app.css'))
-        // .pipe(cleanCSS())
+        .pipe(cleanCSS())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/css'));
 });
@@ -25,20 +26,22 @@ gulp.task('js', function() {
             'src/js/component.js'
         ])
         .pipe(concat('app.js'))
+        .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 });
 gulp.task('js_v', function() {
     gulp.src([
             'src/js/vendor/jquery.js',
             'src/js/vendor/bootstrap.min.js',
-            'src/js/vendor/inputmask.js',
-            'src/js/vendor/jquery.inputmask.js',
-            'src/js/vendor/jquery.animateNumber.min.js',
+            // 'src/js/vendor/inputmask.js',
+            // 'src/js/vendor/jquery.inputmask.js',
+            // 'src/js/vendor/jquery.animateNumber.min.js',
             // 'src/js/vendor/jquery.scrollTo.js',
-            'src/js/vendor/jquery.waypoints.min.js',
+            // 'src/js/vendor/jquery.waypoints.min.js',
             // 'src/js/vendor/jqueryrotate.2.1.js',
         ])
         .pipe(concat('vendor.js'))
+        .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 });
 

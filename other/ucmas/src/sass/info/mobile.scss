@@ -7,6 +7,7 @@
  			color: #000;
  		}
  	}
+ 	.academy-box {display: none;}
  	.menu-list {
  		display: none;
  		float: none;
@@ -146,6 +147,9 @@
 	.structure-box .carousel-control.right {
 		right: 21%;
 	}
+  .academy {
+    background: url(images/academy-bg.png) no-repeat center;
+  }
 	.academy-info_small {
 		width: 100%;
 	}

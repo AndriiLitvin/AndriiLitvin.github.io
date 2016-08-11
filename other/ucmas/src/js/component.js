@@ -17,16 +17,30 @@ $(function(){
       });
     }
 
+  $('.advantages-link').click(function(){
+    var destination = $(".intelligence").offset().top - 10;
+    $("body,html").animate({ scrollTop: destination}, 500 );
+  });
+
+  $('.methods-link').click(function(){
+    var destination = $(".methods").offset().top - 10;
+    $("body,html").animate({ scrollTop: destination}, 500 );
+  });
   $('.why_java-link').click(function(){
     var destination = $(".why_java").offset().top - 0;
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
-
   $(document).ready(function () {
-    $('#registration-form').on('submit', function (e) {
-      $('#registration-btn').addClass('inactive');
-      $('#registration-btn').prop('disabled', true);
+  var select_active;
+    $('.registr-form').on('submit', function (e) {
+      $('.insert-btn').addClass('inactive');
+      $('.insert-btn').prop('disabled', true);
+      select_active = $('#city option:selected').val(); 
+      select_active = localStorage.setItem("select_active", select_active);
     });
+    select_active = localStorage.getItem("select_active");
+    console.log(select_active);
+    $('.'+ select_active).trigger('click');
   });
 
 });

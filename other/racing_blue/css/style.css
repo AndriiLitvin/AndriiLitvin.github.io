@@ -701,3 +701,8 @@ display: inline-block;
 .show img {
   width: 100%;
 }
+.registr-title a {
+  display: block;
+  color: #fff;
+  font-size: 50px;
+}

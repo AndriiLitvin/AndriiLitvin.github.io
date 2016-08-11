@@ -8,7 +8,8 @@ $message .= "Телефон: {$_POST['phone']} \n";
 // $message .= "Skype: {$_POST['skype']} \n";
 
 // $to = "sasha@readytorace.ru";
-$to = "cardesign.k@yandex.ru";
+// $to = "cardesign.k@yandex.ru";
+$to = "aleksandr.kucherenko@gmail.com";
 $headers = "Content-type: text/plain;charset=utf-8"; 
 $subject = "=?UTF-8?B?".base64_encode("Заявка на регистрацию")."?=";
 
