@@ -31,11 +31,10 @@ $(function(){
     $("body,html").animate({ scrollTop: destination}, 500 );
   });*/
   $(document).ready(function () {
-  var select_active;
     $('.registr-form').on('submit', function (e) {
-      $('.insert-btn').addClass('inactive');
-      $('.insert-btn').prop('disabled', true);
-      select_active = $('#city option:selected').val(); 
+      // $('.insert-btn').addClass('inactive');
+      // $('.insert-btn').prop('disabled', true);
+      var select_active =  $(this).find('select.city option:selected').val();
       select_active = localStorage.setItem("select_active", select_active);
     });
     select_active = localStorage.getItem("select_active");

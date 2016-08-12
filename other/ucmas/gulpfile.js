@@ -26,7 +26,7 @@ gulp.task('js', function() {
             'src/js/component.js'
         ])
         .pipe(concat('app.js'))
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 });
 gulp.task('js_v', function() {
@@ -41,7 +41,7 @@ gulp.task('js_v', function() {
             // 'src/js/vendor/jqueryrotate.2.1.js',
         ])
         .pipe(concat('vendor.js'))
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 });
 
