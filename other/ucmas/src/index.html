@@ -18,7 +18,7 @@
     <meta itemprop="name" content="" />
     <meta itemprop="description" content="" />
     <meta itemprop="image" content="" />
-    <title></title>
+    <title>UCMAS</title>
     <link type="text/css" rel="stylesheet" href="css/app.css" />
     <link rel="shortcut icon" href="images/">
   </head>
@@ -52,7 +52,7 @@
             <h1 class="head-title">Гений есть<br> в каждом ребенке</h1>
             <p class="head-info">Программа комплексного <br>интеллектуального развития детей <br>от 4 до 12 лет UCMAS</p>
             <div class="btn-box">
-              <a class="insert-btn insert-link">Записать ребенка на пробное занятие</a>
+              <a class="insert-btn insert-link" data-toggle="modal" data-target="#myModal1">Записать ребенка на пробное занятие</a>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@
         </div>
       </div>
     </section>
-    <section class="intelligence">
+    <section class="intelligence" id="intelligence">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -228,7 +228,7 @@
           </div>
           <div class="col-md-7 col-sm-6">
             <div class="video-block">
-              <img src="images/youtube.jpg" alt="">
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/_N2NnKmXukk" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -273,7 +273,7 @@
         </div>
       </div>
     </section>
-    <section class="methods">
+    <section class="methods" id="methods">
       <div class="container">
         <div class="col-md-12">
           <h2 class="methods-title">Основа методики развития - <font>обучение ментальной арифметике (устному счету)</font></h2>
@@ -537,7 +537,7 @@
           </div>
           <div class="col-md-7 col-sm-6">
             <div class="video-block">
-              <img src="images/youtube.jpg" alt="">
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/_N2NnKmXukk" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -694,7 +694,7 @@
           </div>
           <div class="col-md-7 col-sm-6">
             <div class="video-block">
-              <img src="images/youtube.jpg" alt="">
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/_N2NnKmXukk" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -770,7 +770,7 @@
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <div class="competition-video">
-              <img src="images/youtube.jpg" alt="">
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/_N2NnKmXukk" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-md-5 col-sm-6">
@@ -827,7 +827,7 @@
           </div>
           <div class="col-md-7 col-sm-6">
             <div class="video-block">
-              <img src="images/youtube.jpg" alt="">
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/_N2NnKmXukk" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -977,6 +977,30 @@
             <button type="button" class="btn btn-danger pull-right" data-dismiss="modal">Закрыть</button>
             <div class="clearfix"></div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal1Label">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <form action="/contacts.html"  class="registr-form">
+              <input type="text" class="input-text" placeholder="Имя ребенка" name="name"  required="true">
+              <input type="text" class="input-text" placeholder="Ваше имя" name="youname"  required="true">
+              <input type="text" class="input-text" placeholder="Телефон" name="phone"  required="true">
+              <select name="city" id="city" required="true">
+                <option value="" disabled selected>Город</option>
+                <option value="astana">astana</option>
+                <option value="almaty">almaty</option>
+                <option value="keskelen">keskelen</option>
+                <option value="issyk">issyk</option>
+              </select>
+              <div class="btn-box">
+                <button type="submit" class="insert-btn">Занять место</button>
+              </div>
+            </form>
         </div>
       </div>
     </div>

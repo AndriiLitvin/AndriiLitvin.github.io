@@ -26,10 +26,10 @@ $(function(){
     var destination = $(".methods").offset().top - 10;
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
-  $('.insert-link').click(function(){
+  /*$('.insert-link').click(function(){
     var destination = $("#registration").offset().top - 0;
     $("body,html").animate({ scrollTop: destination}, 500 );
-  });
+  });*/
   $(document).ready(function () {
   var select_active;
     $('.registr-form').on('submit', function (e) {

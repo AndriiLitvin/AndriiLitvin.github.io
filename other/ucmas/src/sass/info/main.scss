@@ -304,6 +304,10 @@ body {
 .video-block {
   text-align: center;
   padding-top: 18px;
+  iframe {
+    min-height: 340px;
+    width: 82%;
+  }
 }
 
 .registration-title {
@@ -1068,6 +1072,10 @@ body {
   img {
     width: 100%;
   }
+  iframe {
+    min-height: 340px;
+    width: 82%;
+  }
 }
 
 .competition-title {
@@ -1436,5 +1444,22 @@ body {
     display: block;
     font-size: 18px;
     font-weight: normal;
+  }
+}
+#myModal1 {
+  .modal-content, .modal-dialog {
+    width: 320px;
+  }
+  .modal-header {
+    border: 0;
+  }
+  .registr-form {
+    border: 0;
+    width: 100%;
+    padding: 0 25px 34px;
+    box-shadow: 0 0 24px rgba(0,0,0,0);
+    &:before {
+      display: none;
+    }
   }
 }
