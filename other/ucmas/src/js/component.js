@@ -37,9 +37,20 @@ $(function(){
       var select_active =  $(this).find('select.city option:selected').val();
       select_active = localStorage.setItem("select_active", select_active);
     });
+
+    $('.academy-icon').click(function(){
+       var select_active = $(this).data('contact');
+       select_active = localStorage.setItem("select_active", select_active);
+    })
+
     select_active = localStorage.getItem("select_active");
     console.log(select_active);
-    $('.'+ select_active).trigger('click');
+
+    if (select_active == 'lyubertsy' || select_active == 'mytisci' 
+      || select_active == 'troitsk' || select_active == 'reutov') {
+      $('.region').trigger('click');
+    } 
+      $('.'+ select_active).trigger('click');
   });
 
 });

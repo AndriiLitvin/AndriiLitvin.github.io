@@ -173,8 +173,27 @@ body {
 .university-logo {
   display: inline-block;
   margin-left: 35px;
+  max-width: 80px;
+  img {
+    width: 100%;
+  }
 }
-
+.ucmas_block-logo {
+  text-align: center;
+  margin-top: 30px;
+}
+.ucmas_block-img {
+  max-width: 125px;
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+    &:last-child {
+      margin-right: 0;
+    }
+  img {
+    width: 100%;
+  }
+}
 .university {
   margin-top: 155px;
 }
@@ -307,6 +326,15 @@ body {
   iframe {
     min-height: 340px;
     width: 82%;
+  }
+
+  &.video_2 {
+    iframe {
+      height: 170px;
+      min-height: 170px;
+      margin-bottom: 20px;
+      width: 50%;
+    }
   }
 }
 
@@ -945,9 +973,24 @@ body {
 
 .academy {
   padding: 57px 0 147px;
-  background-color: #43bb6c;
+  background-color: #218dcf;
   background-size: cover;
   position: relative;
+  &.green {
+    background: url(images/academy-bg1.png) no-repeat center;
+    /*background-size: 100%;*/
+    .btn-box {
+      margin-top: 50px;
+    }
+    .insert-btn {
+      left: 50%;
+      margin-left: -150px;
+      &:hover {
+        margin-left: -195px;
+
+      }
+    }
+  }
 }
 
 .academy-title {
@@ -973,6 +1016,7 @@ body {
   color: #ffffff;
   font: 400 18px / 24px DINRoundPro;
   width: 79%;
+  display: inline-block;
 }
 
 .history {
@@ -1151,7 +1195,7 @@ body {
     width: 943px;
     position: absolute;
     top: -30px;
-    left: 14%;
+    left: 19%;
     z-index: -1;
   }
   font {
@@ -1174,6 +1218,9 @@ body {
 }
 
 .ucmas_block_one-img {
+  img {
+    width: 100%;
+  }
 }
 
 .ucmas_block_one-info {
@@ -1271,65 +1318,75 @@ body {
 .academy-icon {
   background: url(images/pin.png) no-repeat;
   background-size: 100%;
-  height: 58px;
-  width: 29px;
+  height: 30px;
+  width: 15px;
+  cursor: pointer;
   position: absolute;
-  -moz-transition: all 0.3s ease-out;
+  background-size: 100%;
+  /* -moz-transition: all 0.3s ease-out;
    -o-transition: all 0.3s ease-out;
-   -webkit-transition: all 0.3s ease-out;
+   -webkit-transition: all 0.3s ease-out; */
   &:hover {
     background: url(images/pin-hand-drawn-irregular-outline.png) no-repeat;
+    background-size: 100%;
+    z-index: 5;
     -moz-transition: all 0.3s ease-out;
      -o-transition: all 0.3s ease-out;
      -webkit-transition: all 0.3s ease-out;
   }
-  &:nth-child(1){
-    top: 24%;
-    left: 49.7%
+  &#moscow {
+    top: 57%;
+    left: 44.5%;
+    height: 42px;
+    width: 21px;
   }
-  &:nth-child(2){
-    top: 19%;
-    left: 52.5%
+  &#novosibirsk {
+    top: 75%;
+    left: 64.5%;
   }
-  &:nth-child(3){
-    top: 12%;
-    left: 55.5%;
+  &#surgut{
+    top: 62%;
+    left: 60.5%;
   }
-  &:nth-child(4){
-    top: 17%;
-    left: 57%;
+  &#uchaly{
+    top: 70.5%;
+    left: 54%;
   }
-  &:nth-child(5){
-    top: 7%;
-    left: 58.5%;
+  &#ufa{
+    top: 69%;
+    left: 52.7%;
   }
-  &:nth-child(6){
-    top: 15%;
-    left: 61.7%;
+  &#makhachkala{
+    top: 84%;
+    left: 45%;
   }
-  &:nth-child(7){
-    top: 8%;
-    left: 66%;
+  &#kaspiysk{
+    top: 85%;
+    left: 44.6%;
   }
-  &:nth-child(8){
-    top: 11%;
-    left: 71.5%;
+  &#kazan{
+    top: 64%;
+    left: 50%;
   }
-  &:nth-child(9){
-    top: 13.7%;
-    left: 79.5%;
+  &#nalchik{
+    top: 81.7%;
+    left: 44%;
   }
-  &:nth-child(10){
-    top: 27%;
-    left: 74%;
+  &#novokuznetsk{
+    top: 77%;
+    left: 66.7%;
   }
-  &:nth-child(11){
-    top: 20%;
-    left: 67%;
+  &#yakutsk{
+    top: 46%;
+    left: 84.5%;
   }
-  &:nth-child(12){
-    top: 33%;
-    left: 65.5%;
+  &#petropavlovsk{
+    top: 36%;
+    left: 91.5%;
+  }
+  &#lipetsk{
+    top: 63%;
+    left: 45.2%;
   }
 }
 
@@ -1366,6 +1423,9 @@ body {
     width: 282px;
     vertical-align: top;
   }
+  iframe {
+    width: 100%;
+  }
   .nav-tabs>li {
     float: none;
     display: block;
@@ -1392,11 +1452,12 @@ body {
   }
   .tab-content {
     display: inline-block;
-    min-height: 500px;
+    min-height: 800px;
     vertical-align: top;
     max-width: 850px;
     width: 100%;
     padding: 0 15px 15px;
+    position: relative;
   }
   .nav-tabs {
     border-bottom: 0;
@@ -1433,6 +1494,8 @@ body {
   font-size: 23px;
   color: #477dca;
   transition: color 0.1s linear;
+  position: relative;
+  z-index: 2;
 }
 
 .tab-info {
@@ -1440,6 +1503,8 @@ body {
   color: #444;
   font-size: 20px;
   line-height: 1.5;
+  position: relative;
+  z-index: 2;
   span {
     display: block;
     font-size: 18px;
@@ -1461,5 +1526,60 @@ body {
     &:before {
       display: none;
     }
+  }
+}
+
+.tab-content .metro {
+  position: relative;
+  margin-top: 50px;
+  iframe {
+    width: 100%;
+  }
+  .tab-content {
+    max-width: 560px;
+  }
+  .nav-tabs {
+    width: 250px;
+    background: #ed1b35;
+  }
+  .nav-tabs>li>a {
+    border-radius: 0;
+    border: 0;
+    color: #fff;
+  }
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background: transparent;
+    border: 0;
+    color: #000;
+  }
+  .nav-tabs>li>a:hover {
+    border: 0;
+    color: #000;
+    background: transparent;
+  }
+  ul.nav-tabs {
+    position: relative;
+    padding-bottom: 160px;
+    &:before {
+      content: "";
+      background: url(images/icons-metro.png) no-repeat;
+      width: 123px;
+      height: 123px;
+      position: absolute;
+      left: 25px;
+      bottom: 15px;
+    }
+  }
+}
+.region-tab {
+  margin-top: 100px;
+   .tab-content {
+    max-width: 610px;
+  }
+  .nav-tabs {
+    width: 200px;
+  }
+   iframe {
+    width: 100%;
   }
 }
