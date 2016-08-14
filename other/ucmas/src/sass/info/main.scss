@@ -978,7 +978,11 @@ body {
   position: relative;
   &.green {
     background: url(images/academy-bg1.png) no-repeat center;
-    /*background-size: 100%;*/
+    background-size: cover;
+    padding: 57px 0;
+    .academy-title {
+      margin-top: 0;
+    }
     .btn-box {
       margin-top: 50px;
     }
