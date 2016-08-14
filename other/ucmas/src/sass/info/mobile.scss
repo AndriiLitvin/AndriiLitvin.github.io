@@ -206,4 +206,17 @@
 	.methods-box.left:before {
 		display: none;
 	}
+	#myModal1 {
+	  .modal-content, .modal-dialog {
+	    width: 100%;
+	    max-width: 320px;
+	  }
+	}
+	.video-block.video_2 iframe {
+		width: 100%;
+	}
+	.policy {
+		float: none;
+		display: block;
+	}
 }
