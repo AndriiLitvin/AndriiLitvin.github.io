@@ -26,31 +26,80 @@ $(function(){
     var destination = $(".methods").offset().top - 10;
     $("body,html").animate({ scrollTop: destination}, 500 );
   });
-  /*$('.insert-link').click(function(){
-    var destination = $("#registration").offset().top - 0;
+  $('.result-link').click(function(){
+    var destination = $("#result").offset().top - 80;
     $("body,html").animate({ scrollTop: destination}, 500 );
-  });*/
+  });
+
   $(document).ready(function () {
+    var select_active = null;
+
     $('.registr-form').on('submit', function (e) {
+      e.preventDefault();
+      var $form = $(e.currentTarget);
+
+      var data = {
+        name: $form.find('input[name="name"]').val(),
+        yourname: $form.find('input[name="yourname"]').val(),
+        phone: $form.find('input[name="phone"]').val(),
+        city: $form.find('.city').val(),
+        metro: $form.find('input[name="metro"]').val(),
+      };
+
+      $.ajax({
+        type: 'POST',
+        url: '/index.php',
+        data: {
+          data: JSON.stringify(data)
+        }
+      })
+        .always(function() {
+
+          var html = [
+            '<div class="success">',
+              '<p>Ваша заявка отправлена, в ближайшее время мы с вами свяжемся!</p>',
+            '</div>'
+          ].join('');
+
+           $('.registr-form')
+            .parent()
+              .html(html);
+            
+            setTimeout(function(){
+              window.location.href = "contacts.html";
+            }, 6000)  
+
+        })
+
       // $('.insert-btn').addClass('inactive');
       // $('.insert-btn').prop('disabled', true);
-      var select_active =  $(this).find('select.city option:selected').val();
-      select_active = localStorage.setItem("select_active", select_active);
+      select_active = $(this).find('select.city option:selected').val();
+      localStorage.setItem("select_active", select_active);
     });
 
     $('.academy-icon').click(function(){
-       var select_active = $(this).data('contact');
-       select_active = localStorage.setItem("select_active", select_active);
+       select_active = $(this).data('contact');
+       localStorage.setItem("select_active", select_active);
     })
 
     select_active = localStorage.getItem("select_active");
-    console.log(select_active);
+    // console.log(select_active);
 
     if (select_active == 'lyubertsy' || select_active == 'mytisci' 
       || select_active == 'troitsk' || select_active == 'reutov') {
       $('.region').trigger('click');
     } 
-      $('.'+ select_active).trigger('click');
+
+    $('.'+ select_active).trigger('click');
+
+
+    $('.city').on('change', function(e) {
+      var $el = $(e.currentTarget),
+          $metro = $el.parents('form').find('.metro');
+
+      $metro.prop('disabled', $el.val() != 'moscow');
+
+    });
   });
 
 });

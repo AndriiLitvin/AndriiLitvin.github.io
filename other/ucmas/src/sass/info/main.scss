@@ -353,6 +353,9 @@ body {
   padding: 59px 0;
   background: url(images/reg-bg.png) no-repeat center;
   background-size: cover;
+  .metro-hide {
+    display: none;
+  }
 }
 
 .registration-box {
@@ -391,7 +394,17 @@ body {
     }
   }
 }
-
+.success {
+  width: 300px;
+  background-color: white;
+  border-radius: 28px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 34px 25px;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+}
 .registr-form {
   width: 350px;
   background-color: white;
@@ -412,6 +425,7 @@ body {
   .btn-box {
     height: 90px;
     padding: 0;
+    margin-top: 15px;  
   }
   .insert-btn {
     border: 0;
@@ -430,7 +444,19 @@ body {
       }
   }
 }
+label {
+  display: block;
+  position: relative;
+  font-weight: normal;
+  &:before {
+    content: "*";
+    color: red;
+    position: absolute;
+    right: 17px;
+    top: 5px;
 
+  }
+} 
 .input-text {
   display: block;
   color: #000;
@@ -446,6 +472,7 @@ body {
   padding-top: 10px;
   padding-bottom: 8px;
   width: 100%;
+
   &:focus {
     outline: none;
   }
@@ -1586,4 +1613,19 @@ body {
    iframe {
     width: 100%;
   }
+}
+input[disabled] {
+  border-color: rgba(238, 238, 238, 0.2);
+  color: #eee;
+  &::-webkit-input-placeholder {color: rgba(238, 238, 238, 0.2);}
+  &::-moz-placeholder          {color: rgba(238, 238, 238, 0.2);}/* Firefox 19+ */
+  &:-moz-placeholder           {color: rgba(238, 238, 238, 0.2);}/* Firefox 18- */
+  &:-ms-input-placeholder      {color: rgba(238, 238, 238, 0.2);}
+}
+.contact-title {
+  color: #000;
+  font: 900 44px / 1 DINRoundPro-B;
+  margin-bottom: 26px;
+  margin-top: 0;
+  text-align: center;
 }
