@@ -48,7 +48,7 @@ $(function(){
 
       $.ajax({
         type: 'POST',
-        url: '/index.php',
+        url: '/reg.php',
         data: {
           data: JSON.stringify(data)
         }
