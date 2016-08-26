@@ -269,7 +269,7 @@ body {
   color: #ffffff;
   font: 900 24px / 30px PFDinDisplayPro;
   display: inline-block;
-  margin-right: 32px;
+  margin-right: 10px;
   vertical-align: top;
 }
 
@@ -604,7 +604,7 @@ display: inline-block;
   left: -79px;
 }
 .logo6:before {
-  background: url('../images/LADA_Logo-3.png') no-repeat;
+  background: url('../images/logo2.png') no-repeat;
   background-size: 100%; 
   width: 200px;
   height: 158px;
@@ -705,4 +705,9 @@ display: inline-block;
   display: block;
   color: #fff;
   font-size: 50px;
+}
+.programs-info {
+  text-align: right;
+  color: red;
+  font-size: 15px;
 }
