@@ -9,6 +9,7 @@ var server = require('gulp-server-livereload');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 var uglify = require('gulp-uglify');
+var uncss = require('gulp-uncss');
 
 gulp.task('sass', function() {
     return sass('src/sass/main.scss', { sourcemap: true, style: 'compact' })
@@ -61,6 +62,13 @@ gulp.task('pages', function(){
     return gulp.src('src/*.html')
         .pipe(gulp.dest('dist'))
 });
+gulp.task('uncss', function () {
+    return gulp.src('dist/css/app.css')
+        .pipe(uncss({
+            html: ['dist/*.html']
+        }))
+        .pipe(gulp.dest('dist/css'));
+});
 
 gulp.task('webserver', function() {
     gulp.src('dist')
@@ -79,7 +87,7 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('default', function() {
-    gulp.start('pages', 'js', 'js_v', 'sass', 'images', 'images_css', 'webserver');
+    gulp.start('pages', 'js', 'js_v', 'sass','uncss', 'images', 'images_css', 'webserver');
     gulp.watch('src/*.html', ['pages']);
     gulp.watch('src/js/*.js', ['js']);
     gulp.watch('src/js/vendor/*.js', ['js_v']);
