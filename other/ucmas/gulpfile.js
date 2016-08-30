@@ -87,7 +87,7 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('default', function() {
-    gulp.start('pages', 'js', 'js_v', 'sass','uncss', 'images', 'images_css', 'webserver');
+    gulp.start('pages', 'js', 'js_v', 'sass', 'images', 'images_css', 'webserver');
     gulp.watch('src/*.html', ['pages']);
     gulp.watch('src/js/*.js', ['js']);
     gulp.watch('src/js/vendor/*.js', ['js_v']);
