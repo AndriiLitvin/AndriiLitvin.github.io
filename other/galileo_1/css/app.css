@@ -261,7 +261,7 @@ button.order-btn { font: 400 14.53px / 1 Roboto; max-width: 234px; padding: 18px
 .contacts-box p { margin-bottom: 20px; }
 
 .registration { background: url(images/reg.png) no-repeat left center; background-size: cover; padding: 68px 0 27px; position: relative; z-index: 3; min-height: 304px; margin-top: -33px; }
-.registration:before { content: ""; background: url(images/logo.png); height: 64px; width: 201px; position: absolute; top: 36px; left: 31%; }
+.registration:before { content: ""; background: url(images/logo.png); height: 64px; width: 201px; position: absolute; top: 36px; left: 34%; }
 
 .registration-title { color: #ffffff; font: 700 20px Open Sans; width: 80%; margin: 0 0 24px; }
 
