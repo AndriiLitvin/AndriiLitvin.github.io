@@ -68,7 +68,7 @@ gulp.task('pages', function(){
 gulp.task('uncss', function () {
     return gulp.src('dist/css/app.css')
         .pipe(uncss({
-            html: ['dist/index.html']
+            html: ['dist/*.html']
         }))
         .pipe(gulp.dest('dist/css'));
 });

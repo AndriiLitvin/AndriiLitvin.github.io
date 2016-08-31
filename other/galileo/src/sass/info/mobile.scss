@@ -176,4 +176,10 @@
   .block-item {
     padding: 30px 0;
   }
+  .video-block {
+    text-align: center;
+    iframe {
+      width: 100%;
+    }
+  }
 }

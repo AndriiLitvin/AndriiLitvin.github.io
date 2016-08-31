@@ -127,6 +127,7 @@ ul { margin-top: 0; margin-bottom: 10px; }
 @-ms-viewport { width: device-width; }
 
 .head { background: url(images/head.png) no-repeat center; padding: 24px 0 0; height: 691px; position: relative; background-size: 100%; z-index: 2; }
+.head.thanks { height: auto; background-size: cover; }
 
 .nav-top { list-style: none; padding: 0; display: block; clear: both; min-height: 64px; max-width: 973px; margin: 0 auto; }
 .nav-top .nav-logo { float: left; width: 100%; max-width: 201px; }
@@ -281,8 +282,16 @@ button.order-btn { font: 400 14.53px / 1 Roboto; max-width: 234px; padding: 18px
 #modal_form #modal_close { width: 20px; height: 20px; position: absolute; top: -8px; right: -10px; cursor: pointer; display: block; background: url(images/close.png) no-repeat; background-size: 100%; -moz-transition: all .5s ease-out; -o-transition: all .5s ease-out; -webkit-transition: all .5s ease-out; }
 #modal_form #modal_close:hover { width: 25px; height: 25px; -moz-transition: all .5s ease-out; -o-transition: all .5s ease-out; -webkit-transition: all .5s ease-out; }
 
-/* Пoдлoжкa */
-#overlay { z-index: 3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */ position: fixed; /* всегдa перекрывaет весь сaйт */ background-color: #000; /* чернaя */ opacity: 0.8; /* нo немнoгo прoзрaчнa */ -moz-opacity: 0.8; /* фикс прозрачности для старых браузеров */ filter: alpha(opacity=80); width: 100%; height: 100%; /* рaзмерoм вo весь экрaн */ top: 0; /* сверху и слевa 0, oбязaтельные свoйствa! */ left: 0; cursor: pointer; display: none; /* в oбычнoм сoстoянии её нет) */ }
+#overlay { z-index: 3; position: fixed; background-color: #000; opacity: 0.8; -moz-opacity: 0.8; filter: alpha(opacity=80); width: 100%; height: 100%; top: 0; left: 0; cursor: pointer; display: none; }
+
+.head-title.small.thanks-title { text-align: right; margin-top: 114px; }
+
+.video-block { text-align: center; margin-top: 30px; margin-bottom: 30px; }
+.video-block h2 { color: #fff; }
+
+.thanks-info { text-align: center; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 18px; color: #fff; }
+
+.comment { text-align: center; }
 
 body { overflow-x: hidden; }
 @media (max-width: 480px) { body .head { background-size: cover; height: auto; padding: 24px 0; text-align: center; }
@@ -334,7 +343,9 @@ body { overflow-x: hidden; }
   body .registration:before { top: 60px; }
   body .reg-form { width: 100%; }
   body .input, body button.order-btn { width: 100%; max-width: 100%; }
-  body .block-item { padding: 30px 0; } }
+  body .block-item { padding: 30px 0; }
+  body .video-block { text-align: center; }
+  body .video-block iframe { width: 100%; } }
 @media (min-width: 415px) and (max-width: 667px) { body .head { background-size: cover; height: auto; padding: 24px 0; text-align: center; }
   body .nav-top .nav-phone { font-size: 16px; }
   body .head-img { padding: 0; }
@@ -385,6 +396,8 @@ body { overflow-x: hidden; }
   body .reg-form { width: 100%; }
   body .input, body button.order-btn { width: 100%; max-width: 100%; }
   body .block-item { padding: 30px 0; }
+  body .video-block { text-align: center; }
+  body .video-block iframe { width: 100%; }
   body .start-title { margin-left: auto; margin-right: auto; }
   body .where { text-align: center; padding: 0; }
   body .rules-list li .step-info { width: 76%; }
@@ -439,6 +452,8 @@ body { overflow-x: hidden; }
   body .reg-form { width: 100%; }
   body .input, body button.order-btn { width: 100%; max-width: 100%; }
   body .block-item { padding: 30px 0; }
+  body .video-block { text-align: center; }
+  body .video-block iframe { width: 100%; }
   body .speaker-container { margin-left: 35%; }
   body .speaker-title { text-align: left; }
   body .reviews-inl { width: 62%; text-align: left; }
