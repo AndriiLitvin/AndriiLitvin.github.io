@@ -294,13 +294,18 @@ button.order-btn { font: 400 14.53px / 1 Roboto; max-width: 234px; padding: 18px
     background-position: 50% 0%;
     margin: 0 auto;
     padding-top: 17px;
+    margin-top: 40px;
  }
  .video-title {
-  text-align: center;
-  color: rgb(44, 47, 63);
-  font-size: 25px;
-  font-weight: bold;
-  font-family: Roboto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Open Sans;
+    color: #34495e;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    font-weight: 900;
  }
 
 .thanks-info { 
@@ -331,7 +336,7 @@ font-family: 'Open Sans';
     font-weight: 900;
 }
 .video {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 .comment { text-align: center; }
 
