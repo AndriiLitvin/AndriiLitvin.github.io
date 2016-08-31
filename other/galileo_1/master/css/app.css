@@ -127,7 +127,7 @@ ul { margin-top: 0; margin-bottom: 10px; }
 @-ms-viewport { width: device-width; }
 
 .head { background: url(images/head.png) no-repeat center; padding: 24px 0 0; height: 691px; position: relative; background-size: 100%; z-index: 2; }
-.head.thanks { height: auto; background-size: cover; }
+.head.thanks { height: auto; background-size: cover; padding-bottom: 25px;}
 
 .nav-top { list-style: none; padding: 0; display: block; clear: both; min-height: 64px; max-width: 973px; margin: 0 auto; }
 .nav-top .nav-logo { float: left; width: 100%; max-width: 201px; }
@@ -277,8 +277,8 @@ button.order-btn { font: 400 14.53px / 1 Roboto; max-width: 234px; padding: 18px
 #modal_form .order-btn { min-width: 100%; }
 #modal_form .order-btn:before { width: 100%; background-size: 100%; }
 #modal_form .reg-form { width: 100%; }
+#modal_form h4{ font-size: 18px; text-align: center; text-transform: uppercase; }
 
-/* Кнoпкa зaкрыть для тех ктo в тaнке) */
 #modal_form #modal_close { width: 20px; height: 20px; position: absolute; top: -8px; right: -10px; cursor: pointer; display: block; background: url(images/close.png) no-repeat; background-size: 100%; -moz-transition: all .5s ease-out; -o-transition: all .5s ease-out; -webkit-transition: all .5s ease-out; }
 #modal_form #modal_close:hover { width: 25px; height: 25px; -moz-transition: all .5s ease-out; -o-transition: all .5s ease-out; -webkit-transition: all .5s ease-out; }
 
@@ -289,7 +289,7 @@ button.order-btn { font: 400 14.53px / 1 Roboto; max-width: 234px; padding: 18px
 .video-block { text-align: center; margin-top: 30px; margin-bottom: 30px; }
 .video-block h2 { color: #fff; }
 
-.thanks-info { text-align: center; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 18px; color: #fff; }
+.thanks-info { text-align: center; max-width: 785px; margin-left: auto; margin-right: auto; font-size: 18px; color: #000; }
 
 .comment { text-align: center; }
 
