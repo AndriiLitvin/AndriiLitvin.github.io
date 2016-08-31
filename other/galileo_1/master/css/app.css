@@ -286,10 +286,50 @@ button.order-btn { font: 400 14.53px / 1 Roboto; max-width: 234px; padding: 18px
 
 .head-title.small.thanks-title { text-align: right; margin-top: 114px; }
 
-.video-block { text-align: center; margin-top: 30px; margin-bottom: 30px; }
-.video-block h2 { color: #fff; }
+.video-block { text-align: center;
+    background: url(images/videobg2.png) no-repeat;
+    max-width: 1183px;
+    width: 100%;
+    height: 441px;
+    background-position: 50% 0%;
+    margin: 0 auto;
+    padding-top: 17px;
+ }
+ .video-title {
+  text-align: center;
+  color: rgb(44, 47, 63);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Roboto;
+ }
 
-.thanks-info { text-align: center; max-width: 785px; margin-left: auto; margin-right: auto; font-size: 18px; color: #000; }
+.thanks-info { 
+font-family: 'Open Sans';
+    background-position: 0% 0%;
+    color: #2c2f3f;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    width: 100%;
+    height: auto;
+}
+.thanks-info span { 
+  background: url(images/podl2.png) no-repeat;
+  color: #ffffff;
+  background-size: 100%;
+}
+.thanks-info.large { 
+   margin-left: auto;
+    margin-right: auto; 
+    font-family: Open Sans;
+    color: #34495e;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    font-weight: 900;
+}
 
 .comment { text-align: center; }
 
