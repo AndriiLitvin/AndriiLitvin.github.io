@@ -25,8 +25,8 @@ body {
   border-color: #fff;
 }
 .head {
-  /*background: url(images/head-bg.png) no-repeat;*/
-  background: url(images/head-bg1.png) no-repeat;
+  background: url(images/head-bg.png) no-repeat center;
+  /*background: url(images/head-bg1.png) no-repeat;*/
   background-size: cover;
   text-align: center;
   position: relative;
@@ -57,7 +57,7 @@ body {
 }
 .head-title {
   color: #ffffff;
-  font: italic 900 24px / 35px PFDinDisplayPro;
+  font: italic 900 34px / 35px PFDinDisplayPro;
   /*transform: matrix(1,-0.241,0,1,0,0);*/
   -ms-transform: rotate(-14deg); /* IE 9 */
   -webkit-transform: rotate(-14deg); /* Chrome, Safari, Opera */
@@ -68,15 +68,16 @@ body {
 .head-title font{
   position: relative;    
   height: 54px;
-  width: 158px;
+  width: 216px;
   display: inline-block;
+  line-height: 2;
 }
 .head-title font:before {
     content: "";
     background: url(images/font-bg.png) no-repeat;
     display: inline-block;
-    height: 61px;
-    width: 158px;
+    height: 90px;
+    width: 216px;
     position: absolute;
     top: -13px;
     left: 0;
@@ -86,9 +87,9 @@ body {
 }
 
 .participants {
-  margin-top: -23px;
   padding-bottom: 80px;
   background: #fff;
+  padding: 40px 0;
 }
 
 .participants-title {
@@ -204,7 +205,7 @@ body {
 .box-small-name h4 {
   color: #ee7912;
   font: 900 24px / 30px PFDinDisplayPro;
-  width: 175px;
+  width: 210px;
   text-transform: uppercase;
 }
 
@@ -319,6 +320,7 @@ body {
   text-align: right;
   width: 495px;
   border-bottom: 4px solid #f4ec50;
+  margin-top: 135px;
 }
 .show-title font {
   display: block;
@@ -426,18 +428,29 @@ body {
 }
 
 .before {
-  background: url(images/before-bg.png) no-repeat;
+  background: url(images/before-bg.png) no-repeat center;
   background-size: cover;
-  min-height: 1246px;
-  padding-top: 70px;
+  min-height:805px;
+  padding: 40px 0;
+  position: relative;
+  color: #ee7912;
+}
+.before-p {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .before-info {
-  color: #000000;
-  font: 400 24px / 30px PFDinDisplayPro;
-  width: 527px;
+  color: #ee7912;
+  font: 900 24px / 30px PFDinDisplayPro;
+  max-width: 527px;
   position: relative;
   margin-top: 60px;
+  text-transform: uppercase;
 }
 .before-info font {
   text-decoration: underline;
@@ -462,25 +475,31 @@ body {
 
 .before-img {
   position: absolute;
+  max-width: 330px;
+  width: 100%;
+}
+.before-img img{
+  width: 100%;
 }
 .before-img:nth-child(1) {
-  top: 90px;
+  top: 40px;
   left: 67px;
 }
 .before-img:nth-child(2) {
-  right: 151px;
+  right: 34%;
   top: 61px;
   z-index: 2;
 }
 .before-img:nth-child(3) {
   right: 95px;
-  top: 302px;
+  top: 150px;
   z-index: 1;
 }
 
 .registr {
   background-color: #ee7912;
   padding-bottom: 30px;
+  padding: 40px 0;
 }
 .min-logo {
   width: 150px;
@@ -674,14 +693,14 @@ display: inline-block;
 }
 .sponsor-title {
   color: #ee7912;
-  font: 900 72px / 72px PFDinDisplayPro;
+  font: 900 52px / 1 PFDinDisplayPro;
   text-transform: uppercase;
-  margin-bottom: 71px;
+  margin: 60px auto 40px;
   text-align: center;
 }
 .absolute {
   position: absolute;
-  bottom: -80px;
+  bottom: 0px;
   right: 0;
   text-align: center;
 }
@@ -742,7 +761,12 @@ display: inline-block;
   font-size: 50px;
 }
 .programs-info {
-  text-align: right;
+  text-align: center;
   color: red;
-  font-size: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.show-logo img {
+  width: 100%;
 }

@@ -6,9 +6,7 @@
     padding: 357px 0;
     background-position-y: 37%;
   }
-  .programs {
-    padding: 308px 0;
-  }
+
   body {
     overflow-x: hidden; 
   }
@@ -155,6 +153,9 @@
    	font: 900 43px / 1 PFDinDisplayPro;
    	text-align: center;
    }
+   .show-title {
+    margin-top: 20px;
+   }
    .participants-title:before {
    	display: none;
    }
@@ -261,9 +262,7 @@
   .top-57 {
     top: 0;
   }
-  .programs {
-    padding: 185px 0 150px;
-  }
+
   .show, .when {
     padding: 30px 0;
   }
