@@ -150,7 +150,7 @@
    .participants-title, .programs-title, .show-title,
    .when-title, .before-title, .registr-title  {
    	width: 100%;
-   	font: 900 43px / 1 PFDinDisplayPro;
+   	font: 900 27px / 1 PFDinDisplayPro;
    	text-align: center;
    }
    .show-title {
@@ -274,7 +274,7 @@
   }
   .sponsor-title {
     margin-bottom: 10px;
-    font: 900 52px / 1 PFDinDisplayPro;
+    font: 900 27px / 1 PFDinDisplayPro;
   }
   .participants {
     padding-bottom: 100px;
@@ -305,6 +305,7 @@
   }
   .registr-title {
     margin-bottom: 23px;
+    font-size: 27px;
   }
   .absolute {
     bottom: -86px;
