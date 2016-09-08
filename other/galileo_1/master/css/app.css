@@ -301,7 +301,7 @@ button.order-btn { font: 400 14.53px / 1 Roboto; max-width: 234px; padding: 18px
     margin-right: auto;
     font-family: Open Sans;
     color: #34495e;
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 23px;
@@ -312,7 +312,7 @@ button.order-btn { font: 400 14.53px / 1 Roboto; max-width: 234px; padding: 18px
 font-family: 'Open Sans';
     background-position: 0% 0%;
     color: #2c2f3f;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     margin: 0 auto;
     font-weight: 700;
@@ -329,7 +329,7 @@ font-family: 'Open Sans';
     margin-right: auto; 
     font-family: Open Sans;
     color: #34495e;
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 23px;
@@ -337,8 +337,9 @@ font-family: 'Open Sans';
 }
 .video {
   padding: 20px 0;
+  text-align: center;
 }
-.comment { text-align: center; }
+.comment { text-align: center;  margin-top: 50px; display: inline-block;}
 
 body { overflow-x: hidden; }
 @media (max-width: 480px) { body .head { background-size: cover; height: auto; padding: 24px 0; text-align: center; }
