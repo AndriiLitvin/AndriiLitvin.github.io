@@ -62,6 +62,8 @@ input { line-height: normal; }
 @font-face { font-family: 'Glyphicons Halflings'; src: url("../fonts/glyphicons-halflings-regular.eot"); src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .glyphicon { position: relative; top: 1px; display: inline-block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: normal; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
+.glyphicon-list:before { content: "\e056"; }
+
 .glyphicon-chevron-left:before { content: "\e079"; }
 
 .glyphicon-chevron-right:before { content: "\e080"; }
@@ -123,7 +125,14 @@ ul, ol { margin-top: 0; margin-bottom: 10px; }
 
 .row { margin-right: -15px; margin-left: -15px; }
 
-.col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-12 { position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; }
+.col-md-2, .col-md-3, .col-sm-4, .col-md-4, .col-sm-5, .col-md-5, .col-sm-6, .col-md-6, .col-sm-7, .col-md-7, .col-sm-8, .col-md-8, .col-md-9, .col-md-10, .col-md-12 { position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; }
+
+@media (min-width: 768px) { .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8 { float: left; }
+  .col-sm-8 { width: 66.66666667%; }
+  .col-sm-7 { width: 58.33333333%; }
+  .col-sm-6 { width: 50%; }
+  .col-sm-5 { width: 41.66666667%; }
+  .col-sm-4 { width: 33.33333333%; } }
 @media (min-width: 992px) { .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-12 { float: left; }
   .col-md-12 { width: 100%; }
   .col-md-10 { width: 83.33333333%; }
@@ -204,8 +213,6 @@ ul, ol { margin-top: 0; margin-bottom: 10px; }
 .container:after, .row:after, .nav:after { clear: both; }
 
 @-ms-viewport { width: device-width; }
-
-body { overflow-x: hidden; }
 
 .top-menu { background-color: #ffffff; position: relative; display: block; padding: 21px 0 18px; position: fixed; box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5); top: 0px; left: 0px; right: 0px; z-index: 999; -moz-transition: all 0.5s ease-out; -o-transition: all 0.5s ease-out; -webkit-transition: all 0.5s ease-out; }
 
@@ -526,5 +533,207 @@ body { overflow-x: hidden; }
 .footer .top-menu-social li .fb:hover { background: url(images/facebook-logo_hover.png) no-repeat; }
 .footer .top-menu-social li .tw { background: url(images/twitter-footer.png) no-repeat; }
 .footer .top-menu-social li .tw:hover { background: url(images/twitter_hover-footer.png) no-repeat; }
+
+.mobile-btn { display: none; }
+
+body { overflow-x: hidden; }
+@media (max-width: 480px) { body .mobile-btn { display: block; float: right; font-size: 25px; }
+  body .top-menu-social { margin-left: 5px; }
+  body .menu { margin: 0; display: block; display: none; }
+  body .menu .menu-item { display: block; float: none; text-align: left; margin: 10px 0 0; border-bottom: 1px solid #ebebeb; }
+  body .menu .menu-item.contact { border: 0; }
+  body .head-title, body .why-title, body .training-title { font-size: 30px; text-align: center; }
+  body .head-bg { background: rgba(0, 0, 0, 0.8); }
+  body .head-info, body .why-info { font-size: 20px; text-align: center; }
+  body br { display: none; }
+  body .head-box { border: 0; }
+  body .why-info { margin-bottom: 20px; }
+  body .why-info.small { text-align: center; margin-bottom: 20px; }
+  body .why:before { max-width: 100%; margin-left: 0; left: 0; }
+  body .why-info.large { text-align: center; margin-bottom: 20px; font-size: 28px; }
+  body .mt100 { margin-top: 0; }
+  body .why-last .why-img { margin-bottom: 0; }
+  body .why-last .why-info { margin-bottom: 5px; }
+  body .why-last .why-info.small { margin-bottom: 20px; }
+  body .registration_1-form-info:before, body .registration_2-form-info:before { display: none; }
+  body .registration_1-name { margin-left: 0; margin-top: 20px; text-align: center; }
+  body .registration_1-title { text-align: center; }
+  body .registration_1-form-info { padding: 0; text-align: center; }
+  body .training-title { margin-bottom: 0; }
+  body .training-info { margin-bottom: 20px; }
+  body .training-title.small { text-align: center; }
+  body .training-img.additionally.img_2 { margin-left: 0; }
+  body .xs-center { text-align: center; }
+  body .bonus-title, body .reviews_organizers-title, body .city-title, body .statistics-title, body .training_info-title { font-size: 30px; margin-bottom: 20px; }
+  body .bonus-img img { width: 100%; }
+  body .registration_2 { background-position: right; text-align: center; }
+  body .reg-box-title { font-size: 18px; }
+  body .tab-block .nav-tabs > li > a { margin-right: 0; max-width: 320px; }
+  body .nav-tabs > li { float: none; margin-left: auto; margin-right: auto; }
+  body .slider { height: 186px; }
+  body .tab-city-title { font-size: 24px; }
+  body .statistics-box-title { font-size: 24px; margin-bottom: 10px; }
+  body .statistics-list li span { color: #fff; border-radius: 50%; padding: 10px 6px; display: inline-block; }
+  body .statistics-list li { margin-bottom: 20px; }
+  body .statistics-list li:before { display: none; }
+  body .line1 span { background: #f84f4f; }
+  body .line2 span { background: #1565bf; }
+  body .line3 span { background: #4397b4; }
+  body .line4 span { background: #f84f4f; }
+  body .line5 span { background: #1565bf; }
+  body .statistics, body .history { padding: 40px 0; }
+  body .history-title { font-size: 30px; }
+  body .history-info { font-size: 18px; }
+  body .history-box img { width: 100%; }
+  body .box-fon h6 { font-size: 18px; }
+  body .box-fon p { font-size: 14px; }
+  body .history-video img { width: 100%; }
+  body .training_info-info { font-size: 24px; margin-bottom: 20px; }
+  body .training_info-img img { width: 100%; }
+  body .row .row { padding: 0; margin: 0; }
+  body .green-tab .tab-content, body .green-tab .nav-tabs { border-radius: 40px; }
+  body .green-tab .nav-tabs > li > a, body .green-tab .nav-tabs > li.active > a, body .green-tab .nav-tabs > li.active > a:hover, body .green-tab .nav-tabs > li.active > a:focus { border-radius: 0; display: block; }
+  body .green-tab .nav-tabs { text-align: center; }
+  body .green-tab-title { font-size: 30px; }
+  body .why-logo { max-width: 130px; }
+  body .why-logo img { width: 100%; }
+  body .statistics-img img { transform: rotate(0deg); }
+  body .slider-arr-right { right: 0; }
+  body .slider-arr-left { left: 0; } }
+@media (min-width: 415px) and (max-width: 667px) { body .mobile-btn { display: block; float: right; font-size: 25px; }
+  body .top-menu-social { margin-left: 5px; }
+  body .menu { margin: 0; display: block; display: none; }
+  body .menu .menu-item { display: block; float: none; text-align: left; margin: 10px 0 0; border-bottom: 1px solid #ebebeb; }
+  body .menu .menu-item.contact { border: 0; }
+  body .head-title, body .why-title, body .training-title { font-size: 30px; text-align: center; }
+  body .head-bg { background: rgba(0, 0, 0, 0.8); }
+  body .head-info, body .why-info { font-size: 20px; text-align: center; }
+  body br { display: none; }
+  body .head-box { border: 0; }
+  body .why-info { margin-bottom: 20px; }
+  body .why-info.small { text-align: center; margin-bottom: 20px; }
+  body .why:before { max-width: 100%; margin-left: 0; left: 0; }
+  body .why-info.large { text-align: center; margin-bottom: 20px; font-size: 28px; }
+  body .mt100 { margin-top: 0; }
+  body .why-last .why-img { margin-bottom: 0; }
+  body .why-last .why-info { margin-bottom: 5px; }
+  body .why-last .why-info.small { margin-bottom: 20px; }
+  body .registration_1-form-info:before, body .registration_2-form-info:before { display: none; }
+  body .registration_1-name { margin-left: 0; margin-top: 20px; text-align: center; }
+  body .registration_1-title { text-align: center; }
+  body .registration_1-form-info { padding: 0; text-align: center; }
+  body .training-title { margin-bottom: 0; }
+  body .training-info { margin-bottom: 20px; }
+  body .training-title.small { text-align: center; }
+  body .training-img.additionally.img_2 { margin-left: 0; }
+  body .xs-center { text-align: center; }
+  body .bonus-title, body .reviews_organizers-title, body .city-title, body .statistics-title, body .training_info-title { font-size: 30px; margin-bottom: 20px; }
+  body .bonus-img img { width: 100%; }
+  body .registration_2 { background-position: right; text-align: center; }
+  body .reg-box-title { font-size: 18px; }
+  body .tab-block .nav-tabs > li > a { margin-right: 0; max-width: 320px; }
+  body .nav-tabs > li { float: none; margin-left: auto; margin-right: auto; }
+  body .slider { height: 186px; }
+  body .tab-city-title { font-size: 24px; }
+  body .statistics-box-title { font-size: 24px; margin-bottom: 10px; }
+  body .statistics-list li span { color: #fff; border-radius: 50%; padding: 10px 6px; display: inline-block; }
+  body .statistics-list li { margin-bottom: 20px; }
+  body .statistics-list li:before { display: none; }
+  body .line1 span { background: #f84f4f; }
+  body .line2 span { background: #1565bf; }
+  body .line3 span { background: #4397b4; }
+  body .line4 span { background: #f84f4f; }
+  body .line5 span { background: #1565bf; }
+  body .statistics, body .history { padding: 40px 0; }
+  body .history-title { font-size: 30px; }
+  body .history-info { font-size: 18px; }
+  body .history-box img { width: 100%; }
+  body .box-fon h6 { font-size: 18px; }
+  body .box-fon p { font-size: 14px; }
+  body .history-video img { width: 100%; }
+  body .training_info-info { font-size: 24px; margin-bottom: 20px; }
+  body .training_info-img img { width: 100%; }
+  body .row .row { padding: 0; margin: 0; }
+  body .green-tab .tab-content, body .green-tab .nav-tabs { border-radius: 40px; }
+  body .green-tab .nav-tabs > li > a, body .green-tab .nav-tabs > li.active > a, body .green-tab .nav-tabs > li.active > a:hover, body .green-tab .nav-tabs > li.active > a:focus { border-radius: 0; display: block; }
+  body .green-tab .nav-tabs { text-align: center; }
+  body .green-tab-title { font-size: 30px; }
+  body .why-logo { max-width: 130px; }
+  body .why-logo img { width: 100%; }
+  body .statistics-img img { transform: rotate(0deg); }
+  body .slider-arr-right { right: 0; }
+  body .slider-arr-left { left: 0; } }
+@media (min-width: 668px) and (max-width: 1200px) { body .mobile-btn { display: block; float: right; font-size: 25px; }
+  body .top-menu-social { margin-left: 5px; }
+  body .menu { margin: 0; display: block; display: none; }
+  body .menu .menu-item { display: block; float: none; text-align: left; margin: 10px 0 0; border-bottom: 1px solid #ebebeb; }
+  body .menu .menu-item.contact { border: 0; }
+  body .head-title, body .why-title, body .training-title { font-size: 30px; text-align: center; }
+  body .head-bg { background: rgba(0, 0, 0, 0.8); }
+  body .head-info, body .why-info { font-size: 20px; text-align: center; }
+  body br { display: none; }
+  body .head-box { border: 0; }
+  body .why-info { margin-bottom: 20px; }
+  body .why-info.small { text-align: center; margin-bottom: 20px; }
+  body .why:before { max-width: 100%; margin-left: 0; left: 0; }
+  body .why-info.large { text-align: center; margin-bottom: 20px; font-size: 28px; }
+  body .mt100 { margin-top: 0; }
+  body .why-last .why-img { margin-bottom: 0; }
+  body .why-last .why-info { margin-bottom: 5px; }
+  body .why-last .why-info.small { margin-bottom: 20px; }
+  body .registration_1-form-info:before, body .registration_2-form-info:before { display: none; }
+  body .registration_1-name { margin-left: 0; margin-top: 20px; text-align: center; }
+  body .registration_1-title { text-align: center; }
+  body .registration_1-form-info { padding: 0; text-align: center; }
+  body .training-title { margin-bottom: 0; }
+  body .training-info { margin-bottom: 20px; }
+  body .training-title.small { text-align: center; }
+  body .training-img.additionally.img_2 { margin-left: 0; }
+  body .xs-center { text-align: center; }
+  body .bonus-title, body .reviews_organizers-title, body .city-title, body .statistics-title, body .training_info-title { font-size: 30px; margin-bottom: 20px; }
+  body .bonus-img img { width: 100%; }
+  body .registration_2 { background-position: right; text-align: center; }
+  body .reg-box-title { font-size: 18px; }
+  body .tab-block .nav-tabs > li > a { margin-right: 0; max-width: 320px; }
+  body .nav-tabs > li { float: none; margin-left: auto; margin-right: auto; }
+  body .slider { height: 186px; }
+  body .tab-city-title { font-size: 24px; }
+  body .statistics-box-title { font-size: 24px; margin-bottom: 10px; }
+  body .statistics-list li span { color: #fff; border-radius: 50%; padding: 10px 6px; display: inline-block; }
+  body .statistics-list li { margin-bottom: 20px; }
+  body .statistics-list li:before { display: none; }
+  body .line1 span { background: #f84f4f; }
+  body .line2 span { background: #1565bf; }
+  body .line3 span { background: #4397b4; }
+  body .line4 span { background: #f84f4f; }
+  body .line5 span { background: #1565bf; }
+  body .statistics, body .history { padding: 40px 0; }
+  body .history-title { font-size: 30px; }
+  body .history-info { font-size: 18px; }
+  body .history-box img { width: 100%; }
+  body .box-fon h6 { font-size: 18px; }
+  body .box-fon p { font-size: 14px; }
+  body .history-video img { width: 100%; }
+  body .training_info-info { font-size: 24px; margin-bottom: 20px; }
+  body .training_info-img img { width: 100%; }
+  body .row .row { padding: 0; margin: 0; }
+  body .green-tab .tab-content, body .green-tab .nav-tabs { border-radius: 40px; }
+  body .green-tab .nav-tabs > li > a, body .green-tab .nav-tabs > li.active > a, body .green-tab .nav-tabs > li.active > a:hover, body .green-tab .nav-tabs > li.active > a:focus { border-radius: 0; display: block; }
+  body .green-tab .nav-tabs { text-align: center; }
+  body .green-tab-title { font-size: 30px; }
+  body .why-logo { max-width: 130px; }
+  body .why-logo img { width: 100%; }
+  body .statistics-img img { transform: rotate(0deg); }
+  body .slider-arr-right { right: 0; }
+  body .slider-arr-left { left: 0; }
+  body .registration_1-title, body .registration_1-form-info, body .registration_1-name { text-align: left; max-width: 50%; }
+  body .registration_2 .reg-box { margin: 0 auto; }
+  body .nav-tabs { text-align: center; }
+  body .nav-tabs > li { display: inline-block; }
+  body .slider { height: 167px; }
+  body .green-tab .nav-tabs { max-width: 583px; }
+  body .green-tab { max-width: 600px; margin: 0 auto; }
+  body .footer .menu { display: inline-block; max-width: 450px; }
+  body .footer .menu .menu-item { float: right; } }
 
 

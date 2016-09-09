@@ -35,4 +35,14 @@ $(document).ready(function() {
 	 $('.left.carousel-control').click(function(){
 	 	$('.carousel-indicators li.active').prev().trigger( "click" );
 	 });
+
+	if ($(window).width() < 1200) {
+		$('.mobile-btn').click(function(){
+			$('.menu').toggle();
+		});
+		$('.menu-item').click(function(){
+			$('.menu').toggle();
+		});
+	}
+
 });

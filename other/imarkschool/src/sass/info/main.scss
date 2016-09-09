@@ -1,9 +1,6 @@
 @import 'variables';
 
-body {
-  @import 'MediaQueries/main';
-  overflow-x: hidden;
-}
+
 .top-menu {
   background-color: #ffffff;
   position: relative;
@@ -1378,4 +1375,11 @@ font-weight: 400;
       }
     }
   }
+}
+.mobile-btn {
+  display: none;
+}
+body {
+  @import 'MediaQueries/main';
+  overflow-x: hidden;
 }
