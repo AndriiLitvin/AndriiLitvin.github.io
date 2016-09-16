@@ -92,6 +92,11 @@
     });
     }
 
+      $('.reg-link').click(function(){
+        var destination = $("#registr").offset().top - 50;
+        $("body,html").animate({ scrollTop: destination}, 500 );
+      });
+
 
     
 /*$('#reg').on('submit', function (e) {
@@ -112,11 +117,11 @@
   })
 });*/
 
-    function autoPlay (){
+   /* function autoPlay (){
         var src = $('#video-head').attr('src');
         var src1 = /^[^?]+/.exec(src)[0] + '?rel=0&autoplay=1;controls=0&amp;showinfo=0';
         $('#video-head').attr('src', src1);
     };
-    setInterval(autoPlay, 27000);
+    setInterval(autoPlay, 27000);*/
 
 })(jQuery);

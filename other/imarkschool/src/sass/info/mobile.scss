@@ -119,13 +119,20 @@
     max-width: 320px;
     
   }
+  .tab-block .nav-tabs {
+    display: none;
+  }
   .nav-tabs > li {
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
   .slider {
-    height: 186px;
+    text-align: center;
+    /*height: 186px;*/
+  }
+  .slide-img {
+    margin-right: 0;
   }
   .tab-city-title {
     font-size: 24px;
@@ -225,10 +232,10 @@
           transform: rotate(0deg);
     }
   }
-  .slider-arr-right {
+  .slider-box .owl-theme .owl-controls .owl-buttons .owl-next  {
     right: 0;
   }
-  .slider-arr-left {
+  .slider-box .owl-theme .owl-controls .owl-buttons .owl-prev {
     left: 0;
   }
 }

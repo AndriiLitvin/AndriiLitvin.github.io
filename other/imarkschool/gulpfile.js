@@ -10,6 +10,7 @@ var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 var uglify = require('gulp-uglify');
 
+var spritesmith = require('gulp.spritesmith');
 var uncss = require('gulp-uncss');
  
 
@@ -19,9 +20,17 @@ gulp.task('sass', function() {
         .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
         .pipe(rename('app.css'))
-        // .pipe(cleanCSS())
-        // .pipe(sourcemaps.write())
+        .pipe(cleanCSS())
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/css'));
+});
+
+gulp.task('sprite', function () {
+  var spriteData = gulp.src('dist/css/images/sprite/*.png').pipe(spritesmith({
+    imgName: 'sprite.png',
+    cssName: 'app.css'
+  }));
+  return spriteData.pipe(gulp.dest('path/'));
 });
 
 gulp.task('js', function() {
@@ -36,6 +45,7 @@ gulp.task('js_v', function() {
     gulp.src([
             'src/js/vendor/jquery.js',
             'src/js/vendor/bootstrap.min.js',
+            'src/js/vendor/owl.carousel.min.js',
             // 'src/js/vendor/inputmask.js',
             // 'src/js/vendor/jquery.inputmask.js',
             // 'src/js/vendor/jquery.animateNumber.min.js',
@@ -90,11 +100,12 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('default', function() {
-    gulp.start('pages', 'js', 'js_v', 'sass','uncss', 'images', 'images_css', 'webserver');
+    gulp.start('pages', 'js', 'js_v', 'sass','sprite', 'webserver');
+    // gulp.start('pages', 'js', 'js_v', 'sass','uncss', 'images', 'images_css', 'webserver');
     gulp.watch('src/*.html', ['pages']);
     gulp.watch('src/js/*.js', ['js']);
     gulp.watch('src/js/vendor/*.js', ['js_v']);
     gulp.watch('src/sass/**/*.scss', ['sass']);
-    gulp.watch('src/sass/info/images/*', ['images_css']);
-    gulp.watch('src/images/**/*.*', ['images']);
+    // gulp.watch('src/sass/info/images/*', ['images_css']);
+    // gulp.watch('src/images/**/*.*', ['images']);
 });

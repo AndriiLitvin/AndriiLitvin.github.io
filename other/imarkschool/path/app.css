@@ -1,0 +1,162 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-facebook-footer {
+  background-image: url(sprite.png);
+  background-position: -150px -181px;
+  width: 17px;
+  height: 32px;
+}
+.icon-facebook-logo {
+  background-image: url(sprite.png);
+  background-position: -116px -181px;
+  width: 17px;
+  height: 32px;
+}
+.icon-facebook-logo_hover {
+  background-image: url(sprite.png);
+  background-position: -133px -181px;
+  width: 17px;
+  height: 32px;
+}
+.icon-grabbing {
+  background-image: url(sprite.png);
+  background-position: -551px -69px;
+  width: 16px;
+  height: 16px;
+}
+.icon-line1 {
+  background-image: url(sprite.png);
+  background-position: -252px -69px;
+  width: 96px;
+  height: 55px;
+}
+.icon-line2 {
+  background-image: url(sprite.png);
+  background-position: -276px 0px;
+  width: 291px;
+  height: 55px;
+}
+.icon-line3 {
+  background-image: url(sprite.png);
+  background-position: 0px -69px;
+  width: 252px;
+  height: 55px;
+}
+.icon-line4 {
+  background-image: url(sprite.png);
+  background-position: -348px -69px;
+  width: 77px;
+  height: 55px;
+}
+.icon-logo {
+  background-image: url(sprite.png);
+  background-position: -425px -69px;
+  width: 126px;
+  height: 19px;
+}
+.icon-placeholder {
+  background-image: url(sprite.png);
+  background-position: -232px -124px;
+  width: 49px;
+  height: 46px;
+}
+.icon-placeholder_hover {
+  background-image: url(sprite.png);
+  background-position: -183px -124px;
+  width: 49px;
+  height: 46px;
+}
+.icon-play {
+  background-image: url(sprite.png);
+  background-position: 0px -124px;
+  width: 116px;
+  height: 116px;
+}
+.icon-q {
+  background-image: url(sprite.png);
+  background-position: -116px -124px;
+  width: 67px;
+  height: 57px;
+}
+.icon-right-arrow {
+  background-image: url(sprite.png);
+  background-position: 0px -240px;
+  width: 32px;
+  height: 61px;
+}
+.icon-right-arrow1 {
+  background-image: url(sprite.png);
+  background-position: -32px -240px;
+  width: 32px;
+  height: 61px;
+}
+.icon-routearrow {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 276px;
+  height: 69px;
+}
+.icon-twitter-footer {
+  background-image: url(sprite.png);
+  background-position: -425px -88px;
+  width: 30px;
+  height: 25px;
+}
+.icon-twitter-logo-silhouette {
+  background-image: url(sprite.png);
+  background-position: -455px -88px;
+  width: 30px;
+  height: 25px;
+}
+.icon-twitter_hover-footer {
+  background-image: url(sprite.png);
+  background-position: -485px -88px;
+  width: 30px;
+  height: 25px;
+}
+.icon-twitter_hover {
+  background-image: url(sprite.png);
+  background-position: -515px -88px;
+  width: 30px;
+  height: 25px;
+}
+.icon-vk-footer-hover {
+  background-image: url(sprite.png);
+  background-position: -281px -124px;
+  width: 35px;
+  height: 19px;
+}
+.icon-vk-footer {
+  background-image: url(sprite.png);
+  background-position: -316px -124px;
+  width: 35px;
+  height: 19px;
+}
+.icon-vk {
+  background-image: url(sprite.png);
+  background-position: -386px -124px;
+  width: 35px;
+  height: 19px;
+}
+.icon-vk_hover {
+  background-image: url(sprite.png);
+  background-position: -351px -124px;
+  width: 35px;
+  height: 19px;
+}

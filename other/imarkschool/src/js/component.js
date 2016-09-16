@@ -1,18 +1,25 @@
 $(document).ready(function() { 
 
-	$('.slider-arr-right').click(function() {
-	    $($('.slider-box li.active').next()).find('a').trigger( "click" );
+	setInterval(function() {
+		$('.active.city-active').css({
+			'top': '27%',
+		});
+		setTimeout(function() {
+			$('.active.city-active').css({
+			'top': '28%',
+			});
+		}, 500);
+	}, 1000);
+var intervalCount = 1;	
+	setInterval(function() {
+		$($('.green-tab .active').next()).find('a').trigger('click');
+		intervalCount++
+		if (intervalCount == 8) {
+			$($('.green-tab li').first()).find('a').trigger('click');
+			intervalCount = 1;
+		}
+	}, 5000);
 
-	    $( '.slider' ).append( $( '.slider .slide-img' ).first().clone() );
-	    $( '.slider .slide-img ' ).first().remove();
-	});
-
-	$('.slider-arr-left').click(function() {
-	    
-	    $( '.slider' ).prepend( $( '.slider .slide-img' ).last().clone() );
-	    $( '.slider .slide-img ' ).last().remove();
-	    $($('.slider-box li.active').prev()).find('a').trigger( "click" );
-	});
 
 	 var waypoint_statistics = new Waypoint({
 	  element: $('.statistics .statistics-box-title'),
@@ -44,5 +51,29 @@ $(document).ready(function() {
 			$('.menu').toggle();
 		});
 	}
+
+	$('.play').click(function() {
+		var src = $(this).parents('.video-parent').find('.video').attr('src');
+        var src1 = /^[^?]+/.exec(src)[0] + '?rel=0&autoplay=1;controls=0&amp;showinfo=0';
+        $(this).parents('.video-parent').find('.video').attr('src', src1);
+        $(this).parents('.video-paranja').hide();
+	});
+	$('.play').click(function() {
+		var src = $(this).parents('.video-parent').find('.video').attr('src');
+        var src1 = /^[^?]+/.exec(src)[0] + '?rel=0&autoplay=1;controls=0&amp;showinfo=0';
+        $(this).parents('.video-parent').find('.video').attr('src', src1);
+        $(this).parents('.history-paranja').hide();
+	});
+
+	$("#owl").owlCarousel({
+        autoPlay: 3000,
+        items : 4,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3],
+        slideSpeed : 300,
+        navigationText : false,
+        pagination : false,
+        navigation : true
+    });
 
 });
