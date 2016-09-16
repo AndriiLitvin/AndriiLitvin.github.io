@@ -2722,10 +2722,12 @@ button.order-btn { margin-top: 14px; }
 
 .detsils { padding: 146px 0 107px; }
 .detsils .tab-content { display: inline-block; vertical-align: top; max-width: 648px; width: 100%; }
-.detsils .detsils-img img { width: 100%; }
-.detsils .nav-tabs { display: inline-block; vertical-align: top; width: 524px; margin-left: -37px; border: 0; }
-.detsils .nav-tabs > li.active > a, .detsils .nav-tabs > li.active > a:hover, .detsils .nav-tabs > li.active > a:focus, .detsils .nav > li > a:hover, .detsils .nav > li > a:focus { background: url(images/act_tab.png) no-repeat; border: 0; background-size: 100%; color: #3c55a5; font: 700 20px Roboto; }
+.detsils .detsils-img img { width: 100%; -moz-transition: all .5s ease-out; -o-transition: all .5s ease-out; -webkit-transition: all .5s ease-out; }
+.detsils .nav-tabs { display: inline-block; vertical-align: top; width: 524px; margin-left: -37px; border: 0; z-index: 8; position: relative; }
+.detsils .nav-tabs > li.active > a, .detsils .nav-tabs > li.active > a:hover, .detsils .nav-tabs > li.active > a:focus, .detsils .nav > li > a:hover, .detsils .nav > li > a:focus { /*background: url(images/act_tab.png) no-repeat;*/ background: transparent; border: 0; background-size: 100%; color: #3c55a5; font: 700 20px Roboto; }
+.detsils .nav-tabs > li.active > a:before, .detsils .nav-tabs > li.active > a:hover:before, .detsils .nav-tabs > li.active > a:focus:before, .detsils .nav > li > a:hover:before, .detsils .nav > li > a:focus:before { content: ""; opacity: 1; }
 .detsils .nav-tabs > li > a { padding: 18px 27px 15px 51px; min-height: 145px; border: 0; border-radius: 0; color: #000000; font: 400 21px Roboto; }
+.detsils .nav-tabs > li > a:before { content: ""; background: url(images/act_tab.png) no-repeat; width: 522px; height: 145px; position: absolute; top: 0; right: 0; z-index: -1; opacity: 0; background-size: 100%; -moz-transition: all .5s ease-out; -o-transition: all .5s ease-out; -webkit-transition: all .5s ease-out; }
 .detsils .nav-tabs > li { margin: 0; }
 
 .partners { background: url(images/part.png) no-repeat; background-size: cover; padding: 60px 0 96px; }
