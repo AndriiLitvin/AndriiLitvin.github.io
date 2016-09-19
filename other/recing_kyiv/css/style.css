@@ -474,7 +474,8 @@ body {
 }
 
 .before-img {
-  position: absolute;
+  position: static;
+  /*position: absolute;*/
   max-width: 330px;
   width: 100%;
 }

@@ -2613,7 +2613,7 @@ body { overflow-x: hidden; }
   body .contact-block form, body .contact-block .contact-form-info { text-align: center; }
   body .contact-map-box { position: static; }
   body .contact-map-form { padding: 0; text-align: center; }
-  body .contact-map-box:before { display: none; } }
+  body .contact-map-box:before, body .detsils .nav-tabs > li > a:before { display: none; } }
 @media (min-width: 415px) and (max-width: 667px) { body .mob-btn { display: inline-block; float: right; color: #000; font-size: 30px; }
   body .menu-top .menu-logo { width: 185px; margin-top: 10px; background-size: 100%; margin-right: 0; }
   body .menu-top .menu { display: none; }
@@ -2644,7 +2644,7 @@ body { overflow-x: hidden; }
   body .contact-block form, body .contact-block .contact-form-info { text-align: center; }
   body .contact-map-box { position: static; }
   body .contact-map-form { padding: 0; text-align: center; }
-  body .contact-map-box:before { display: none; } }
+  body .contact-map-box:before, body .detsils .nav-tabs > li > a:before { display: none; } }
 @media (min-width: 668px) and (max-width: 1200px) { body .mob-btn { display: inline-block; float: right; color: #000; font-size: 30px; }
   body .menu-top .menu-logo { width: 185px; margin-top: 10px; background-size: 100%; margin-right: 0; }
   body .menu-top .menu { display: none; }
@@ -2675,7 +2675,7 @@ body { overflow-x: hidden; }
   body .contact-block form, body .contact-block .contact-form-info { text-align: center; }
   body .contact-map-box { position: static; }
   body .contact-map-form { padding: 0; text-align: center; }
-  body .contact-map-box:before { display: none; }
+  body .contact-map-box:before, body .detsils .nav-tabs > li > a:before { display: none; }
   body .head .head-title { font: 400 56px FredokaOne; }
   body .head .head-info, body .about-title, body .partners-title, body .arithletic-title, body .genius-title, body .registration-title, body .testimonials-title, body .message-title, body .contact-title { font-size: 36px; }
   body .about .col-sm-4 { min-height: 230px; }
