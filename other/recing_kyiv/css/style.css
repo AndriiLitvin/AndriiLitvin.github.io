@@ -771,3 +771,24 @@ display: inline-block;
 .show-logo img {
   width: 100%;
 }
+.tickets {
+  position: fixed;
+  top: 10px;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+}
+.tickets .container {
+  display: block;
+}
+.tickets img {
+  float: right;
+  max-width: 130px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s linear;
+}
+.tickets img:hover {
+  background: #fff;
+  transform: scale(1.1);
+}

@@ -11,8 +11,7 @@ $message .= "city: {$_POST['city']} \n";
 $message .= "message: {$_POST['message']} \n";
 $message .= "Страница: .$page \n";
 
-// $to = "info@smmnow.ru" . ",";
-$to = "al@gogmat.com";
+$to = "arithletics@gmail.com";
 $headers = "Content-type: text/plain;charset=utf-8"; 
 $subject = "=?UTF-8?B?".base64_encode("ЗАЯВКА ARITHLETICS RU")."?=";
 
