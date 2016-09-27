@@ -26,10 +26,6 @@ var top;
 	        top: top-5,
 	      });
 	    }
-	    $('.what_get-info span').css({
-	    	'font-family' : 'DINRoundPro',
-	    	'font-weight' : '400'
-	    })
 	    setTimeout(function() {
 	    	for (var i = 0; i < $what_get.length; i++) {
 			   top = parseInt($($what_get[i]).css( "top" )) ;
@@ -37,10 +33,6 @@ var top;
 		        top: top+5,
 		      });
 		    }
-		    $('.what_get-info span').css({
-		    	'font-family' : 'DINRoundPro-B',
-		    	'font-weight' : '900'
-		    });
 	    }, 500);
 		
 	}
@@ -104,13 +96,20 @@ var top;
     });
 
     $('.methods').click(function() {
-    	$('.type_hidden').val('Хочу методику')
+    	$('.type_hidden').val('Хочу методику');
+    	$('#text-btn').text('Хочу методику');
     });
     $('.business').click(function() {
-    	$('.type_hidden').val('Хочу бизнес-план')
+    	$('.type_hidden').val('Хочу бизнес-план');
+    	$('#text-btn').text('Хочу бизнес-план');
     });
     $('.experience').click(function() {
-    	$('.type_hidden').val('Перенять опыт')
+    	$('.type_hidden').val('Перенять опыт');
+    	$('#text-btn').text('Перенять опыт');
+    });
+    $('.answers').click(function() {
+    	$('.type_hidden').val('Получить ответы');
+    	$('#text-btn').text('Получить ответы');
     });
 
     $('.registr-form').on('submit', function (e) {
@@ -121,15 +120,15 @@ var top;
       name: $form.find('input[name="name"]').val(),
       email: $form.find('input[name="email"]').val(),
       phone: $form.find('input[name="phone"]').val(),
-      city: $form.find('select[name="city"]').val(),
+      city: $form.find('input[name="city"]').val(),
       type: $form.find('input[name="type"]').val(),
     };
     console.log(data);
 
-/*    var script = document.createElement('script');
-    script.src = 'https://script.google.com/macros/s/AKfycbzKdEC4Lk3uP2NsSxumzUCPLDJMJxivMftnGNOvYKafuuLScVs/exec?name=' +data.name+ '&p2=' +data.email+ '&p3=' +data.phone+ '&p4=' +data.city+ '&p5=' +data.type;
+    var script = document.createElement('script');
+    script.src = 'https://script.google.com/macros/s/AKfycbw3OpS8yNkvRzz_tgwbnVChR7V4jf-zNeMOAwPHjG5AUYkl9tM/exec?name=' +data.name+ '&p2=' +data.email+ '&p3=' +data.phone+ '&p4=' +data.city+ '&p5=' +data.type;
     script.type = 'text/javascript';
-    $("body").append(script);*/
+    $("body").append(script);
 
   setTimeout(function() {
   	if ($(window).width() > 1200) {

@@ -833,7 +833,7 @@ button.order-btn {
   background-size: cover;
   li {
     color: #000000;
-    font: 400 17px / 17px Neucha;
+    font: 400 22px / 1 Neucha;
     margin-bottom: 20px;
     position: relative;
     &:before {
@@ -973,25 +973,11 @@ button.order-btn {
    max-width: 98px;
     position: relative;
     top: 0;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: gray;
-    -webkit-filter: grayscale(1);
     -moz-transition: all .5s ease-out;
     -o-transition: all .5s ease-out;
     -webkit-transition: all .5s ease-out;
     &.animate-img {
       top: -20px;
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    -ms-filter: grayscale(0%);
-    -o-filter: grayscale(0%);
-    filter: none;
-    -webkit-filter: grayscale(0)
     }
   }
 }
