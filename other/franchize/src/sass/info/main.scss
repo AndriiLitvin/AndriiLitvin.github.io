@@ -58,6 +58,9 @@ body {
   padding-top: 13px;
   text-align: left;
   float: right;
+  cursor: pointer;
+  position: relative;
+  margin-right: 15px;
   &:before {
     content: "";
     background: url(images/phone-call.png);
@@ -67,15 +70,13 @@ body {
     right: 0;
     top: 2px;
   }
-  a {
+  color: #ffffff;
+  font: 900 30px / 24px DINRoundPro-B;
+  &:hover {
     color: #ffffff;
-    font: 900 30px / 24px DINRoundPro-B;
-    &:hover {
-      color: #ffffff;
-      text-decoration: none;
-    }
+    text-decoration: none;
   }
-  
+
 }
 
 .head-title {
@@ -824,7 +825,9 @@ button.order-btn {
     font: 900 24px / 24px DINRoundPro-B;
   }
 }
-
+.result-video {
+  margin-bottom: 20px;
+}
 .questions-list {
   background: url(images/qw.png) no-repeat;
   padding: 175px 104px 29px 83px;

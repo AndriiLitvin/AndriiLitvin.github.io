@@ -111,10 +111,15 @@ var top;
     	$('.type_hidden').val('Получить ответы');
     	$('#text-btn').text('Получить ответы');
     });
+    $('.cell').click(function() {
+    	$('.type_hidden').val('Связаться');
+    	$('#text-btn').text('Связаться');
+    });
 
     $('.registr-form').on('submit', function (e) {
     e.preventDefault();
     var $form = $(e.currentTarget);
+    var $this = $(this);
 
     var data = {
       name: $form.find('input[name="name"]').val(),
@@ -123,7 +128,6 @@ var top;
       city: $form.find('input[name="city"]').val(),
       type: $form.find('input[name="type"]').val(),
     };
-    console.log(data);
 
     var script = document.createElement('script');
     script.src = 'https://script.google.com/macros/s/AKfycbw3OpS8yNkvRzz_tgwbnVChR7V4jf-zNeMOAwPHjG5AUYkl9tM/exec?name=' +data.name+ '&p2=' +data.email+ '&p3=' +data.phone+ '&p4=' +data.city+ '&p5=' +data.type;
@@ -131,21 +135,25 @@ var top;
     $("body").append(script);
 
   setTimeout(function() {
-  	if ($(window).width() > 1200) {
+/*  	if ($(window).width() > 1200) {
 	  	$('.registration .registration-box').css({
 	  		'margin-top' : '160px'
 	  	});
-	}
-    var html = [
+	}*/
+  $('#myModal').modal('toggle');
+  $this.trigger('reset');
+  $('#modal').modal();
+/*    var html = [
       '<div class="success">',
-        '<p>Ваша заявка отправлена, в ближайшее время мы с вами свяжемся!</p>',
+        '<p>Спасибо, мы свяжемся с вами в ближайшее время!</p>',
       '</div>'
     ].join('');
 
-     $('.registr-form')
+     $this
       .parent()
-        .html(html);
+        .html(html);*/
   }, 2000);
   });
+
 
 });
