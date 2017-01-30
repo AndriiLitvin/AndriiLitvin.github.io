@@ -1,0 +1,15 @@
+/*IE9 does not support GRADIENTS */
+
+.about {
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#755284', endColorstr='#36293d');/*For 9*/
+}
+
+
+.slider__circle {
+    background: url('../img/ForIe8/white-circle.png');
+}
+
+
+.clients__nav-circle {
+    background: url('../img/ForIe8/black-circle.png');
+}
