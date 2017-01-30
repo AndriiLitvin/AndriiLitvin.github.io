@@ -1,0 +1,32 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>LESS1</title>
+	<style>
+		#canvas1 {
+			border: 3px dotted;
+		}
+	</style>
+</head>
+<body>
+<canvas id="canvas1" height="300" width="400"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</canvas>
+
+<script>
+	window.onload = function () {
+		var theCanvas = document.getElementById('canvas1');
+		theCanvas.width = 150;
+		theCanvas.height = 150;
+
+		if (theCanvas && theCanvas.getContext) {
+			var ctx = theCanvas.getContext('2d');
+
+			if (ctx) {
+				ctx.fillStyle = 'lightGray';
+				ctx.fillRect(0,0, ctx.canvas.width, ctx.canvas.height);
+			}
+		}
+	}
+</script>
+	
+</body>
+</html>

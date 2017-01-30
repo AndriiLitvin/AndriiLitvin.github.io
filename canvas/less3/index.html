@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>LESS3</title>
+	<style>
+		#canvas1 {
+			border: 3px dotted;
+		}
+	</style>
+</head>
+<body>
+<canvas id="canvas1" height="500" width="800"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</canvas>
+
+<script>
+	window.onload = function () {
+		var theCanvas = document.getElementById('canvas1');
+
+		if (theCanvas && theCanvas.getContext) {
+			var ctx = theCanvas.getContext('2d');
+
+			if (ctx) {
+
+				ctx.strokeStyle = "blue";//цвет
+				ctx.lineWidth = 5;//ширина линии
+				ctx.strokeRect(25, 25, 100, 125);//грани
+
+				ctx.fillStyle = "green";//background
+				ctx.fillRect(175, 25, 100, 125);//отступы
+
+				ctx.strokeStyle = "red";//цвет border
+				ctx.fillStyle = "yellow";//background
+				ctx.lineWidth = 10;//ширина линии
+				ctx.strokeRect(325, 25, 100, 125);//грани
+
+				ctx.fillRect(325, 25, 100, 125);//отступы
+
+				//clear a rectangle
+				ctx.clearRect(15, 75, 450, 50);//(x, y, width, heigth)
+
+
+			}
+		}
+	}
+</script>
+	
+</body>
+</html>
