@@ -1,0 +1,284 @@
+@import "_variables";
+@import "_mixins";
+
+@media #{$mobile} {
+
+   /*       Header       */
+
+   .wrapper--header {
+      height: 555px;
+      padding-top: 12px;
+
+      background-position: 51% -5%;
+      background-size: 1116px;
+   }
+
+   .header {
+
+      &__account {
+         float: none;
+         width: 100%;
+
+         text-align: center;
+      }
+
+      &__logo {
+         display: block;
+         margin: 0 auto;
+         margin-top: 126px;
+      }
+
+      &__text {
+         width: 100%;
+         margin-top: 32px;
+         padding-left: 2px;
+
+         font-size: 18px;
+         text-align: center;
+      }
+
+      &__caption {
+         margin-bottom: 0;
+
+         font-size: 30px;
+         line-height: 35px;
+      }
+
+      &__subText {
+         display: inline-block;
+         width: 69%;
+         margin-top: 11px;
+         padding-right: 6px;
+
+         line-height: 20px;
+      }
+
+      &__findBtn {
+         margin: 18px 5px 0 0;
+         padding: 0 50px;
+      }
+   }
+
+   /*          MAIN          */
+
+   .wrapper--main {
+      margin-top: 6px;
+      padding: 15px 0 50px;
+   }
+
+   /*       Slider       */
+
+   .main__caption {
+      margin-top: 1px;
+   }
+
+   .sliders {
+      display: block;
+      margin-top: 8px;
+
+      text-align: center;
+   }
+
+   .slider {
+      display: inline-block;
+      height: 240px;
+      width: 93%;
+      margin-top: 8px;
+
+      &__list {
+         height: inherit;
+      }
+
+      &__item {
+         height: inherit;
+         width: 300px;
+      }
+
+      &__arrowL,
+      &__arrowR {
+         display: none;
+      }
+
+      &__text {
+         text-align: left;
+      }
+
+      &__caption {
+         margin-bottom: 13px;
+      }
+
+      &__info {
+         margin-bottom: 18px;
+      }
+   }
+
+   /*       Partners       */
+
+   .partners {
+      margin-top: 30px;
+      width: 100%;
+
+      &__caption {
+         display: inline-block;
+         padding-right: 6px;
+
+         line-height: 26px;
+      }
+
+      &__list {
+         display: block;
+         margin-top: 0px;
+         padding-right: 4px;
+
+         text-align: center;
+      }
+
+      &__item {
+         display: inline-block;
+         position: relative;
+         width: 100%;
+         height: auto;
+         margin-top: 16px;
+
+         text-align: center;
+      }
+
+      &__item:nth-child(2) {
+         top: 272px;
+         right: 1px;
+      }
+
+      &__item:nth-child(3) {
+         bottom: 209px;
+         margin-bottom: 29px;
+      }
+
+      &__figure:after {
+         left: 183px;
+      }
+
+      &__info {
+         display: inline-block;
+         width: 68%;
+      }
+
+      &__bottomBtn {
+         margin: 27px 4px 0 0;
+         padding: 9px 72px;
+      }
+   }
+
+   /*       Activities       */
+
+   .activity {
+      margin-top: 36px;
+   }
+
+   .activity-bar {
+
+      &__caption {
+         line-height: 26px;
+      }
+   }
+
+   .grid {
+      margin-top: 0px;
+      height: 905px;
+
+      &__img {
+         width: 100%;
+         height: 131px;
+         padding: 12px 10px 0;
+
+      }
+
+      &__img:nth-child(1) {
+         padding-top: 0px;
+      }
+
+      &__img:nth-of-type(5),
+      &__img:nth-of-type(6) {
+         width: 100%;
+      }
+   }
+
+   .columnWidth {
+      width: 100%;
+   }
+
+   .activity-search {
+      margin-top: 33px;
+
+      &__text {
+
+      }
+
+      &__caption {
+         line-height: 26px;
+         margin-bottom: 0;
+      }
+
+      &__subText {
+         margin-top: 12px;
+      }
+
+      &__form {
+         margin-top: 18px;
+      }
+
+      &__input {
+         width: 280px;
+         margin-right: 2px;
+      }
+
+      &__btn {
+         margin: 10px 2px 0 0;
+         padding: 0 84px;
+      }
+   }
+
+   /*          MAIN *end*          */
+
+   /*       Footer       */
+
+   .footer {
+      padding-top: 16px;
+
+      text-align: center;
+
+      &__logo {
+         display: block;
+         margin: 0 auto;
+         padding-right: 2px;
+      }
+
+      &__caption {
+         display: block;
+         margin-top: 16px;
+         padding-right: 2px;
+      }
+
+      &__company {
+         display: block;
+         margin: 17px auto 0;
+         padding-right: 2px;
+      }
+
+      &__list {
+         height: 14px;
+         margin-top: 5px;
+         padding-left: 10px;
+      }
+
+      &__item {
+         display: inline-block;
+         margin-top: 0;
+         margin-right: 9px;
+      }
+
+      &__partner {
+         float: none;
+         margin-top: 17px;
+      }
+   }
+}

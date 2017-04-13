@@ -1,0 +1,230 @@
+@import "../_mixins";
+@import "../_variables";
+
+/*          HTML5 Shiv             */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*         HTML5 Shiv *end*             */
+
+#pagewrap {
+   max-width: 1440px;
+   min-width: 940px;
+}
+
+/*       Header       */
+
+
+.header {
+
+   &__caption {
+      font-weight: bold;
+   }
+
+   &__signUp {
+      position: relative;
+
+      border-radius: 20px;
+      behavior: url('dist/styles/IE/PIE/PIE.htc');
+   }
+
+   &__findBtn {
+      position: relative;
+
+      background: #FF4E4E;
+
+      border-radius: 20px;
+      behavior: url('dist/styles/IE/PIE/PIE.htc');
+   }
+}
+
+/*          MAIN          */
+
+.main {
+   margin: 0 auto;
+   width: 100%;
+
+   &__caption {
+      font-weight: bold;
+   }
+}
+
+/*       Sliders       */
+
+.sliders {
+   display: block;
+   margin: 0 auto;
+   width: 940px;
+}
+
+.slider {
+   display: inline-block;
+
+   border-radius: 3px;
+
+   &__step {
+      border-radius: 20px;
+      behavior: url('dist/styles/IE/PIE/PIE.htc');
+   }
+
+   &__item {
+      box-shadow: inset 0px -200px 144px -85px rgba(0,0,0,0.45);
+   }
+
+   &__arrowR,
+   &__arrowL {
+      background: url('../../images/sliders/howItArrowR.png');
+   }
+
+   &__arrowL {
+      background: url('../../images/sliders/howItArrowL.png');
+   }
+
+   &__arrowL:hover,
+   &__arrowR:hover {
+      cursor: pointer;
+      opacity: 1;
+   }
+
+}
+
+.slider:last-child {
+   margin-right: 0;
+}
+
+/*          Partners          */
+
+.partners {
+   margin-top: 98px;
+
+   text-align: center;
+
+   &__caption {
+      font-weight: bold;
+   }
+
+   &__list {
+      margin-top: 34px;
+
+      list-style: none;
+      box-sizing: border-box;
+   }
+
+   &__item {
+      display: inline-block;
+      width: 230px;
+      vertical-align: top;
+
+      text-align: center;
+   }
+
+   &__item:last-child {
+      margin-right: 0;
+   }
+
+   &__figure {
+      display: block;
+      position: relative;
+   }
+
+   &__figure:after {
+      left: 140px;
+   }
+
+   &__name {
+      display: block;
+      font-weight: bold;
+   }
+
+   &__info {
+      display: inline-block;
+      width: 200px;
+   }
+
+   &__bottomBtn {
+      border-radius: 20px;
+      behavior: url('dist/styles/IE/PIE/PIE.htc');
+   }
+}
+
+/*       Activities       */
+
+.activity-bar {
+   width: 940px;
+   margin: 0 auto;
+
+   &__caption {
+      font-weight: bold;
+   }
+
+}
+
+.activity-search {
+
+   &__caption {
+      font-weight: bold;
+   }
+
+   &__form {
+      display: inline-table;
+      vertical-align: top;
+   }
+
+   &__input {
+      vertical-align: middle;
+      padding: 0 0 9px 15px;
+   }
+
+   &__btn {
+      border-radius: 20px;
+      behavior: url('dist/styles/IE/PIE/PIE.htc');
+   }
+}
+
+.grid {
+
+   &__img {
+      height: 310px;
+      width: 300px;
+      padding-top: 20px;
+
+      border-radius: 4px;
+   }
+
+   &__img--5 {
+      width: 620px;
+   }
+
+   &__img--6 {
+      width: 620px;
+   }
+}
+
+/*       Footer       */
+
+.footer {
+
+   &__logo {
+      display: inline-block;
+   }
+
+   &__caption {
+      font-weight: bold;
+   }
+
+   &__company {
+      display: inline-block;
+   }
+}

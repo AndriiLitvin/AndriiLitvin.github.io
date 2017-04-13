@@ -1,0 +1,31 @@
+@mixin content {
+   max-width: $content;
+   margin: 0 auto;
+}
+
+@mixin mainCaptions {
+   color: #000;
+   font-size: 22px;
+   font-family: $MontB;
+   text-align: center;
+
+   box-sizing: border-box;
+}
+
+@mixin opacity($val) {
+   -webkit-opacity: $val;
+   -moz-opacity: $val;
+   opacity: $val;
+}
+
+@mixin transition($val)  {
+   -webkit-transition: $val;
+   -moz-transition: $val;
+   transition: $val;
+}
+
+@mixin border-radius($val)  {
+   -webkit-border-radius: $val;
+   -moz-border-radius: $val;
+   border-radius: $val;
+}
