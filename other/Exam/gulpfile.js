@@ -13,7 +13,7 @@ gulp.task('scripts', function() {
     .pipe(babel({
       presets: ['es2015']
       }))
-    .pipe(uglify())
+   //  .pipe(uglify())
     .pipe(gulp.dest('dist/scripts/')),
     gulp.src('app/scripts/ignore/*.js')
       .pipe(gulp.dest('dist/scripts/ignore/')),

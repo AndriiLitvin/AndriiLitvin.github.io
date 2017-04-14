@@ -96,12 +96,12 @@ window.onload = function() {
    /*          Images bar & Masonry        */
 
    (function() {
-      let sections = ['Sport and Activity', 'Wellnes and Health', 'Extreme  Sports and Expeditions', 'Games', 'Culture and Edution', 'Les Paul', 'Relaxation', 'Travelling'];
-      let inputText = sections[Math.floor(Math.random()*sections.length)]; // рандомный выбор раздела
+      let sections = ['Marshal', 'Wellnes and Health', 'Extreme  Sports and Expeditions', 'Fender', 'Culture and Edution', 'Les Paul', 'Relaxation', 'Travelling'];
+      let inputText = sections[ Math.floor( Math.random()*sections.length ) ]; // magic
 
-      // searching('Les');
       searching(inputText);
    })();
+
    function update(data) {
       if (!ResultsCheck(data)) {
          return false;
@@ -111,9 +111,11 @@ window.onload = function() {
       let html = document.getElementById('grid').innerHTML;
 
       let links = data.hits.map(function(item) {
-         return item.webformatURL;
+         return {
+            link: item.webformatURL,
+            word: item.user
+         };
       });
-      // console.log(data.hits);
 
       let compiled = tmpl(html, { data: links });
       grid.innerHTML = compiled;
@@ -126,6 +128,44 @@ window.onload = function() {
             percentPosition: true
          });
       });
+      gridHover();
+   }
+
+   function gridHover() {
+      let gridImages = document.querySelectorAll('.grid__mask');
+      for (let i = 0; i < gridImages.length; i++) {
+         gridImages[i].parentNode.addEventListener('mouseenter', function() {
+            this.querySelector('.grid__mask').style.display = 'none';
+            this.querySelector('.grid__info').style.display = 'none';
+         });
+
+         gridImages[i].parentNode.addEventListener('mouseleave', function() {
+            this.querySelector('.grid__mask').style.display = 'inline-block';
+            this.querySelector('.grid__info').style.display = 'inline-block';
+         });
+
+         gridImages[i].parentNode.addEventListener('click', function() {
+            let imgSrc = this.getAttribute('data-src');
+            let html = document.getElementById('mask').innerHTML;
+            let page = document.getElementById('pagewrap');
+
+            let maskWrapper = document.createElement('div');
+            maskWrapper.classList.add('mask-wrapper');
+
+            let compiled = tmpl(html, { data: imgSrc });
+            maskWrapper.innerHTML = compiled;
+
+            page.appendChild(maskWrapper);
+
+            maskWrapper.addEventListener('click', function(e) {
+               if (e.target.tagName == 'IMG') {
+                  return false;
+               } else {
+                  page.removeChild(this);
+               }
+            });
+         });
+      }
    }
 
    function ResultsCheck(data) {
@@ -162,11 +202,13 @@ window.onload = function() {
             if (grid.childNodes.length > 1) {
                removeNoResult(grid);
                addNoResult(grid);
-               let msnry = new Masonry( grid, {
-                  itemSelector: '.grid__img',
-                  columnWidth: '.columnWidth',
-                  gutter: 20,
-                  percentPosition: true
+               imagesLoaded(grid, function() {
+                  let msnry = new Masonry( grid, {
+                     itemSelector: '.grid__img',
+                     columnWidth: '.columnWidth',
+                     gutter: 20,
+                     percentPosition: true
+                  });
                });
             } else {
                if (grid.childNodes.length != 1) {

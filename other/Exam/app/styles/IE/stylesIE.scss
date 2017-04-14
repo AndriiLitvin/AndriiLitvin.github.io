@@ -210,6 +210,22 @@ summary {
    &__img--6 {
       width: 620px;
    }
+
+   &__mask {
+      filter: alpha(opacity=40);
+   }
+}
+
+.mask {
+   filter: alpha(opacity=40);
+}
+
+.mask-wrapper:after {
+   content: '';
+   display: inline-block;
+   height: 100%;
+
+   vertical-align: middle;
 }
 
 /*       Footer       */

@@ -15,6 +15,6 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.1.2",
     "gulp-uglifycss": "^1.0.6",
-    "gulp-watch": "^4.3.11",
+    "gulp-watch": "^4.3.11"
   }
 }

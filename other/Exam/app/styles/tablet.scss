@@ -98,8 +98,8 @@
       width: 31.49%;
    }
 
-   .grid__img:nth-of-type(5),
-   .grid__img:nth-of-type(6) {
+   .grid__img--5,
+   .grid__img--6 {
       width: 65.6%;
    }
 
@@ -147,8 +147,8 @@
          width: 30.5%;
       }
 
-      &__img:nth-of-type(5),
-      &__img:nth-of-type(6) {
+      &__img--5,
+      &__img--6 {
          width: 64.4%;
       }
    }
@@ -263,8 +263,8 @@
          box-sizing: border-box;
       }
 
-      &__img:nth-of-type(5),
-      &__img:nth-of-type(6) {
+      &__img--5,
+      &__img--6 {
          width: 100%;
       }
    }

@@ -29,3 +29,12 @@
    -moz-border-radius: $val;
    border-radius: $val;
 }
+
+@mixin btnHover {
+   cursor: pointer;
+   color: #ff4e4e;
+
+   background: 0;
+
+   border: 2px solid #ff4e4e;
+}

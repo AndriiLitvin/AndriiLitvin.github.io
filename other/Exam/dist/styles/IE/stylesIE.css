@@ -13,5 +13,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 .activity-bar{width:940px;margin:0 auto}.activity-bar__caption{font-weight:bold}.activity-search__caption{font-weight:bold}
 .activity-search__form{display:inline-table;vertical-align:top}.activity-search__input{vertical-align:middle;padding:0 0 9px 15px}
 .activity-search__btn{border-radius:20px;behavior:url("dist/styles/IE/PIE/PIE.htc")}.grid__img{height:310px;width:300px;padding-top:20px;border-radius:4px}
-.grid__img--5{width:620px}.grid__img--6{width:620px}.footer__logo{display:inline-block}
-.footer__caption{font-weight:bold}.footer__company{display:inline-block}
+.grid__img--5{width:620px}.grid__img--6{width:620px}.grid__mask{filter:alpha(opacity=40)}
+.mask{filter:alpha(opacity=40)}.mask-wrapper:after{content:'';display:inline-block;height:100%;vertical-align:middle}
+.footer__logo{display:inline-block}.footer__caption{font-weight:bold}.footer__company{display:inline-block}

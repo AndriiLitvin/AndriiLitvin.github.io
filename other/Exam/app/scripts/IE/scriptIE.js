@@ -116,7 +116,11 @@ window.onload = function() {
       var links = [];
 
       for (var i = 0; i < data.hits.length; i++) {
-         links[i] = data.hits[i].webformatURL;
+         var omg = {
+            link: data.hits[i].webformatURL,
+            word: data.hits[i].user
+         };
+         links[i] = omg;
       }
 
       var grid = document.querySelector('.grid');
@@ -128,7 +132,47 @@ window.onload = function() {
          columnWidth: 300,
          gutter: 20
       });
+      gridHover();
    }
+
+   function gridHover() {
+      var gridImages = document.querySelectorAll('.grid__mask');
+      for (var i = 0; i < gridImages.length; i++) {
+         gridImages[i].parentNode.attachEvent('onmouseenter', function(e) {
+            e.srcElement.querySelector('.grid__mask').style.display = 'none';
+            e.srcElement.querySelector('.grid__info').style.display = 'none';
+         });
+
+         gridImages[i].parentNode.attachEvent('onmouseleave', function(e) {
+            e.srcElement.querySelector('.grid__mask').style.display = 'inline-block';
+            e.srcElement.querySelector('.grid__info').style.display = 'inline-block';
+         });
+
+         gridImages[i].parentNode.attachEvent('onclick', function(e) {
+            var imgSrc = e.srcElement.getAttribute('data-src');
+            var html = document.getElementById('mask').innerHTML;
+            var page = document.getElementById('pagewrap');
+
+            var maskWrapper = document.createElement('div');
+            maskWrapper.className += 'mask-wrapper';
+
+            var compiled = tmpl(html, { data: imgSrc });
+            maskWrapper.innerHTML = compiled;
+
+            page.appendChild(maskWrapper);
+
+            maskWrapper.attachEvent('onclick', function(e) {
+               if (e.srcElement.tagName == 'IMG') {
+                  return false;
+               } else {
+                  var zaebalo = document.getElementById('pagewrap');
+                  zaebalo.removeChild( document.querySelector('.mask-wrapper') );
+               }
+            });
+         });
+      }
+   }
+
 
    function ResultsCheck(data) {
 
