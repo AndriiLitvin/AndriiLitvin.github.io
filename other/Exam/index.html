@@ -138,51 +138,52 @@
                            <div class="grid__mask"></div>
                            <span class="grid__info"> <%= data[i].word %> </span>
                         </div>
-                     <% } %>
-                  </script>
-               </section>
+                        <% } %>
+                     </script>
+                  </section>
 
-               <section class="activity-search">
-                  <div class="activity-search__text">
-                     <p class="activity-search__caption"> Discover holiday activity ideas </p>
-                     <p class="activity-search__subText"> Hi! What are your holiday interests? </p>
-                  </div>
+                  <section class="activity-search">
+                     <div class="activity-search__text">
+                        <p class="activity-search__caption"> Discover holiday activity ideas </p>
+                        <p class="activity-search__subText"> Hi! What are your holiday interests? </p>
+                     </div>
 
-                  <form class="activity-search__form">
-                     <input class="activity-search__input" type="text" placeholder="Enter your interests">
-                     <button class="activity-search__btn" type="button"> Search partners </button>
-                  </form>
-               </section>
+                     <form class="activity-search__form">
+                        <input class="activity-search__input" type="text" placeholder="Enter your interests">
+                        <button class="activity-search__btn" type="button"> Search partners </button>
+                     </form>
+                  </section>
 
-            </div>
-         </main>
+               </div>
+            </main>
 
+         </div>
+
+         <div class="wrapper wrapper-footer">
+            <footer class="footer">
+               <img class="footer__logo" src="dist/images/footer-logo.png" alt="" class="footer__logo">
+
+               <div class="footer__company">
+                  <span class="footer__caption"> Company </span>
+                  <ul class="footer__list">
+                     <li class="footer__item"><a class="footer__link" href=""> About </a></li>
+                     <li class="footer__item"><a class="footer__link" href=""> Contacts </a></li>
+                     <li class="footer__item"><a class="footer__link" href=""> Press </a></li>
+                     <li class="footer__item"><a class="footer__link" href=""> Blog </a></li>
+                  </ul>
+               </div>
+
+               <span class="footer__caption"> Partners </span>
+               <img class="footer__partner" src="dist/images/footer-partners.png" alt="">
+
+            </footer>
+         </div>
+
+         <script type="text/html" id="mask">
+            <div class="mask"></div>
+            <img class="img--mask" src="<%= data %>">
+         </script>
       </div>
 
-      <div class="wrapper wrapper-footer">
-         <footer class="footer">
-            <img class="footer__logo" src="dist/images/footer-logo.png" alt="" class="footer__logo">
-
-            <div class="footer__company">
-               <span class="footer__caption"> Company </span>
-               <ul class="footer__list">
-                  <li class="footer__item"><a class="footer__link" href=""> About </a></li>
-                  <li class="footer__item"><a class="footer__link" href=""> Contacts </a></li>
-                  <li class="footer__item"><a class="footer__link" href=""> Press </a></li>
-                  <li class="footer__item"><a class="footer__link" href=""> Blog </a></li>
-               </ul>
-            </div>
-
-            <span class="footer__caption"> Partners </span>
-            <img class="footer__partner" src="dist/images/footer-partners.png" alt="">
-
-         </footer>
-      </div>
-      <script type="text/html" id="mask" >
-         <div class="mask"></div>
-         <img class="img--mask" src="<%= data %>">
-      </script>
-   </div>
-
-</body>
-</html>
+   </body>
+   </html>

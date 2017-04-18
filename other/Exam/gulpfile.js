@@ -59,4 +59,4 @@ gulp.task('watch', function() {
    gulp.watch('app/styles/**/*.scss', ['scss']);
 });
 
-gulp.task('default', ['scss', 'scripts', 'fonts']);
+gulp.task('default', ['scss', 'scripts', 'fonts', 'img']);

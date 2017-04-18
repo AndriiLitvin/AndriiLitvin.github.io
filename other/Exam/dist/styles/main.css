@@ -16,7 +16,7 @@ table{border-collapse:collapse;border-spacing:0}a{color:#000;text-decoration:non
 .wrapper--main{padding:90px 0 75px;border-bottom:4px solid #ff4e50;box-sizing:border-box}
 .main{max-width:940px;margin:0 auto}.main__caption{color:#000;font-size:22px;font-family:"Montserrat-Bold",sans-serif;text-align:center;box-sizing:border-box;padding-right:3px;margin-top:7px}
 .sliders{display:flex;justify-content:space-between;max-width:940px;margin:0 auto}
-.slider{position:relative;width:300px;height:400px;margin-top:36px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;box-sizing:border-box;overflow:hidden;z-index:1}
+.slider{position:relative;display:inline-block;width:300px;height:400px;margin-top:36px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;box-sizing:border-box;overflow:hidden;z-index:1}
 .slider__list{position:absolute;left:0;top:0;list-style:none;-webkit-transition:.4s;-moz-transition:.4s;transition:.4s}
 .slider__item{float:left;width:300px;height:400px;background-position:50% 0;background-size:100%;-webkit-box-shadow:inset 0 -200px 144px -85px rgba(0,0,0,0.45);-moz-box-shadow:inset 0 -200px 144px -85px rgba(0,0,0,0.45);box-shadow:inset 0 -200px 144px -85px rgba(0,0,0,0.45)}
 .slider__text{position:absolute;bottom:0;padding-left:19px;box-sizing:border-box;z-index:1}
@@ -28,7 +28,7 @@ table{border-collapse:collapse;border-spacing:0}a{color:#000;text-decoration:non
 .slider:last-child{margin-right:0}.partners{max-width:940px;margin:0 auto;margin-top:98px;text-align:center}
 .partners__caption{color:#000;font-size:22px;font-family:"Montserrat-Bold",sans-serif;text-align:center;box-sizing:border-box;padding-right:3px}
 .partners__list{display:flex;justify-content:space-between;margin-top:34px;list-style:none;box-sizing:border-box}
-.partners__item{height:240px;width:23%;text-align:center}.partners__item:last-child{margin-right:0}
+.partners__item{display:inline-block;height:240px;width:23%;text-align:center}.partners__item:last-child{margin-right:0}
 .partners__figure{position:relative}.partners__figure:after{content:'';position:absolute;top:85px;left:134px;width:42px;height:40px;background:url("../images/sprites/sprite.png") 0 0}
 .partners__figure--2:after{background-position:0 120px}.partners__figure--3:after{background-position:0 80px}
 .partners__figure--4:after{background-position:0 40px}.partners__name{margin-top:17px;font-size:14px;font-family:"Montserrat-Bold",sans-serif}
