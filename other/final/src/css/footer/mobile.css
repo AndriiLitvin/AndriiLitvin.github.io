@@ -1,0 +1,21 @@
+footer {
+  text-align: center; }
+  footer .footer_logo {
+    padding-top: 5.7%; }
+  footer .footer_menu {
+    padding-top: 4.5%; }
+    footer .footer_menu ul {
+      padding-top: 1.5%;
+      margin-bottom: 0.2%; }
+      footer .footer_menu ul li {
+        display: inline-block;
+        margin-right: 3.2%; }
+        footer .footer_menu ul li:last-child {
+          margin-right: 0; }
+  footer .desined-by {
+    margin-top: 5.2%; }
+    footer .desined-by .logo-developer-company {
+      padding-top: 2.5%;
+      margin-left: -2px; }
+
+/*# sourceMappingURL=mobile.css.map */

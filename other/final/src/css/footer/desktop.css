@@ -1,0 +1,21 @@
+footer {
+  margin-top: 2.6%; }
+  footer .footer_logo {
+    float: left;
+    margin-right: 0.4%; }
+  footer .footer_menu {
+    float: left;
+    margin-left: 9.9%; }
+    footer .footer_menu h4 {
+      padding-bottom: 17%; }
+    footer .footer_menu ul a {
+      line-height: 24px; }
+  footer .desined-by {
+    float: right; }
+    footer .desined-by p {
+      margin-right: -32px;
+      margin-top: 1px; }
+    footer .desined-by img {
+      margin-top: 8px; }
+
+/*# sourceMappingURL=desktop.css.map */

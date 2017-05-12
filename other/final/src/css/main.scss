@@ -1,0 +1,54 @@
+@import "basic.scss";
+
+// desktop
+@media screen and (min-width: 940px){
+
+  @import "header/desktop.scss";
+  @import "work-principles/desktop.scss";
+  @import "partners/desktop.scss";
+  @import "activity-ideas/desktop.scss";
+  @import "search-partners/desktop.scss";
+  @import "footer/desktop.scss";
+
+  .wrapper {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+// tablet
+@media screen and (min-width: 768px) and (max-width: 939px) {
+
+  @import "header/tablet.scss";
+  @import "work-principles/tablet.scss";
+  @import "partners/tablet.scss";
+  @import "activity-ideas/tablet.scss";
+  @import "search-partners/tablet.scss";
+  @import "footer/tablet.scss";
+}
+
+
+// mobile
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  @import "header/mobile.scss";
+  @import "work-principles/mobile.scss";
+  @import "partners/mobile.scss";
+  @import "activity-ideas/mobile.scss";
+  @import "search-partners/mobile.scss";
+  @import "footer/mobile.scss";
+
+  .button {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  h2 {
+    font-size: 22px;
+    color: #333;
+  }
+}

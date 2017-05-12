@@ -1,0 +1,175 @@
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .content {
+    width: auto; }
+
+  header {
+    padding-top: 6.3%;
+    padding-bottom: 30.5%; }
+    header .header_login {
+      float: right;
+      margin-right: 6.5%; }
+    header .header_logo {
+      float: left;
+      margin-left: 6.3%; }
+    header .header_banner {
+      clear: both;
+      margin-top: 21.6%; }
+      header .header_banner h1 {
+        font-size: 52px;
+        line-height: 64px;
+        letter-spacing: -0.5px;
+        width: 64%;
+        margin-left: 17.6%; }
+      header .header_banner .banner_description {
+        font-size: 24px;
+        margin-top: 3.5%;
+        margin-left: -0.8%; }
+      header .header_banner .header_button {
+        margin-top: 4.8%;
+        margin-left: 35.3%;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 4px; }
+
+  .work-principles {
+    margin-top: 12.6%;
+    margin-left: 1.3%; }
+    .work-principles h2 {
+      font-size: 22px;
+      margin-left: 30.8%;
+      letter-spacing: -0.2px;
+      margin-bottom: 4.67%; }
+    .work-principles .principle {
+      display: inline-block;
+      vertical-align: top;
+      width: 31.2%;
+      margin-right: 2.1%; }
+      .work-principles .principle:last-child {
+        margin-right: 0; }
+      .work-principles .principle .principle_step {
+        margin-top: 89.8%;
+        margin-left: 8.3%; }
+      .work-principles .principle .step__two {
+        margin-top: 109.6%;
+        margin-left: 8.3%; }
+      .work-principles .principle h3 {
+        margin-top: 6.5%;
+        margin-left: 8%; }
+      .work-principles .principle .principle_description {
+        margin-top: 5%;
+        margin-left: 8%;
+        line-height: 17px;
+        margin-bottom: 6.3%; }
+      .work-principles .principle .description__two {
+        margin-top: 4.3%;
+        width: 87%; }
+    .work-principles .principle__two .principle_description {
+      margin-bottom: 6.6%; }
+
+  .partners {
+    max-width: 520px;
+    text-align: center;
+    margin: 13.4% auto 10%; }
+    .partners h2 {
+      font-size: 22px;
+      letter-spacing: 0.09px;
+      margin-top: -0.5%;
+      margin-bottom: 6.3%; }
+    .partners .partner {
+      text-align: center;
+      display: inline-block;
+      width: 246px;
+      vertical-align: top;
+      min-height: 228px;
+      margin-bottom: 5%; }
+      .partners .partner .partner_photo::after {
+        bottom: -2px;
+        right: 59px; }
+    .partners .partner__tv {
+      margin-left: -1%; }
+    .partners .partner__flask figure {
+      margin-left: 5%; }
+      .partners .partner__flask figure .partner_photo::after {
+        right: 52px; }
+    .partners .partner__coffe {
+      margin-left: -1%; }
+    .partners .partner__telegram figure {
+      margin-left: 5%; }
+      .partners .partner__telegram figure .partner_photo::after {
+        right: 52px; }
+    .partners figcaption {
+      margin-top: 16px;
+      margin-left: -1px; }
+    .partners .partner_description {
+      margin-top: 15px;
+      width: 200px;
+      margin-left: 9%;
+      line-height: 17px; }
+    .partners .partners_button {
+      margin-top: 3.5%;
+      margin-left: 31.4%;
+      padding-left: 27px;
+      padding-right: 28px; }
+
+  .activity-ideas {
+    margin-top: 12.9%;
+    text-align: center; }
+    .activity-ideas h2 {
+      font-size: 22px;
+      margin-bottom: 6%; }
+    .activity-ideas .grid {
+      margin-left: 1.3%;
+      min-height: 970px; }
+      .activity-ideas .grid .grid-item {
+        background-image: url("../../img/activ-forexampl.png");
+        min-width: 236px; }
+      .activity-ideas .grid .grid-item--width2 {
+        width: 492px; }
+
+  .search-partners {
+    margin-top: 11.4%;
+    text-align: center;
+    padding-bottom: 12.9%; }
+    .search-partners h2 {
+      font-size: 22px;
+      margin-left: -0.5%; }
+    .search-partners p {
+      font-size: 18px;
+      margin-top: 4.5%;
+      margin-left: -1%; }
+    .search-partners form {
+      margin-top: 5.1%;
+      max-width: 420px;
+      margin-left: 22.5%; }
+      .search-partners form input {
+        min-width: 236px; }
+      .search-partners form .search-partners_button {
+        padding-left: 24px;
+        padding-right: 22px;
+        margin-left: 1.5%; }
+
+  footer {
+    margin-top: 5.1%; }
+    footer .footer_logo {
+      float: left;
+      margin-left: 5.1%; }
+    footer .footer_menu {
+      float: left;
+      margin-left: 11%;
+      margin-right: 2.4%; }
+      footer .footer_menu h4 {
+        padding-bottom: 14%;
+        margin-left: -1%; }
+      footer .footer_menu ul {
+        margin-left: -1%; }
+        footer .footer_menu ul a {
+          line-height: 24px; }
+    footer .desined-by {
+      float: right;
+      margin-right: 5.2%; }
+      footer .desined-by p {
+        margin-right: -29%; }
+      footer .desined-by .logo-developer-company {
+        margin-top: 7%; } }
+
+/*# sourceMappingURL=Tablet.css.map */

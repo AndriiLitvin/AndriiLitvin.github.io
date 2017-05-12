@@ -1,0 +1,26 @@
+footer {
+  margin-top: 5%; }
+  footer .footer_logo {
+    float: left;
+    margin-left: 5.1%; }
+  footer .footer_menu {
+    float: left;
+    margin-left: 11%;
+    margin-right: 2.4%; }
+    footer .footer_menu h4 {
+      padding-bottom: 16%;
+      margin-left: -1%; }
+    footer .footer_menu ul {
+      margin-left: -1%; }
+      footer .footer_menu ul a {
+        line-height: 24px; }
+  footer .desined-by {
+    float: right;
+    margin-right: 5.2%; }
+    footer .desined-by p {
+      margin-right: -29%;
+      margin-top: 1px; }
+    footer .desined-by .logo-developer-company {
+      margin-top: 7%; }
+
+/*# sourceMappingURL=tablet.css.map */

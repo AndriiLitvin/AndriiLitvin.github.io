@@ -1,0 +1,160 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .button {
+    padding-left: 50px;
+    padding-right: 50px; }
+
+  h2 {
+    font-size: 22px;
+    color: #333; }
+
+  header .header_login {
+    padding-top: 9.5%;
+    text-align: right;
+    margin-right: 26.5%; }
+  header .header_logo {
+    margin-top: 40%;
+    text-align: center; }
+  header .header_banner {
+    text-align: center; }
+    header .header_banner h1 {
+      padding-top: 9.2%;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: -0.004em; }
+    header .header_banner .banner_description {
+      padding-top: 2.8%;
+      margin-left: 15%;
+      width: 70%;
+      font-size: 18px;
+      letter-spacing: 0.003em; }
+    header .header_banner .header_button {
+      margin-top: 5.5%;
+      margin-bottom: 43%; }
+
+  .work-principles h2 {
+    padding-top: 11.5%;
+    margin-left: 5%;
+    letter-spacing: -0.2px; }
+  .work-principles .principle {
+    width: 280px;
+    height: 171px;
+    margin-top: 5%;
+    margin-left: 3%;
+    padding-top: 21.6%;
+    padding-left: 6.3%; }
+    .work-principles .principle .principle_step {
+      margin-left: 0.3%; }
+    .work-principles .principle h3 {
+      padding-top: 5.5%; }
+    .work-principles .principle .principle_description {
+      padding-top: 4.5%;
+      width: 95%;
+      line-height: 15px; }
+  .work-principles .principle__two {
+    margin-top: 3.1%; }
+    .work-principles .principle__two .principle_step {
+      margin-top: 10.9%;
+      padding-left: 13px;
+      padding-right: 10px; }
+  .work-principles .principle__three {
+    margin-top: 3.1%; }
+
+  .partners {
+    padding-top: 11%;
+    text-align: center; }
+    .partners h2 {
+      width: 97%;
+      line-height: 26px; }
+    .partners .partner {
+      padding-top: 4.5%; }
+      .partners .partner figure .partner_photo::after {
+        bottom: -3px;
+        right: 29.9%; }
+      .partners .partner figure figcaption {
+        padding-top: 5.5%;
+        margin-left: -0.5%; }
+      .partners .partner figure .partner_description {
+        width: 69%;
+        padding-top: 4.8%;
+        margin-left: 15.1%; }
+    .partners .partner__flask {
+      padding-top: 8.5%;
+      margin-left: -0.2%; }
+    .partners .partner__coffe {
+      padding-top: 8.6%;
+      margin-left: -1.5%; }
+    .partners .partner__telegram {
+      padding-top: 8.4%;
+      margin-left: -1.5%; }
+    .partners .partners_button {
+      margin-top: 8.1%;
+      padding-left: 71px;
+      padding-right: 72px;
+      margin-left: 6%; }
+
+  .activity-ideas {
+    margin-top: 11%;
+    line-height: 26px; }
+    .activity-ideas h2 {
+      text-align: center;
+      margin-bottom: 4%; }
+    .activity-ideas .grid {
+      margin-left: 3%; }
+      .activity-ideas .grid .grid-item {
+        width: 300px;
+        height: 121px;
+        background-image: url("../../img/activ-forexampl.png");
+        text-align: center;
+        margin-bottom: 3%; }
+        .activity-ideas .grid .grid-item p {
+          padding-top: 15.8%;
+          width: 74%;
+          padding-left: 13%; }
+
+  .search-partners {
+    margin-top: 10.7%;
+    text-align: center;
+    padding-bottom: 12.5%; }
+    .search-partners h2 {
+      margin-left: -1%;
+      line-height: 26px; }
+    .search-partners p {
+      padding-top: 4%;
+      margin-left: -1.3%; }
+    .search-partners form {
+      margin-top: 5.4%; }
+      .search-partners form input {
+        width: 86.2%;
+        margin-left: -1%; }
+      .search-partners form .search-partners_button {
+        margin-top: 3.1%;
+        padding-left: 26%;
+        padding-right: 26%;
+        margin-left: -1%;
+        line-height: 36px; }
+
+  footer .footer_logo {
+    padding-top: 5.7%;
+    margin-left: 27.2%; }
+  footer .footer_menu {
+    padding-top: 4.5%; }
+    footer .footer_menu h4 {
+      margin-left: 39%; }
+    footer .footer_menu .title-menu__aligned {
+      margin-left: 40.3%; }
+    footer .footer_menu ul {
+      padding-top: 1.5%;
+      margin-left: 19.3%;
+      margin-bottom: 0.2%; }
+      footer .footer_menu ul li {
+        display: inline-block;
+        margin-right: 4%; }
+        footer .footer_menu ul li :last-child {
+          margin-right: 0; }
+  footer .desined-by {
+    margin-top: 5.2%; }
+    footer .desined-by .logo-developer-company {
+      padding-top: 2.7%;
+      margin-left: 32.4%; } }
+
+/*# sourceMappingURL=mobile.css.map */

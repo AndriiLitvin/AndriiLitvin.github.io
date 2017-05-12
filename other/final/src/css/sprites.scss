@@ -1,0 +1,226 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$partner-icon-coffe-name: 'partner-icon-coffe';
+$partner-icon-coffe-x: 0px;
+$partner-icon-coffe-y: 0px;
+$partner-icon-coffe-offset-x: 0px;
+$partner-icon-coffe-offset-y: 0px;
+$partner-icon-coffe-width: 41px;
+$partner-icon-coffe-height: 41px;
+$partner-icon-coffe-total-width: 82px;
+$partner-icon-coffe-total-height: 82px;
+$partner-icon-coffe-image: 'spritesheet.png';
+$partner-icon-coffe: (0px, 0px, 0px, 0px, 41px, 41px, 82px, 82px, 'spritesheet.png', 'partner-icon-coffe', );
+$partner-icon-flask-name: 'partner-icon-flask';
+$partner-icon-flask-x: 41px;
+$partner-icon-flask-y: 0px;
+$partner-icon-flask-offset-x: -41px;
+$partner-icon-flask-offset-y: 0px;
+$partner-icon-flask-width: 41px;
+$partner-icon-flask-height: 41px;
+$partner-icon-flask-total-width: 82px;
+$partner-icon-flask-total-height: 82px;
+$partner-icon-flask-image: 'spritesheet.png';
+$partner-icon-flask: (41px, 0px, -41px, 0px, 41px, 41px, 82px, 82px, 'spritesheet.png', 'partner-icon-flask', );
+$partner-icon-telegram-name: 'partner-icon-telegram';
+$partner-icon-telegram-x: 0px;
+$partner-icon-telegram-y: 41px;
+$partner-icon-telegram-offset-x: 0px;
+$partner-icon-telegram-offset-y: -41px;
+$partner-icon-telegram-width: 41px;
+$partner-icon-telegram-height: 41px;
+$partner-icon-telegram-total-width: 82px;
+$partner-icon-telegram-total-height: 82px;
+$partner-icon-telegram-image: 'spritesheet.png';
+$partner-icon-telegram: (0px, 41px, 0px, -41px, 41px, 41px, 82px, 82px, 'spritesheet.png', 'partner-icon-telegram', );
+$partner-icon-tv-name: 'partner-icon-tv';
+$partner-icon-tv-x: 41px;
+$partner-icon-tv-y: 41px;
+$partner-icon-tv-offset-x: -41px;
+$partner-icon-tv-offset-y: -41px;
+$partner-icon-tv-width: 41px;
+$partner-icon-tv-height: 41px;
+$partner-icon-tv-total-width: 82px;
+$partner-icon-tv-total-height: 82px;
+$partner-icon-tv-image: 'spritesheet.png';
+$partner-icon-tv: (41px, 41px, -41px, -41px, 41px, 41px, 82px, 82px, 'spritesheet.png', 'partner-icon-tv', );
+$partner-icon-coffe-retina-name: 'partner-icon-coffe-retina';
+$partner-icon-coffe-retina-x: 0px;
+$partner-icon-coffe-retina-y: 0px;
+$partner-icon-coffe-retina-offset-x: 0px;
+$partner-icon-coffe-retina-offset-y: 0px;
+$partner-icon-coffe-retina-width: 82px;
+$partner-icon-coffe-retina-height: 82px;
+$partner-icon-coffe-retina-total-width: 164px;
+$partner-icon-coffe-retina-total-height: 164px;
+$partner-icon-coffe-retina-image: 'spritesheet-2x.png';
+$partner-icon-coffe-retina: (0px, 0px, 0px, 0px, 82px, 82px, 164px, 164px, 'spritesheet-2x.png', 'partner-icon-coffe-retina', );
+$partner-icon-flask-retina-name: 'partner-icon-flask-retina';
+$partner-icon-flask-retina-x: 82px;
+$partner-icon-flask-retina-y: 0px;
+$partner-icon-flask-retina-offset-x: -82px;
+$partner-icon-flask-retina-offset-y: 0px;
+$partner-icon-flask-retina-width: 82px;
+$partner-icon-flask-retina-height: 82px;
+$partner-icon-flask-retina-total-width: 164px;
+$partner-icon-flask-retina-total-height: 164px;
+$partner-icon-flask-retina-image: 'spritesheet-2x.png';
+$partner-icon-flask-retina: (82px, 0px, -82px, 0px, 82px, 82px, 164px, 164px, 'spritesheet-2x.png', 'partner-icon-flask-retina', );
+$partner-icon-telegram-retina-name: 'partner-icon-telegram-retina';
+$partner-icon-telegram-retina-x: 0px;
+$partner-icon-telegram-retina-y: 82px;
+$partner-icon-telegram-retina-offset-x: 0px;
+$partner-icon-telegram-retina-offset-y: -82px;
+$partner-icon-telegram-retina-width: 82px;
+$partner-icon-telegram-retina-height: 82px;
+$partner-icon-telegram-retina-total-width: 164px;
+$partner-icon-telegram-retina-total-height: 164px;
+$partner-icon-telegram-retina-image: 'spritesheet-2x.png';
+$partner-icon-telegram-retina: (0px, 82px, 0px, -82px, 82px, 82px, 164px, 164px, 'spritesheet-2x.png', 'partner-icon-telegram-retina', );
+$partner-icon-tv-retina-name: 'partner-icon-tv-retina';
+$partner-icon-tv-retina-x: 82px;
+$partner-icon-tv-retina-y: 82px;
+$partner-icon-tv-retina-offset-x: -82px;
+$partner-icon-tv-retina-offset-y: -82px;
+$partner-icon-tv-retina-width: 82px;
+$partner-icon-tv-retina-height: 82px;
+$partner-icon-tv-retina-total-width: 164px;
+$partner-icon-tv-retina-total-height: 164px;
+$partner-icon-tv-retina-image: 'spritesheet-2x.png';
+$partner-icon-tv-retina: (82px, 82px, -82px, -82px, 82px, 82px, 164px, 164px, 'spritesheet-2x.png', 'partner-icon-tv-retina', );
+$spritesheet-width: 82px;
+$spritesheet-height: 82px;
+$spritesheet-image: 'spritesheet.png';
+$spritesheet-sprites: ($partner-icon-coffe, $partner-icon-flask, $partner-icon-telegram, $partner-icon-tv, );
+$spritesheet: (82px, 82px, 'spritesheet.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 164px;
+$retina-spritesheet-height: 164px;
+$retina-spritesheet-image: 'spritesheet-2x.png';
+$retina-spritesheet-sprites: ($partner-icon-coffe-retina, $partner-icon-flask-retina, $partner-icon-telegram-retina, $partner-icon-tv-retina, );
+$retina-spritesheet: (164px, 164px, 'spritesheet-2x.png', $retina-spritesheet-sprites, );
+
+// These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+//
+// The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+$partner-icon-coffe-group-name: 'partner-icon-coffe';
+$partner-icon-coffe-group: ('partner-icon-coffe', $partner-icon-coffe, $partner-icon-coffe-retina, );
+$partner-icon-flask-group-name: 'partner-icon-flask';
+$partner-icon-flask-group: ('partner-icon-flask', $partner-icon-flask, $partner-icon-flask-retina, );
+$partner-icon-telegram-group-name: 'partner-icon-telegram';
+$partner-icon-telegram-group: ('partner-icon-telegram', $partner-icon-telegram, $partner-icon-telegram-retina, );
+$partner-icon-tv-group-name: 'partner-icon-tv';
+$partner-icon-tv-group: ('partner-icon-tv', $partner-icon-tv, $partner-icon-tv-retina, );
+$retina-groups: ($partner-icon-coffe-group, $partner-icon-flask-group, $partner-icon-telegram-group, $partner-icon-tv-group, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+//   It should be used with a "retina group" variable.
+//
+// The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+//
+// $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+//
+// .icon-home {
+//   @include retina-sprite($icon-home-group);
+// }
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+// The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+//   This yields the same output as CSS retina template but can be overridden in SCSS
+//
+// @include retina-sprites($retina-groups);
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

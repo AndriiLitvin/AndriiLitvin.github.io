@@ -1,0 +1,32 @@
+header {
+  padding-top: 3.3%;
+  text-align: center;
+  padding-bottom: 16.2%; }
+  header .header_login {
+    float: right;
+    margin-right: 1px;
+    width: 50%;
+    text-align: right; }
+  header .header_logo {
+    float: left; }
+  header .header_banner {
+    clear: both; }
+    header .header_banner h1 {
+      font-size: 52px;
+      padding-top: 15.5%;
+      padding-left: 18%;
+      width: 64%;
+      line-height: 63px; }
+    header .header_banner .banner_description {
+      font-size: 24px;
+      padding-top: 3.1%;
+      margin-left: -3px; }
+    header .header_banner .header_button {
+      padding-left: 22px;
+      padding-right: 25px;
+      margin-left: 1px;
+      padding-top: 3px;
+      margin-top: 4%;
+      letter-spacing: -0.01em; }
+
+/*# sourceMappingURL=desktop.css.map */

@@ -1,0 +1,37 @@
+.activity-ideas {
+  margin-top: 10.1%;
+  text-align: center;
+  h2 {
+    font-size: 22px;
+    margin-bottom: 4.6%;
+  }
+  //MANSORY
+  .grid {
+    margin-left: 1.3%;
+  }
+  .grid-sizer,
+  .grid-item {
+    width: 31.1%;
+  }
+  .gutter-sizer {
+    width: 20px;
+  }
+
+  .grid-item {
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 310px;
+    float: left;
+    margin-bottom: 20px;
+    .item__text {
+      margin-top: 61%;
+    }
+  }
+  .grid-item--width2 {
+    width: 65%;
+    height: 310px;
+    .item__text {
+      margin-top: 29.5%;
+    }
+  }
+}

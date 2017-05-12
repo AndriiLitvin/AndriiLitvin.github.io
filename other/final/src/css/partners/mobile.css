@@ -1,0 +1,29 @@
+.partners {
+  padding-top: 8%;
+  text-align: center; }
+  .partners h2 {
+    width: 97%;
+    line-height: 26px; }
+  .partners .partner {
+    padding-top: 4.5%; }
+    .partners .partner figure .partner_photo::after {
+      bottom: -3px;
+      right: -4%; }
+    .partners .partner figure figcaption {
+      padding-top: 5.4%;
+      margin-left: -0.5%; }
+    .partners .partner figure .partner_description {
+      width: 69%;
+      padding-top: 4.8%;
+      margin-left: 15.1%;
+      padding-bottom: 3.2%; }
+  .partners .partner__flask {
+    margin-left: -1.3%; }
+  .partners .partner__telegram {
+    margin-left: -1.5%; }
+  .partners .partners_button {
+    padding-left: 71px;
+    padding-right: 72px;
+    margin-top: 4.5%; }
+
+/*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,28 @@
+.partners {
+  margin-top: 6.7%;
+  text-align: center; }
+  .partners .partner {
+    display: inline-block;
+    max-width: 220px;
+    vertical-align: top;
+    margin-right: 1.7%;
+    margin-top: 3.6%;
+    height: 234px;
+    overflow: hidden; }
+    .partners .partner .partner_photo {
+      position: relative; }
+      .partners .partner .partner_photo::after {
+        bottom: -3px;
+        right: -4px; }
+    .partners .partner figcaption {
+      margin-top: 7.5%; }
+    .partners .partner .partner_description {
+      margin-top: 7%; }
+  .partners .partner__telegram {
+    margin-right: 0; }
+  .partners .partners_button {
+    margin: 4% auto;
+    padding-right: 28px;
+    padding-left: 28px; }
+
+/*# sourceMappingURL=desktop.css.map */

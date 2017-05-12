@@ -1,0 +1,21 @@
+.activity-ideas {
+  text-align: center;
+  margin-top: 11%;
+  line-height: 26px; }
+  .activity-ideas h2 {
+    text-align: center;
+    margin-bottom: 4%; }
+  .activity-ideas .grid {
+    width: 300px;
+    margin: 0 auto; }
+    .activity-ideas .grid .grid-item {
+      -webkit-background-size: cover;
+      background-size: cover;
+      width: 300px;
+      height: 121px;
+      text-align: center;
+      margin-bottom: 3%; }
+      .activity-ideas .grid .grid-item p {
+        line-height: 121px; }
+
+/*# sourceMappingURL=mobile.css.map */

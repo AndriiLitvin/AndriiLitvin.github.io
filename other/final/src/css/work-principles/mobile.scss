@@ -1,0 +1,81 @@
+.work-principles {
+  position: relative;
+  text-align: center;
+  h2 {
+    padding-top: 11.5%;
+    margin-left: -1%;
+    letter-spacing: -0.2px;
+    margin-bottom: 5%;
+  }
+
+  //SLIDER
+
+  .slider-container {
+    width: 300px;
+    margin: 0 auto 10px;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 23%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    left: 0;
+    display: none;
+  }
+  .principle {
+    text-align: left;
+    display: block;
+    height: 240px;
+    position: relative;
+
+    .principle_step {
+      margin-left: 1px;
+    }
+
+    .principle_step.step__three {
+      padding-left: 13px;
+      padding-right: 11px;
+    }
+    .principle_step.step__two {
+      margin-bottom: -1px;
+      padding-left: 13px;
+      padding-right: 11px;
+    }
+
+    .principle__content {
+      margin-left: 7%;
+    }
+
+    h3 {
+      padding-top: 5%;
+      width: 70%;
+    }
+    .principle_description {
+      padding-top: 4.5%;
+      width: 95%;
+      line-height: 16px;
+      padding-bottom: 6.5%;
+    }
+    .description__two {
+      letter-spacing: 0.15px;
+      margin-left: -1px;
+      padding-top: 3.9%;
+    }
+    .title_two{
+      margin-left: -1px;
+      padding-top: 0.5%;
+
+    }
+  }
+  .principle__three {
+    margin-top: 3.1%;
+  }
+
+}

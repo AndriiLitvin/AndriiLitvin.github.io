@@ -1,0 +1,64 @@
+.work-principles {
+  margin-top: 12.6%;
+  text-align: center; }
+  .work-principles h2 {
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    margin-left: 0.5%; }
+  .work-principles .slider-container {
+    position: relative;
+    display: inline-block;
+    width: 30.8%;
+    overflow: hidden;
+    height: 400px;
+    margin-top: 4.7%;
+    margin-right: 2%; }
+    .work-principles .slider-container:last-child {
+      margin-right: 0; }
+  .work-principles .prev, .work-principles .next {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 11.5%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    left: 4px; }
+  .work-principles .next {
+    left: 70%; }
+  .work-principles .prev__principle-two {
+    left: -6px;
+    top: 11.5%; }
+  .work-principles .next__principle-two {
+    left: 74.5%; }
+  .work-principles .principle {
+    display: inline-block;
+    min-height: 400px;
+    overflow: hidden;
+    text-align: left; }
+    .work-principles .principle:last-child {
+      margin-right: 0; }
+    .work-principles .principle .principle_step {
+      margin-left: 8.3%; }
+    .work-principles .principle h3 {
+      margin-top: 6.5%;
+      margin-left: 8%; }
+    .work-principles .principle .principle_description {
+      margin-top: 5%;
+      margin-left: 8%;
+      line-height: 17px;
+      margin-bottom: 6.3%; }
+    .work-principles .principle .description__two {
+      margin-top: 4.3%;
+      width: 87%;
+      letter-spacing: 0.2px; }
+  .work-principles .principle__two .principle_description {
+    margin-bottom: 6.6%; }
+
+/*# sourceMappingURL=tablet.css.map */

@@ -1,0 +1,17 @@
+.search-partners {
+  text-align: center;
+  margin-top: 5.3%;
+  padding-bottom: 6.9%; }
+  .search-partners p {
+    margin-top: 3.8%;
+    margin-left: -3px; }
+  .search-partners form {
+    margin-top: 4.1%; }
+    .search-partners form input {
+      width: 236px; }
+    .search-partners form .search-partners_button {
+      padding-left: 22px;
+      padding-right: 23px;
+      margin-left: 0.8%; }
+
+/*# sourceMappingURL=desktop.css.map */

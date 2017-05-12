@@ -1,0 +1,25 @@
+header .header_login {
+  padding-top: 9.5%;
+  text-align: center;
+  margin-right: 6%; }
+header .header_logo {
+  margin-top: 40%;
+  text-align: center; }
+header .header_banner {
+  text-align: center; }
+  header .header_banner h1 {
+    padding-top: 9.2%;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.004em; }
+  header .header_banner .banner_description {
+    padding-top: 2.8%;
+    margin-left: 15%;
+    width: 70%;
+    font-size: 18px;
+    letter-spacing: 0.003em; }
+  header .header_banner .header_button {
+    margin-top: 5.5%;
+    margin-bottom: 43%; }
+
+/*# sourceMappingURL=mobile.css.map */

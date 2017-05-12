@@ -1,0 +1,37 @@
+.header {
+  padding-top: 6.3%;
+  padding-bottom: 30.5%;
+  max-height: 700px;
+  .header_login {
+    float: right;
+    margin-right: 6.5%;
+  }
+  .header_logo {
+    float: left;
+    margin-left: 6.3%;
+  }
+  .header_banner {
+    clear: both;
+    padding-top: 18.9%;
+    h1 {
+      font-size: 52px;
+      line-height: 64px;
+      letter-spacing: -0.5px;
+      width: 64%;
+      margin-left: 17.6%;
+    }
+    .banner_description {
+      font-size: 24px;
+      margin-top: 3.6%;
+      margin-left: -0.5%;
+    }
+    .header_button {
+      margin-top: 4.8%;
+      margin-left: 35.3%;
+      padding-left: 22px;
+      padding-right: 22px;
+      padding-top: 3px;
+
+    }
+  }
+}

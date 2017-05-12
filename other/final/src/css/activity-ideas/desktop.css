@@ -1,0 +1,26 @@
+.activity-ideas {
+  text-align: center;
+  margin-top: 4.3%;
+  height: 1050px; }
+  .activity-ideas .grid {
+    margin-top: 3.8%; }
+  .activity-ideas .grid-sizer,
+  .activity-ideas .grid-item {
+    width: 31.9%; }
+  .activity-ideas .gutter-sizer {
+    width: 20px; }
+  .activity-ideas .grid-item {
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 310px;
+    float: left;
+    margin-bottom: 20px; }
+    .activity-ideas .grid-item .item__text {
+      margin-top: 48%; }
+  .activity-ideas .grid-item--width2 {
+    width: 66.1%;
+    height: 310px; }
+    .activity-ideas .grid-item--width2 .item__text {
+      margin-top: 23%; }
+
+/*# sourceMappingURL=desktop.css.map */
