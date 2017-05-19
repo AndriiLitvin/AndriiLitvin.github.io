@@ -1,0 +1,164 @@
+@import "fonts.scss";
+
+
+
+@media screen and (max-width: 767px){
+	
+	header{
+		background-image: url(../img/320/header-img.jpg) ;
+		height: 540px;
+	}
+	.enter-block__list{
+		padding-top: 7%;
+	}
+	.center-block{
+		margin-top: 120px;
+	}
+	.enter-block__titel{
+		margin-bottom: 30px
+	}
+	.center-block__midel-title{
+		font-size: 30px;
+		line-height: 34px;
+		margin-bottom: 15px;
+	}
+	.center-block__footer-title{
+		font-size: 18px;
+		width: 80%;
+		margin-bottom: 35px;
+		margin: 15px auto;
+	}
+	.center-block__link{
+		padding: 13px;
+		width: 80%;
+		font-size: 14px;
+	}
+	.second-block__wrap{
+		display: block;
+	}
+	.second-block{
+		margin: {
+			top: 38px;
+			left: 8px;
+			right: 8px;
+		};
+	}
+	.second-block__title{
+		padding-bottom: 14px;
+	}
+	.first-step{
+		background-size: cover;
+		background-repeat: no-repeat;
+		font-family: $main-font;
+		color: #fff;
+		border-radius: 5px;
+		padding: {
+			top: 70px;
+			left: 20px;
+			bottom: 20px;
+			right: 20px;
+		};
+	}
+	.step{
+		padding: {
+			top: 5px;
+			bottom: 5px;
+			left: 16px;
+			right: 7px;
+		};
+		border-radius: 10px;
+		width: 47px;
+		display: block;
+		margin-bottom: 20px;
+	}
+	.slider-button-left{
+		top: 10px;
+	}
+	.slider-button-right{
+		@extend .slider-button-left
+	}
+	.step-image{
+		top: 0;
+	}
+
+	.first-step__title{
+		margin-bottom: 20px;
+	}
+	
+	.first-step__text{
+		font-size: 14px;
+		font-family: Roboto-light;
+		color: #96928e;
+	}
+	.second-step{
+		@extend .first-step;
+		padding-top: 100px;
+		margin:{
+			top: 10px;
+			bottom: 10px;
+		};
+
+	}
+
+	.third-step{
+		@extend .first-step;
+	}
+	
+	
+	.holiday-cattegory{
+		width: 94%;
+		padding-bottom: 20px;
+		margin: 0 auto;
+		padding-bottom: 38px;
+	}
+	
+
+	
+	#grid{
+		padding-bottom: 10px;
+	}
+	.grid-block{
+		height: 2200px;
+	}
+	.grid__box:nth-child(6){
+		width: auto;
+	
+	}
+	.grid__box:nth-child(7){
+		width: auto;
+	
+	}
+	.grid__box{
+		width: 100%;
+	}
+	.grid__item{
+		width: auto;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+	footer{
+		display: block;
+	}
+	.footer__list{
+	text-align: center;
+	}
+	.footer__company-block{
+		
+		font-size: 14px;
+		padding-bottom: 5px;
+	}
+	.footer__partners-block{
+		@extend .footer__company-block;
+		margin-top: 15px;
+	}
+	
+
+	
+	.footer__link{
+		display: inline-block;
+		a{
+			color: #8f8f8f;
+		}
+	}
+	
+	}

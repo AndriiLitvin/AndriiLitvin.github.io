@@ -1,0 +1,159 @@
+@import "fonts.scss";
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+ header{
+		background-image: url(../img/desktop/header-img.jpg) ;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 695px;
+		text-align: center;
+	}
+.enter-block{
+	width: 65%;
+	margin: 0 auto;
+	padding-top: 48px;
+}
+.enter-block__list{
+		float: right;
+}
+.enter-block__titel{
+		float: left;
+}
+.center-block{
+	clear: both;
+	padding-top: 138px;
+	width: 48%;
+	margin: 0 auto;
+	line-height: 60px;
+
+}
+.center-block__midel-title{
+		font-size: 52px;
+		margin-bottom: 15px;
+	}
+.center-block__footer-title{
+		font-size: 24px;
+		padding-bottom: 10px;
+	
+	}
+.center-block__link{
+		
+		height: 45px;
+		
+	}
+.second-block{
+	width: 98%;
+	margin: 100px auto;
+}
+.second-block__wrap{
+	display: inline-flex;
+	padding-top: 36px;
+	justify-content: center;
+
+}
+.step{
+		display: block;;
+		margin-bottom: 20px;;
+		width: 47px;;
+		margin-top: 220px;
+		padding: {
+			top: 5px;
+			bottom: 5px;
+			left: 16px;
+			right: 7px;
+		};
+		border-radius: 10px;;
+		padding-top: 5px;;
+		padding-bottom: 5px;
+		padding-left: 17px;
+	}
+
+.first-step{
+	width: 20%;
+	padding-left: 21px;
+	padding-right: 21px;
+	height: 400px;
+}
+.first-step__title{
+	padding-bottom: 20px;
+}
+.second-step__title{
+	@extend .first-step__title;
+}
+.third-step__title{
+	@extend .first-step__title;
+}
+.second-step{
+	@extend .first-step;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+.third-step{
+	@extend .first-step;
+}
+.holiday-cattegory{
+	padding-bottom: 120px;
+	text-align: center;
+}
+.holiday-cattegory__title{
+	padding-bottom: 30px;
+}
+.holiday-cattegory__search-title{
+	margin-bottom: 40px;
+}
+.holiday-cattegory__search-form{
+	display: inline-flex;
+}
+.holiday-cattegory__search-block{
+	float: left;
+	margin-right: 10px;
+	width: 230px;
+}
+.holiday-cattegory__search-button{
+	float: left;
+	width: 160px;
+}
+.grid-block{
+	width: 66%;
+}
+.grid__box{
+	width: 30%;
+}
+.partners-block{
+	padding-bottom: 70px;
+	width: 90%;
+}
+.partners-block__title{
+	padding-bottom: 20px;
+}
+.partner-info{
+	display: inline-grid;
+	margin: {
+		top: 15px;
+		left: 10px;
+		right: 10px;
+	}
+}
+footer{
+	display: block;
+	margin-top: 20px;
+	justify-content: none;
+}
+.footer__wrap{
+	width: 70%;
+	margin: 0 auto;
+	display: inline-flex;
+    justify-content: space-around;
+}
+.footer__list{
+	margin-top: 0;
+}
+.designed-by{
+	margin-top: 20px;
+}
+}

@@ -1,0 +1,135 @@
+
+@import "fonts.scss";
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+ header{
+		background-image: url(../img/table/header-img.jpg) ;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 695px;
+		text-align: center;
+	}
+
+.enter-block{
+	width: 65%;
+	margin: 0 auto;
+	padding-top: 48px;
+}
+.enter-block__list{
+		float: right;
+}
+.enter-block__titel{
+		float: left;
+}
+.center-block{
+	clear: both;
+	padding-top: 138px;
+	width: 77%;
+	margin: 0 auto;
+	line-height: 60px;
+}
+.center-block__midel-title{
+		font-size: 52px;
+		margin-bottom: 15px;
+	}
+.center-block__footer-title{
+		font-size: 24px;
+		padding-bottom: 10px;
+	
+	}
+.center-block__link{
+		font-size: 14px;
+		width: 38%;
+		height: 45px;
+		padding-top: -3px;
+	}
+.second-block{
+	width: 98%;
+	margin: 100px auto;
+}
+.second-block__wrap{
+	display: inline-flex;
+	padding-top: 36px;
+}
+.step{
+		display: block;;
+		margin-bottom: 20px;;
+		width: 47px;;
+		margin-top: 213px;
+		padding: {
+			top: 5px;
+			bottom: 5px;
+			left: 16px;
+			right: 7px;
+		};
+		border-radius: 10px;;
+		padding-top: 5px;;
+		padding-bottom: 5px;
+		padding-left: 17px;
+	}
+.slider-button-left{
+	top: 50px;
+}
+.slider-button-right{
+	@extend .slider-button-left;
+}
+.first-step{
+	width: 33%;
+	padding-left: 21px;
+	padding-right: 21px;
+	padding-bottom: 15px;
+}
+.first-step__title{
+	padding-bottom: 20px;
+}
+.second-step__title{
+	@extend .first-step__title;
+}
+.third-step__title{
+	@extend .first-step__title;
+}
+.second-step{
+		@extend .first-step;
+		margin-left: 20px;
+		margin-right: 20px;
+
+}
+.third-step{
+		@extend .first-step;
+}
+.grid-block{
+	width: 75%;
+}
+.grid__box{
+	width: 29%;
+}
+.grid__box:nth-child(6){
+	width: 62%;
+	
+}
+.grid__box:nth-child(7){
+	width: 62%;
+	
+}
+.partners-block{
+	width: 60%;
+}
+.partners-block__title{
+	padding-bottom: 20px;
+}
+.partner-info{
+	display: inline-grid;
+}
+footer{
+	display: block;
+	margin-top: 20px;
+	justify-content: none;
+}
+.footer__wrap{
+	width: 70%;
+	margin: 0 auto;
+	display: inline-flex;
+    justify-content: space-around;
+}
+
+}
